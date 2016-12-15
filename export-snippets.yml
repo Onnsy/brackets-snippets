@@ -3878,91 +3878,91 @@
   scope: css
   mTime: 1481541805589
   text: |
-        <style>\r
-        /**************** Font ******************/\r
-        .font-60 {\r
-            font-size: 60px;    \r
-        }\r
-        .font-18 {\r
-            font-size: 18px;\r
-        }\r
-        .font-14 {\r
-            font-size: 14px;\r
-        }\r
-        \r
-        /*************** Partner section 1 ***********/\r
-        \r
-        .partner-section1 .row {\r
-            display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    \r
-            display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */\r
-            display: -ms-flexbox;  /* TWEENER - IE 10 */\r
-            display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */\r
-            align-items: center;\r
-        }\r
-        \r
-        .well-white {\r
-          background-color: #ffffff;\r
-          max-width: 358px;\r
-          padding: 10px;\r
-        }\r
-        \r
-        .well-white img {\r
-          border: none !important;\r
-        }\r
-        \r
-        /************** Partner section 2 ************/\r
-        \r
-        .partner-section2 .grid li a img {\r
-          border: medium none;\r
-          transition: all 0.2s ease-in-out 0s;\r
-        }\r
-        \r
-        .partner-section2 .grid a:hover, \r
-        .partner-section2 .grid a:active, \r
-        .partner-section2 .grid a:focus {\r
-          border: 1px solid #cccccc;\r
-        }\r
-        \r
-        .popover-content a {\r
-          color: #b72a2a;\r
-          font-size: 12px;\r
-        }\r
-        \r
-        .popover-content p {\r
-            font-size: 14px;\r
-        }\r
-        \r
-        .popover-title {\r
-          padding-bottom: 0;\r
-          padding-top: 20px;\r
-          background-color: transparent;\r
-          border: none;\r
-        }\r
-        \r
-        \r
-        \r
-        /******************************@media***********************/\r
-        @media (min-width: 992px) and (max-width: 1199px) {\r
-        \r
-        }\r
-        \r
-        @media  (max-width: 991px) {\r
-            .partner-section1 .row {\r
-              display: block;\r
-            }\r
-            .well-white {\r
-              max-width: 100%;\r
-              margin-top: 40px;\r
-            }\r
-        \r
-        }\r
-        \r
-        @media (max-width: 767px) {\r
-            .font-60 {\r
-              font-size: 36px;\r
-            }\r
-        }\r
-        \r
+        <style>
+        /**************** Font ******************/
+        .font-60 {
+            font-size: 60px;    
+        }
+        .font-18 {
+            font-size: 18px;
+        }
+        .font-14 {
+            font-size: 14px;
+        }
+        
+        /*************** Partner section 1 ***********/
+        
+        .partner-section1 .row {
+            display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    
+            display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+            display: -ms-flexbox;  /* TWEENER - IE 10 */
+            display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+            align-items: center;
+        }
+        
+        .well-white {
+          background-color: #ffffff;
+          max-width: 358px;
+          padding: 10px;
+        }
+        
+        .well-white img {
+          border: none !important;
+        }
+        
+        /************** Partner section 2 ************/
+        
+        .partner-section2 .grid li a img {
+          border: medium none;
+          transition: all 0.2s ease-in-out 0s;
+        }
+        
+        .partner-section2 .grid a:hover, 
+        .partner-section2 .grid a:active, 
+        .partner-section2 .grid a:focus {
+          border: 1px solid #cccccc;
+        }
+        
+        .popover-content a {
+          color: #b72a2a;
+          font-size: 12px;
+        }
+        
+        .popover-content p {
+            font-size: 14px;
+        }
+        
+        .popover-title {
+          padding-bottom: 0;
+          padding-top: 20px;
+          background-color: transparent;
+          border: none;
+        }
+        
+        
+        
+        /******************************@media***********************/
+        @media (min-width: 992px) and (max-width: 1199px) {
+        
+        }
+        
+        @media  (max-width: 991px) {
+            .partner-section1 .row {
+              display: block;
+            }
+            .well-white {
+              max-width: 100%;
+              margin-top: 40px;
+            }
+        
+        }
+        
+        @media (max-width: 767px) {
+            .font-60 {
+              font-size: 36px;
+            }
+        }
+        
         </style>
 
 - trigger: PARTNER-INNER-B
@@ -3970,111 +3970,111 @@
   scope: css
   mTime: 1481541819714
   text: |
-        <style>\r
-        /**************** Font ******************/\r
-        .font-60 {\r
-            font-size: 60px;    \r
-        }\r
-        .font-18 {\r
-            font-size: 18px;\r
-        }\r
-        .font-14 {\r
-            font-size: 14px;\r
-        }\r
-        \r
-        /*************** Partner section 1 ***********/\r
-        \r
-        .partner-design-b .row-condensed {\r
-            display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    \r
-            display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */\r
-            display: -ms-flexbox;  /* TWEENER - IE 10 */\r
-            display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */\r
-            flex-flow: row wrap;\r
-           \r
-        }\r
-        \r
-        .partner-design-b .partner {\r
-            padding: 80px 40px !important;\r
-            background-color: #fff;\r
-            width: 48%;\r
-            margin-bottom: 40px;\r
-        }\r
-        \r
-        .partner-design-b .row-condensed .partner:nth-child(2n) {\r
-          margin-left: 40px;\r
-        }\r
-        \r
-        \r
-        .partner-design-b .partner img {\r
-          display: inline-block;\r
-          margin-right: 40px;\r
-          max-width: 150px;\r
-          vertical-align: top;\r
-          width: 30%;\r
-          border: none;\r
-        }\r
-        .partner-design-b .partner figcaption {\r
-          display: inline-block;\r
-          text-align: left;\r
-          width: 60%;\r
-        }\r
-        \r
-        .partner-design-b .partner figcaption > h3 {\r
-          font-size: 24px;\r
-          font-weight: 500;\r
-          margin-bottom: 0;\r
-        }\r
-        \r
-        .partner-design-b .partner figcaption a {\r
-          color: rgb(183, 42, 42);\r
-        }\r
-        \r
-        \r
-        \r
-        /******************************@media***********************/\r
-        @media (min-width: 992px) and (max-width: 1199px) {\r
-            .partner-design-b .partner img {\r
-                margin-right: 20px;\r
-            }\r
-            .partner-design-b .partner {\r
-                width: 47%;\r
-            }\r
-        }\r
-        \r
-        @media  (max-width: 991px) {\r
-            .partner-section1 .row {\r
-              display: block;\r
-            }\r
-            .partner-design-b .row-condensed .partner:nth-child(2n) {\r
-                margin-left: 0;\r
-            }\r
-            .partner-design-b .row-condensed {\r
-                display: block;\r
-            }\r
-            .partner-design-b .partner {\r
-                width: 100%;\r
-            }\r
-        \r
-        }\r
-        \r
-        @media (max-width: 767px) {\r
-            .font-60 {\r
-              font-size: 36px;\r
-            }\r
-            .partner-design-b .partner img {\r
-              margin: 5px auto;\r
-              max-width: 150px;\r
-              width: 100%;\r
-            }\r
-            .partner-design-b .partner figcaption {\r
-              display: inline-block;\r
-              width: 100%;\r
-            }\r
-            .partner-design-b .partner {\r
-                padding: 40px !important;\r
-            }\r
-        }\r
-        \r
+        <style>
+        /**************** Font ******************/
+        .font-60 {
+            font-size: 60px;    
+        }
+        .font-18 {
+            font-size: 18px;
+        }
+        .font-14 {
+            font-size: 14px;
+        }
+        
+        /*************** Partner section 1 ***********/
+        
+        .partner-design-b .row-condensed {
+            display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    
+            display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+            display: -ms-flexbox;  /* TWEENER - IE 10 */
+            display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+            flex-flow: row wrap;
+           
+        }
+        
+        .partner-design-b .partner {
+            padding: 80px 40px !important;
+            background-color: #fff;
+            width: 48%;
+            margin-bottom: 40px;
+        }
+        
+        .partner-design-b .row-condensed .partner:nth-child(2n) {
+          margin-left: 40px;
+        }
+        
+        
+        .partner-design-b .partner img {
+          display: inline-block;
+          margin-right: 40px;
+          max-width: 150px;
+          vertical-align: top;
+          width: 30%;
+          border: none;
+        }
+        .partner-design-b .partner figcaption {
+          display: inline-block;
+          text-align: left;
+          width: 60%;
+        }
+        
+        .partner-design-b .partner figcaption > h3 {
+          font-size: 24px;
+          font-weight: 500;
+          margin-bottom: 0;
+        }
+        
+        .partner-design-b .partner figcaption a {
+          color: rgb(183, 42, 42);
+        }
+        
+        
+        
+        /******************************@media***********************/
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .partner-design-b .partner img {
+                margin-right: 20px;
+            }
+            .partner-design-b .partner {
+                width: 47%;
+            }
+        }
+        
+        @media  (max-width: 991px) {
+            .partner-section1 .row {
+              display: block;
+            }
+            .partner-design-b .row-condensed .partner:nth-child(2n) {
+                margin-left: 0;
+            }
+            .partner-design-b .row-condensed {
+                display: block;
+            }
+            .partner-design-b .partner {
+                width: 100%;
+            }
+        
+        }
+        
+        @media (max-width: 767px) {
+            .font-60 {
+              font-size: 36px;
+            }
+            .partner-design-b .partner img {
+              margin: 5px auto;
+              max-width: 150px;
+              width: 100%;
+            }
+            .partner-design-b .partner figcaption {
+              display: inline-block;
+              width: 100%;
+            }
+            .partner-design-b .partner {
+                padding: 40px !important;
+            }
+        }
+        
         </style>
 
 - trigger: PARTNER-INNER-C
@@ -4082,125 +4082,125 @@
   scope: css
   mTime: 1481541835691
   text: |
-        <style>\r
-        /**************** Font ******************/\r
-        .font-60 {\r
-            font-size: 60px;    \r
-        }\r
-        .font-38 {\r
-            font-size: 38px;\r
-        }\r
-        .font-18 {\r
-            font-size: 18px;\r
-        }\r
-        .font-14 {\r
-            font-size: 14px;\r
-        }\r
-        \r
-        /**************** left side *****************/\r
-        \r
-        .partner-testimonial {\r
-          border-bottom: 1px solid #ccc;\r
-          border-top: 1px solid #ccc;\r
-          margin: 60px 0;\r
-          padding: 45px;\r
-        }\r
-        \r
-        \r
-        .testimonial-title {\r
-            align-items: center;\r
-            display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    \r
-            display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */\r
-            display: -ms-flexbox;  /* TWEENER - IE 10 */\r
-            display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */\r
-            max-width: 200px;\r
-            width: 100%;\r
-        }\r
-        \r
-        \r
-        \r
-        .testimonial-title .title-img {\r
-          margin-right: 20px;\r
-          width: 30%;\r
-        }\r
-        \r
-        .testimonial-title .title-text {\r
-          width: 65%;\r
-        }\r
-        \r
-        /***************** Right Side **************/\r
-        \r
-        .partner-icon hr {\r
-          display: none;\r
-        }\r
-        \r
-        .partner-icon .media-body h3 {\r
-          font-size: 24px;\r
-          font-weight: 400;\r
-        }\r
-        \r
-        .partner-icon .media-body a {\r
-          font-size: 12px;\r
-          color: #b72a2a;\r
-        }\r
-        \r
-        .partner-icon > figure {\r
-            margin-bottom: 50px;\r
-            display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    \r
-            display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */\r
-            display: -ms-flexbox;  /* TWEENER - IE 10 */\r
-            display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */  \r
-        }\r
-        \r
-        .partner-icon figure img {\r
-          height: 165px;\r
-          margin-right: 30px !important;\r
-          width: 100%;\r
-          max-width: 165px;\r
-          border-radius: 0;\r
-        }\r
-        \r
-        .partner-icon figcaption {\r
-          width: 65%;\r
-        }\r
-        \r
-        \r
-        /******************************@media***********************/\r
-        @media (min-width: 992px) and (max-width: 1199px) {\r
-        \r
-        }\r
-        \r
-        @media  (max-width: 991px) {\r
-        \r
-        \r
-        \r
-        }\r
-        \r
-        @media (max-width: 767px) {\r
-            .font-60 {\r
-              font-size: 36px;\r
-            }\r
-            .partner-icon > figure {\r
-              display: block;\r
-            }\r
-            .partner-icon figure img {\r
-              margin: 10px auto !important;\r
-              float: none !important;\r
-              display: block;\r
-            }\r
-            .partner-icon figcaption {\r
-                width: 100%;\r
-            }\r
-            .partner-icon .media-body h3 {\r
-                text-align: center;\r
-            }\r
-            .partner-icon .media-body a {\r
-                display: block;\r
-                text-align: center;\r
-            }\r
-        \r
-        }\r
-        \r
+        <style>
+        /**************** Font ******************/
+        .font-60 {
+            font-size: 60px;    
+        }
+        .font-38 {
+            font-size: 38px;
+        }
+        .font-18 {
+            font-size: 18px;
+        }
+        .font-14 {
+            font-size: 14px;
+        }
+        
+        /**************** left side *****************/
+        
+        .partner-testimonial {
+          border-bottom: 1px solid #ccc;
+          border-top: 1px solid #ccc;
+          margin: 60px 0;
+          padding: 45px;
+        }
+        
+        
+        .testimonial-title {
+            align-items: center;
+            display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    
+            display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+            display: -ms-flexbox;  /* TWEENER - IE 10 */
+            display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+            max-width: 200px;
+            width: 100%;
+        }
+        
+        
+        
+        .testimonial-title .title-img {
+          margin-right: 20px;
+          width: 30%;
+        }
+        
+        .testimonial-title .title-text {
+          width: 65%;
+        }
+        
+        /***************** Right Side **************/
+        
+        .partner-icon hr {
+          display: none;
+        }
+        
+        .partner-icon .media-body h3 {
+          font-size: 24px;
+          font-weight: 400;
+        }
+        
+        .partner-icon .media-body a {
+          font-size: 12px;
+          color: #b72a2a;
+        }
+        
+        .partner-icon > figure {
+            margin-bottom: 50px;
+            display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    
+            display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+            display: -ms-flexbox;  /* TWEENER - IE 10 */
+            display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */  
+        }
+        
+        .partner-icon figure img {
+          height: 165px;
+          margin-right: 30px !important;
+          width: 100%;
+          max-width: 165px;
+          border-radius: 0;
+        }
+        
+        .partner-icon figcaption {
+          width: 65%;
+        }
+        
+        
+        /******************************@media***********************/
+        @media (min-width: 992px) and (max-width: 1199px) {
+        
+        }
+        
+        @media  (max-width: 991px) {
+        
+        
+        
+        }
+        
+        @media (max-width: 767px) {
+            .font-60 {
+              font-size: 36px;
+            }
+            .partner-icon > figure {
+              display: block;
+            }
+            .partner-icon figure img {
+              margin: 10px auto !important;
+              float: none !important;
+              display: block;
+            }
+            .partner-icon figcaption {
+                width: 100%;
+            }
+            .partner-icon .media-body h3 {
+                text-align: center;
+            }
+            .partner-icon .media-body a {
+                display: block;
+                text-align: center;
+            }
+        
+        }
+        
         </style>
 
 - trigger: PARTNER-INNER-D
@@ -4208,69 +4208,69 @@
   scope: css
   mTime: 1481541889068
   text: |
-        <style>\r
-        /**************** Font ******************/\r
-        .font-60 {\r
-            font-size: 60px;    \r
-        }\r
-        .font-18 {\r
-            font-size: 18px;\r
-        }\r
-        .font-14 {\r
-            font-size: 14px;\r
-        }\r
-        \r
-        \r
-        /************** Partner section 2 ************/\r
-        .partner-design-d .grid a img {\r
-            border: 1px solid rgb( 220, 220, 220 );\r
-            border-radius: 0;\r
-        }\r
-        \r
-        .partner-design-d .grid a:hover img, \r
-        .partner-design-d .grid a:active img, \r
-        .partner-design-d .grid a:focus img {\r
-          border: 1px solid rgb( 183, 42, 42 );\r
-        }\r
-        \r
-        .partner-design-d .grid > li {\r
-          border: medium none !important;\r
-        }\r
-        \r
-        .popover-content a {\r
-          color: #b72a2a;\r
-          font-size: 12px;\r
-        }\r
-        \r
-        .popover-content p {\r
-            font-size: 14px;\r
-        }\r
-        \r
-        .popover-title {\r
-          padding-bottom: 0;\r
-          padding-top: 20px;\r
-          font-size: 18px;\r
-          background-color: transparent;\r
-          border: none;\r
-        }\r
-        \r
-        /******************************@media***********************/\r
-        @media (min-width: 992px) and (max-width: 1199px) {\r
-        \r
-        }\r
-        \r
-        @media  (max-width: 991px) {\r
-            .partner-design-d {\r
-              padding-top: 60px !important;\r
-            }\r
-        }\r
-        \r
-        @media (max-width: 767px) {\r
-            .font-60 {\r
-              font-size: 36px;\r
-            }\r
-        }\r
-        \r
+        <style>
+        /**************** Font ******************/
+        .font-60 {
+            font-size: 60px;    
+        }
+        .font-18 {
+            font-size: 18px;
+        }
+        .font-14 {
+            font-size: 14px;
+        }
+        
+        
+        /************** Partner section 2 ************/
+        .partner-design-d .grid a img {
+            border: 1px solid rgb( 220, 220, 220 );
+            border-radius: 0;
+        }
+        
+        .partner-design-d .grid a:hover img, 
+        .partner-design-d .grid a:active img, 
+        .partner-design-d .grid a:focus img {
+          border: 1px solid rgb( 183, 42, 42 );
+        }
+        
+        .partner-design-d .grid > li {
+          border: medium none !important;
+        }
+        
+        .popover-content a {
+          color: #b72a2a;
+          font-size: 12px;
+        }
+        
+        .popover-content p {
+            font-size: 14px;
+        }
+        
+        .popover-title {
+          padding-bottom: 0;
+          padding-top: 20px;
+          font-size: 18px;
+          background-color: transparent;
+          border: none;
+        }
+        
+        /******************************@media***********************/
+        @media (min-width: 992px) and (max-width: 1199px) {
+        
+        }
+        
+        @media  (max-width: 991px) {
+            .partner-design-d {
+              padding-top: 60px !important;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            .font-60 {
+              font-size: 36px;
+            }
+        }
+        
         </style>
 
 - trigger: CONTACT-INNER-A
@@ -4278,121 +4278,121 @@
   scope: css
   mTime: 1481541924606
   text: |
-        <style>\r
-        /**************** Font ******************/\r
-        .font-60 {\r
-            font-size: 60px;    \r
-        }\r
-        .font-18 {\r
-            font-size: 18px;\r
-        }\r
-        .font-14 {\r
-            font-size: 14px;\r
-        }\r
-        \r
-        /**************** Contact Form ****************/\r
-        \r
-        .contact-us-design-a  .contact-form label {\r
-          display: none !important;\r
-        }\r
-        \r
-        .contact-form .form-control {\r
-          background-color: #fbfbfc;\r
-          min-height: 50px;\r
-          padding-left: 15px !important;\r
-          margin-bottom: 15px;\r
-        }\r
-        \r
-        .contact-form .name_first .form-control,\r
-        .contact-form .name_last .form-control{\r
-          max-width: 258px;\r
-          width: 100% !important;\r
-        }\r
-        \r
-        .contact-form .name_last .form-control {\r
-          margin-left: 4px;\r
-        }\r
-        \r
-        .contact-form .gform_footer .btn {\r
-          border-radius: 50px;\r
-          color: #fff;\r
-          padding: 15px 40px;\r
-        }\r
-        \r
-        .contact-form .gf_left_half,\r
-        .contact-form .gf_right_half {\r
-          margin-bottom: 0 !important;\r
-        }\r
-        \r
-        .contact-title {\r
-          border-bottom: 1px solid #ccc;\r
-          margin-bottom: 30px;\r
-          padding-bottom: 10px;\r
-        }\r
-        \r
-        .contact-title h2 {\r
-          font-weight: 400;\r
-        }\r
-        \r
-        address {\r
-          line-height: 1.7;\r
-        }\r
-        \r
-        \r
-        /************** Footer ************/\r
-        \r
-        .social-footer > a {\r
-          font-size: 17px;\r
-        }\r
-        .social-footer a + a {\r
-          margin-left: 8px;\r
-        }\r
-        \r
-        /******************************@media***********************/\r
-        @media (min-width: 992px) and (max-width: 1199px) {\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-              max-width: 210px;\r
-            }\r
-        }\r
-        \r
-        @media  (max-width: 991px) {\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-              max-width: 328px;\r
-              width: 100% !important;\r
-            }\r
-        \r
-        }\r
-        \r
-        @media (max-width: 767px) {\r
-            .font-60 {\r
-              font-size: 36px;\r
-            }\r
-            .contact-form .gform_body > ul > li {\r
-                width: 100% !important;\r
-            }\r
-            .contact-form .name_first .form-control, .contact-form .name_last .form-control {\r
-                 max-width: 100% !important;\r
-                 width: 100% !important;\r
-            }\r
-            .name_first, .name_last {\r
-                width: 100% !important;\r
-            }\r
-            .contact-form .name_last .form-control {\r
-                margin-left: 0;\r
-            }\r
-            .contact-form  .form-control {\r
-                width: 100% !important; \r
-            }\r
-            .xs-float-none {\r
-                float: none !important;\r
-            }\r
-            .social-footer {\r
-                text-align: left;\r
-            }\r
-        }\r
-        \r
+        <style>
+        /**************** Font ******************/
+        .font-60 {
+            font-size: 60px;    
+        }
+        .font-18 {
+            font-size: 18px;
+        }
+        .font-14 {
+            font-size: 14px;
+        }
+        
+        /**************** Contact Form ****************/
+        
+        .contact-us-design-a  .contact-form label {
+          display: none !important;
+        }
+        
+        .contact-form .form-control {
+          background-color: #fbfbfc;
+          min-height: 50px;
+          padding-left: 15px !important;
+          margin-bottom: 15px;
+        }
+        
+        .contact-form .name_first .form-control,
+        .contact-form .name_last .form-control{
+          max-width: 258px;
+          width: 100% !important;
+        }
+        
+        .contact-form .name_last .form-control {
+          margin-left: 4px;
+        }
+        
+        .contact-form .gform_footer .btn {
+          border-radius: 50px;
+          color: #fff;
+          padding: 15px 40px;
+        }
+        
+        .contact-form .gf_left_half,
+        .contact-form .gf_right_half {
+          margin-bottom: 0 !important;
+        }
+        
+        .contact-title {
+          border-bottom: 1px solid #ccc;
+          margin-bottom: 30px;
+          padding-bottom: 10px;
+        }
+        
+        .contact-title h2 {
+          font-weight: 400;
+        }
+        
+        address {
+          line-height: 1.7;
+        }
+        
+        
+        /************** Footer ************/
+        
+        .social-footer > a {
+          font-size: 17px;
+        }
+        .social-footer a + a {
+          margin-left: 8px;
+        }
+        
+        /******************************@media***********************/
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+              max-width: 210px;
+            }
+        }
+        
+        @media  (max-width: 991px) {
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+              max-width: 328px;
+              width: 100% !important;
+            }
+        
+        }
+        
+        @media (max-width: 767px) {
+            .font-60 {
+              font-size: 36px;
+            }
+            .contact-form .gform_body > ul > li {
+                width: 100% !important;
+            }
+            .contact-form .name_first .form-control, .contact-form .name_last .form-control {
+                 max-width: 100% !important;
+                 width: 100% !important;
+            }
+            .name_first, .name_last {
+                width: 100% !important;
+            }
+            .contact-form .name_last .form-control {
+                margin-left: 0;
+            }
+            .contact-form  .form-control {
+                width: 100% !important; 
+            }
+            .xs-float-none {
+                float: none !important;
+            }
+            .social-footer {
+                text-align: left;
+            }
+        }
+        
         </style>
 
 - trigger: CONTACT-INNER-B
@@ -4400,175 +4400,175 @@
   scope: css
   mTime: 1481541937955
   text: |
-        <style>\r
-        /**************** Font ******************/\r
-        .font-60 {\r
-            font-size: 60px;    \r
-        }\r
-        .font-18 {\r
-            font-size: 18px;\r
-        }\r
-        .font-14 {\r
-            font-size: 14px;\r
-        }\r
-        \r
-        /**************** Contact Form ****************/\r
-        \r
-        .contact-us-design-b  .contact-form label {\r
-          display: none !important;\r
-        }\r
-        \r
-        .contact-form .form-control {\r
-          background-color: transparent;\r
-          min-height: 50px;\r
-          padding-left: 15px !important;\r
-          margin-bottom: 15px;\r
-          border: none;\r
-          border-bottom: 1px solid #ccc;\r
-        }\r
-        \r
-        .contact-form .name_first .form-control,\r
-        .contact-form .name_last .form-control{\r
-          max-width: 258px;\r
-          width: 100% !important;\r
-        }\r
-        \r
-        .contact-form .name_last .form-control {\r
-          margin-left: 4px;\r
-        }\r
-        \r
-        .contact-form .gform_footer .btn {\r
-          border-radius: 50px;\r
-          color: #fff;\r
-          padding: 15px 40px;\r
-        }\r
-        \r
-        .contact-form .gf_left_half,\r
-        .contact-form .gf_right_half {\r
-          margin-bottom: 0 !important;\r
-        }\r
-        \r
-        .contact-title {\r
-          border-bottom: 1px solid #ccc;\r
-          margin-bottom: 30px;\r
-          padding-bottom: 10px;\r
-        }\r
-        \r
-        .contact-title h2 {\r
-          font-weight: 400;\r
-        }\r
-        \r
-        .contact-form .form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */\r
-           color: #666;\r
-        }\r
-        .contact-form .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */\r
-           color: #666;\r
-           opacity:  1;\r
-        }\r
-        .contact-form .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */\r
-           color: #666;\r
-           opacity:  1;\r
-        }\r
-        .contact-form .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */\r
-           color: #666;\r
-        }\r
-        \r
-        .contact-form .form-control:focus {\r
-          box-shadow: none;\r
-        }\r
-        \r
-        .contact-form textarea:focus {\r
-          box-shadow: none;\r
-          border-bottom: 1px solid #000;\r
-        }\r
-        \r
-        .contact-us-design-b .contact-form textarea {\r
-          padding-left: 20px !important;\r
-        }\r
-        \r
-        .contact-us-design-b address {\r
-          color: #666666;\r
-          font-size: 14px;\r
-        }\r
-        \r
-        .contact-us-design-b address i {\r
-            color: #666 !important;\r
-        }\r
-        \r
-        .contact-us-design-b .google-map {\r
-          height: 200px !important;\r
-        }\r
-        \r
-        /************** Footer ************/\r
-        \r
-        .social-media {\r
-          margin: 60px 0;\r
-        }\r
-        \r
-        .social-media a {\r
-          font-size: 10px;\r
-          color: #808080;\r
-        }\r
-        .social-media a:hover,\r
-        .social-media a:active,\r
-        .social-media a:focus {\r
-          color: #666666;  \r
-        }\r
-        \r
-        .social-media a + a {\r
-          margin-left: 20px;\r
-        }\r
-        \r
-        /******************************@media***********************/\r
-        @media (min-width: 992px) and (max-width: 1199px) {\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-              max-width: 210px;\r
-            }\r
-        }\r
-        \r
-        @media  (max-width: 991px) {\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-              max-width: 328px;\r
-              width: 100% !important;\r
-            }\r
-            .contact-us-design-b address {\r
-                display: inline-block;\r
-                text-align: left;\r
-            }\r
-        \r
-        }\r
-        \r
-        @media (max-width: 767px) {\r
-            .font-60 {\r
-              font-size: 36px;\r
-            }\r
-            .contact-form .gform_body > ul > li {\r
-                width: 100% !important;\r
-            }\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-                 max-width: 100% !important;\r
-                 width: 100% !important;\r
-            }\r
-            .name_first, .name_last {\r
-                width: 100% !important;\r
-            }\r
-            .contact-form .name_last .form-control {\r
-                margin-left: 0;\r
-            }\r
-            .contact-form  .form-control {\r
-                width: 100% !important; \r
-            }\r
-            .xs-float-none {\r
-                float: none !important;\r
-            }\r
-            .social-footer {\r
-                text-align: center;\r
-            }\r
-        }\r
-        \r
+        <style>
+        /**************** Font ******************/
+        .font-60 {
+            font-size: 60px;    
+        }
+        .font-18 {
+            font-size: 18px;
+        }
+        .font-14 {
+            font-size: 14px;
+        }
+        
+        /**************** Contact Form ****************/
+        
+        .contact-us-design-b  .contact-form label {
+          display: none !important;
+        }
+        
+        .contact-form .form-control {
+          background-color: transparent;
+          min-height: 50px;
+          padding-left: 15px !important;
+          margin-bottom: 15px;
+          border: none;
+          border-bottom: 1px solid #ccc;
+        }
+        
+        .contact-form .name_first .form-control,
+        .contact-form .name_last .form-control{
+          max-width: 258px;
+          width: 100% !important;
+        }
+        
+        .contact-form .name_last .form-control {
+          margin-left: 4px;
+        }
+        
+        .contact-form .gform_footer .btn {
+          border-radius: 50px;
+          color: #fff;
+          padding: 15px 40px;
+        }
+        
+        .contact-form .gf_left_half,
+        .contact-form .gf_right_half {
+          margin-bottom: 0 !important;
+        }
+        
+        .contact-title {
+          border-bottom: 1px solid #ccc;
+          margin-bottom: 30px;
+          padding-bottom: 10px;
+        }
+        
+        .contact-title h2 {
+          font-weight: 400;
+        }
+        
+        .contact-form .form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+           color: #666;
+        }
+        .contact-form .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+           color: #666;
+           opacity:  1;
+        }
+        .contact-form .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+           color: #666;
+           opacity:  1;
+        }
+        .contact-form .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+           color: #666;
+        }
+        
+        .contact-form .form-control:focus {
+          box-shadow: none;
+        }
+        
+        .contact-form textarea:focus {
+          box-shadow: none;
+          border-bottom: 1px solid #000;
+        }
+        
+        .contact-us-design-b .contact-form textarea {
+          padding-left: 20px !important;
+        }
+        
+        .contact-us-design-b address {
+          color: #666666;
+          font-size: 14px;
+        }
+        
+        .contact-us-design-b address i {
+            color: #666 !important;
+        }
+        
+        .contact-us-design-b .google-map {
+          height: 200px !important;
+        }
+        
+        /************** Footer ************/
+        
+        .social-media {
+          margin: 60px 0;
+        }
+        
+        .social-media a {
+          font-size: 10px;
+          color: #808080;
+        }
+        .social-media a:hover,
+        .social-media a:active,
+        .social-media a:focus {
+          color: #666666;  
+        }
+        
+        .social-media a + a {
+          margin-left: 20px;
+        }
+        
+        /******************************@media***********************/
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+              max-width: 210px;
+            }
+        }
+        
+        @media  (max-width: 991px) {
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+              max-width: 328px;
+              width: 100% !important;
+            }
+            .contact-us-design-b address {
+                display: inline-block;
+                text-align: left;
+            }
+        
+        }
+        
+        @media (max-width: 767px) {
+            .font-60 {
+              font-size: 36px;
+            }
+            .contact-form .gform_body > ul > li {
+                width: 100% !important;
+            }
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+                 max-width: 100% !important;
+                 width: 100% !important;
+            }
+            .name_first, .name_last {
+                width: 100% !important;
+            }
+            .contact-form .name_last .form-control {
+                margin-left: 0;
+            }
+            .contact-form  .form-control {
+                width: 100% !important; 
+            }
+            .xs-float-none {
+                float: none !important;
+            }
+            .social-footer {
+                text-align: center;
+            }
+        }
+        
         </style>
 
 - trigger: CONTACT-INNER-C
@@ -4576,329 +4576,329 @@
   scope: css
   mTime: 1481541949873
   text: |
-        <style>\r
-        /**************** Font ******************/\r
-        .font-60 {\r
-            font-size: 60px;    \r
-        }\r
-        .font-18 {\r
-            font-size: 18px;\r
-        }\r
-        .font-14 {\r
-            font-size: 14px;\r
-        }\r
-        \r
-        /**************** Contact Form ****************/\r
-        .well-form {\r
-          background-color: #ffffff;\r
-          border-color: #dcdcdc;\r
-          border-radius: 0;\r
-          padding: 40px 95px;\r
-        }\r
-        \r
-        \r
-        .contact-us-design-c  .contact-form label {\r
-          display: none !important;\r
-        }\r
-        \r
-        .contact-form .form-control {\r
-          background-color: transparent;\r
-          min-height: 50px;\r
-          padding-left: 15px !important;\r
-          margin-bottom: 15px;\r
-          border: none;\r
-          border-bottom: 1px solid #ccc;\r
-        }\r
-        \r
-        .contact-form .name_first .form-control,\r
-        .contact-form .name_last .form-control{\r
-          max-width: 258px;\r
-          width: 100% !important;\r
-        }\r
-        \r
-        .contact-form .name_last .form-control {\r
-          margin-left: 4px;\r
-        }\r
-        \r
-        .contact-form .gform_footer .btn {\r
-          border-radius: 50px;\r
-          color: #fff;\r
-          padding: 15px 40px;\r
-        }\r
-        \r
-        .contact-form .gf_left_half,\r
-        .contact-form .gf_right_half {\r
-          margin-bottom: 0 !important;\r
-        }\r
-        \r
-        .contact-title {\r
-          border-bottom: 1px solid #ccc;\r
-          margin-bottom: 30px;\r
-          padding-bottom: 10px;\r
-        }\r
-        \r
-        .contact-title h2 {\r
-          font-weight: 400;\r
-        }\r
-        \r
-        .contact-form .form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */\r
-           color: #aaaaaa;\r
-        }\r
-        .contact-form .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */\r
-           color: #aaaaaa;\r
-           opacity:  1;\r
-        }\r
-        .contact-form .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */\r
-           color: #aaaaaa;\r
-           opacity:  1;\r
-        }\r
-        .contact-form .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */\r
-           color: #aaaaaa;\r
-        }\r
-        \r
-        .contact-form .gform_footer {\r
-          text-align: center;\r
-        }\r
-        \r
-        .contact-form .form-control:focus {\r
-          box-shadow: none;\r
-        }\r
-        \r
-        .contact-form textarea:focus {\r
-          box-shadow: none;\r
-          border-bottom: 1px solid #000;\r
-        }\r
-        \r
-        .contact-us-design-c .contact-form textarea {\r
-          padding-left: 20px !important;\r
-        }\r
-        \r
-        .contact-us-design-c address {\r
-          color: #666666;\r
-          font-size: 14px;\r
-        }\r
-        \r
-        .contact-us-design-c address i {\r
-            color: #666 !important;\r
-        }\r
-        \r
-        .contact-us-design-c .google-map {\r
-          height: 200px !important;\r
-        }\r
-        \r
-        /************** Map ***************/\r
-        .contact-us-map-design-c {\r
-          padding: 0;\r
-        }\r
-        \r
-        .contact-maps p {\r
-          margin-bottom: 0;\r
-        }\r
-        \r
-        .contact-maps address {\r
-          margin-bottom: 0;\r
-        }\r
-        \r
-        \r
-        .contact-us-map-design-c .container {\r
-          max-width: 100%;\r
-          padding: 0;\r
-        }\r
-        \r
-        .contact-us-map-design-c .row > div > .google-map {\r
-          margin: 0;\r
-          min-height: inherit !important;\r
-          padding: 0;\r
-        }\r
-        \r
-        .contact-us-map-design-c .row > div {\r
-          min-height: 600px;\r
-          padding: 0;\r
-          margin: 0;\r
-        }\r
-        \r
-        .contact-blocks {\r
-          display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    \r
-          display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */\r
-          display: -ms-flexbox;  /* TWEENER - IE 10 */\r
-          display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */\r
-          flex-flow: row wrap;\r
-        }\r
-        \r
-        \r
-        \r
-        .contact-block {\r
-          min-height: 300px;\r
-          display: inline-block;\r
-          padding: 50px 20px;\r
-        }\r
-        \r
-        .contact-black address {\r
-          font-size: 18px;\r
-          margin: 0 auto;\r
-          max-width: 400px;\r
-        }\r
-        \r
-        .contact-black {\r
-            background-color: #000;\r
-            width: 100%;\r
-        }\r
-        \r
-        .contact-black address > br {\r
-          display: none;\r
-        }\r
-        \r
-        .contact-phone {\r
-          background-color: #B82A29;\r
-          width: 50%;\r
-          padding: 50px;\r
-        }\r
-        \r
-        .contact-phone address {\r
-          font-size: 18px;\r
-        }\r
-        \r
-        .contact-phone address > ul {\r
-          margin-left: 30px;\r
-        }\r
-        \r
-        .contact-phone address i,\r
-        .contact-phone address a {\r
-          color: #fff !important;\r
-        }\r
-        \r
-        .contact-bg {\r
-          background: url('/wp-content/uploads/2016/11/img_contact-info-c.jpg');\r
-          background-size: cover;\r
-          background-position: center center;\r
-          background-repeat: no-repeat;\r
-          width: 49%;\r
-        }\r
-        \r
-        \r
-        \r
-        /************** Footer ************/\r
-        \r
-        .social-media {\r
-          margin-top: 60px;\r
-        }\r
-        \r
-        .social-media a {\r
-          font-size: 10px;\r
-          color: #fff;\r
-        }\r
-        .social-media a:hover,\r
-        .social-media a:active,\r
-        .social-media a:focus {\r
-          color: #666666;  \r
-        }\r
-        \r
-        .social-media a + a {\r
-          margin-left: 20px;\r
-        }\r
-        \r
-        \r
-        \r
-        /******************************@media***********************/\r
-        @media (min-width: 1200px) and (max-width: 1300px) { \r
-            .contact-phone {\r
-                padding: 50px 30px;\r
-            }\r
-            .contact-phone address {\r
-                font-size: 16px;\r
-            }\r
-            \r
-        }\r
-        \r
-        @media (min-width: 992px) and (max-width: 1199px) {\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-                max-width: 210px;\r
-            }\r
-            .well-form {\r
-                padding: 40px 80px;\r
-            }\r
-            .contact-phone {\r
-                padding: 40px 10px;\r
-            }\r
-            .contact-phone address {\r
-                font-size: 14px;\r
-                margin-top: 40px;\r
-            }\r
-            .social-media {\r
-                margin-top: 40px;\r
-            }\r
-        }\r
-        \r
-        @media  (max-width: 991px) {\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-              max-width: 328px;\r
-              width: 100% !important;\r
-            }\r
-            .contact-us-design-b address {\r
-                display: inline-block;\r
-                text-align: left;\r
-            }\r
-            .contact-us-map-design-c .row > div {\r
-                min-height: 400px;\r
-            }\r
-        \r
-        }\r
-        \r
-        @media (max-width: 767px) {\r
-            .font-60 {\r
-                font-size: 36px;\r
-            }\r
-            .font-38 {\r
-                font-size: 35px;\r
-            }\r
-            \r
-            .well-form {\r
-                padding: 20px;\r
-            }\r
-            .contact-phone address {\r
-              font-size: 15px;\r
-              display: inline-block;\r
-              text-align: left;\r
-            }\r
-            .contact-phone {\r
-                text-align: center;\r
-            }\r
-            .contact-form .gform_body > ul > li {\r
-                width: 100% !important;\r
-            }\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-                 max-width: 100% !important;\r
-                 width: 100% !important;\r
-            }\r
-            .name_first, .name_last {\r
-                width: 100% !important;\r
-            }\r
-            .contact-form .name_last .form-control {\r
-                margin-left: 0;\r
-            }\r
-            .contact-form  .form-control {\r
-                width: 100% !important; \r
-            }\r
-            .xs-float-none {\r
-                float: none !important;\r
-            }\r
-            .social-media {\r
-                text-align: center;\r
-            }\r
-            .contact-phone,\r
-            .contact-bg {\r
-                width: 100%;\r
-            }\r
-            .contact-black address {\r
-                max-width: 200px;\r
-                font-size: 16px;\r
-            }\r
-            \r
-        }\r
-        \r
+        <style>
+        /**************** Font ******************/
+        .font-60 {
+            font-size: 60px;    
+        }
+        .font-18 {
+            font-size: 18px;
+        }
+        .font-14 {
+            font-size: 14px;
+        }
+        
+        /**************** Contact Form ****************/
+        .well-form {
+          background-color: #ffffff;
+          border-color: #dcdcdc;
+          border-radius: 0;
+          padding: 40px 95px;
+        }
+        
+        
+        .contact-us-design-c  .contact-form label {
+          display: none !important;
+        }
+        
+        .contact-form .form-control {
+          background-color: transparent;
+          min-height: 50px;
+          padding-left: 15px !important;
+          margin-bottom: 15px;
+          border: none;
+          border-bottom: 1px solid #ccc;
+        }
+        
+        .contact-form .name_first .form-control,
+        .contact-form .name_last .form-control{
+          max-width: 258px;
+          width: 100% !important;
+        }
+        
+        .contact-form .name_last .form-control {
+          margin-left: 4px;
+        }
+        
+        .contact-form .gform_footer .btn {
+          border-radius: 50px;
+          color: #fff;
+          padding: 15px 40px;
+        }
+        
+        .contact-form .gf_left_half,
+        .contact-form .gf_right_half {
+          margin-bottom: 0 !important;
+        }
+        
+        .contact-title {
+          border-bottom: 1px solid #ccc;
+          margin-bottom: 30px;
+          padding-bottom: 10px;
+        }
+        
+        .contact-title h2 {
+          font-weight: 400;
+        }
+        
+        .contact-form .form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+           color: #aaaaaa;
+        }
+        .contact-form .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+           color: #aaaaaa;
+           opacity:  1;
+        }
+        .contact-form .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+           color: #aaaaaa;
+           opacity:  1;
+        }
+        .contact-form .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+           color: #aaaaaa;
+        }
+        
+        .contact-form .gform_footer {
+          text-align: center;
+        }
+        
+        .contact-form .form-control:focus {
+          box-shadow: none;
+        }
+        
+        .contact-form textarea:focus {
+          box-shadow: none;
+          border-bottom: 1px solid #000;
+        }
+        
+        .contact-us-design-c .contact-form textarea {
+          padding-left: 20px !important;
+        }
+        
+        .contact-us-design-c address {
+          color: #666666;
+          font-size: 14px;
+        }
+        
+        .contact-us-design-c address i {
+            color: #666 !important;
+        }
+        
+        .contact-us-design-c .google-map {
+          height: 200px !important;
+        }
+        
+        /************** Map ***************/
+        .contact-us-map-design-c {
+          padding: 0;
+        }
+        
+        .contact-maps p {
+          margin-bottom: 0;
+        }
+        
+        .contact-maps address {
+          margin-bottom: 0;
+        }
+        
+        
+        .contact-us-map-design-c .container {
+          max-width: 100%;
+          padding: 0;
+        }
+        
+        .contact-us-map-design-c .row > div > .google-map {
+          margin: 0;
+          min-height: inherit !important;
+          padding: 0;
+        }
+        
+        .contact-us-map-design-c .row > div {
+          min-height: 600px;
+          padding: 0;
+          margin: 0;
+        }
+        
+        .contact-blocks {
+          display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    
+          display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+          display: -ms-flexbox;  /* TWEENER - IE 10 */
+          display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+          flex-flow: row wrap;
+        }
+        
+        
+        
+        .contact-block {
+          min-height: 300px;
+          display: inline-block;
+          padding: 50px 20px;
+        }
+        
+        .contact-black address {
+          font-size: 18px;
+          margin: 0 auto;
+          max-width: 400px;
+        }
+        
+        .contact-black {
+            background-color: #000;
+            width: 100%;
+        }
+        
+        .contact-black address > br {
+          display: none;
+        }
+        
+        .contact-phone {
+          background-color: #B82A29;
+          width: 50%;
+          padding: 50px;
+        }
+        
+        .contact-phone address {
+          font-size: 18px;
+        }
+        
+        .contact-phone address > ul {
+          margin-left: 30px;
+        }
+        
+        .contact-phone address i,
+        .contact-phone address a {
+          color: #fff !important;
+        }
+        
+        .contact-bg {
+          background: url('/wp-content/uploads/2016/11/img_contact-info-c.jpg');
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          width: 49%;
+        }
+        
+        
+        
+        /************** Footer ************/
+        
+        .social-media {
+          margin-top: 60px;
+        }
+        
+        .social-media a {
+          font-size: 10px;
+          color: #fff;
+        }
+        .social-media a:hover,
+        .social-media a:active,
+        .social-media a:focus {
+          color: #666666;  
+        }
+        
+        .social-media a + a {
+          margin-left: 20px;
+        }
+        
+        
+        
+        /******************************@media***********************/
+        @media (min-width: 1200px) and (max-width: 1300px) { 
+            .contact-phone {
+                padding: 50px 30px;
+            }
+            .contact-phone address {
+                font-size: 16px;
+            }
+            
+        }
+        
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+                max-width: 210px;
+            }
+            .well-form {
+                padding: 40px 80px;
+            }
+            .contact-phone {
+                padding: 40px 10px;
+            }
+            .contact-phone address {
+                font-size: 14px;
+                margin-top: 40px;
+            }
+            .social-media {
+                margin-top: 40px;
+            }
+        }
+        
+        @media  (max-width: 991px) {
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+              max-width: 328px;
+              width: 100% !important;
+            }
+            .contact-us-design-b address {
+                display: inline-block;
+                text-align: left;
+            }
+            .contact-us-map-design-c .row > div {
+                min-height: 400px;
+            }
+        
+        }
+        
+        @media (max-width: 767px) {
+            .font-60 {
+                font-size: 36px;
+            }
+            .font-38 {
+                font-size: 35px;
+            }
+            
+            .well-form {
+                padding: 20px;
+            }
+            .contact-phone address {
+              font-size: 15px;
+              display: inline-block;
+              text-align: left;
+            }
+            .contact-phone {
+                text-align: center;
+            }
+            .contact-form .gform_body > ul > li {
+                width: 100% !important;
+            }
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+                 max-width: 100% !important;
+                 width: 100% !important;
+            }
+            .name_first, .name_last {
+                width: 100% !important;
+            }
+            .contact-form .name_last .form-control {
+                margin-left: 0;
+            }
+            .contact-form  .form-control {
+                width: 100% !important; 
+            }
+            .xs-float-none {
+                float: none !important;
+            }
+            .social-media {
+                text-align: center;
+            }
+            .contact-phone,
+            .contact-bg {
+                width: 100%;
+            }
+            .contact-black address {
+                max-width: 200px;
+                font-size: 16px;
+            }
+            
+        }
+        
         </style>
 
 - trigger: CONTACT-INNER-D
@@ -4906,203 +4906,203 @@
   scope: css
   mTime: 1481541962052
   text: |
-        <style>\r
-        /**************** Font ******************/\r
-        .font-60 {\r
-            font-size: 60px;    \r
-        }\r
-        .font-38 {\r
-            font-size: 38px;\r
-        }\r
-        .font-24 {\r
-            font-size: 24px;\r
-        }\r
-        .font-18 {\r
-            font-size: 18px;\r
-        }\r
-        .font-14 {\r
-            font-size: 14px;\r
-        }\r
-        \r
-        /**************** Map *************************/\r
-        \r
-        .contact-block {\r
-          min-height: 450px;\r
-          padding: 0;\r
-        }\r
-        \r
-        .contact-map .google-map {\r
-          min-height: inherit;\r
-        }\r
-        \r
-        .contact-black {\r
-          background: rgba(0, 0, 0, 0) url("http://ecommerce.pi.bypronto.com/wp-content/uploads/2016/11/bg_contact-info-designD.jpg") no-repeat scroll center center / cover ;\r
-          display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    \r
-          display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */\r
-          display: -ms-flexbox;  /* TWEENER - IE 10 */\r
-          display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */\r
-          align-items: center;\r
-          padding: 20px 120px;\r
-        }\r
-        \r
-        .contact-black address,\r
-        .contact-black address a,\r
-        .contact-black h2 {\r
-            color: #fff;\r
-        }\r
-        \r
-        .contact-phone address {\r
-          font-size: 18px;\r
-        }\r
-        \r
-        .contact-phone address i{\r
-          color: #fff !important;\r
-        }\r
-        \r
-        \r
-        \r
-        /**************** Contact Form ****************/\r
-        \r
-        .contact-us-design-d  .contact-form label {\r
-          display: none !important;\r
-        }\r
-        \r
-        .contact-form .form-control {\r
-          background-color: #fbfbfc;\r
-          min-height: 50px;\r
-          padding-left: 15px !important;\r
-          margin-bottom: 15px;\r
-        }\r
-        \r
-        .contact-form .name_first .form-control,\r
-        .contact-form .name_last .form-control{\r
-          max-width: 258px;\r
-          width: 100% !important;\r
-        }\r
-        \r
-        .contact-form .name_last .form-control {\r
-          margin-left: 4px;\r
-        }\r
-        \r
-        .contact-form .gform_footer .btn {\r
-          border-radius: 50px;\r
-          color: #fff;\r
-          padding: 15px 40px;\r
-        }\r
-        \r
-        .contact-form .gf_left_half,\r
-        .contact-form .gf_right_half {\r
-          margin-bottom: 0 !important;\r
-        }\r
-        \r
-        .contact-title {\r
-          border-bottom: 1px solid #ccc;\r
-          margin-bottom: 30px;\r
-          padding-bottom: 10px;\r
-        }\r
-        \r
-        .contact-title h2 {\r
-          font-weight: 400;\r
-        }\r
-        \r
-        \r
-        \r
-        \r
-        \r
-        /************** Footer ************/\r
-        \r
-        .social-media > a {\r
-            color: #fff;\r
-            font-size: 10px;\r
-        }\r
-        \r
-        .social-media > a:hover,\r
-        .social-media > a:active,\r
-        .social-media > a:focus {\r
-            opacity: 0.7;\r
-        }\r
-        .social-media a + a {\r
-            margin-left: 20px;\r
-        }\r
-        \r
-        /************** Bottom address *****************************/\r
-        \r
-        .bottom-address {\r
-          margin-top: 60px;\r
-        }\r
-        \r
-        .bottom-address address {\r
-          font-size: 14px;\r
-        }\r
-        \r
-        .bottom-address .google-map {\r
-          height: 200px  !important;\r
-        }\r
-        \r
-        .bottom-address hr {\r
-          width: 100%;\r
-          border-color: #ccc;\r
-        }\r
-        \r
-        \r
-        \r
-        /******************************@media***********************/\r
-        @media (min-width: 992px) and (max-width: 1199px) {\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-              max-width: 210px;\r
-            }\r
-        }\r
-        \r
-        @media  (max-width: 991px) {\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-              max-width: 328px;\r
-              width: 100% !important;\r
-            }\r
-            .contact-block {\r
-                min-height: 350px;\r
-                padding: 0;\r
-            }\r
-        \r
-        }\r
-        \r
-        @media (max-width: 767px) {\r
-            .font-60 {\r
-              font-size: 36px;\r
-            }\r
-            .contact-form .gform_body > ul > li {\r
-                width: 100% !important;\r
-            }\r
-            .contact-form .name_first .form-control, .contact-form .name_last .form-control {\r
-                 max-width: 100% !important;\r
-                 width: 100% !important;\r
-            }\r
-            .contact-info {\r
-                width: 100%;\r
-            }\r
-            .contact-address address,.contact-phone address {\r
-                display: inline-block;\r
-                text-align: left;\r
-            }\r
-            .name_first, .name_last {\r
-                width: 100% !important;\r
-            }\r
-            .contact-form .name_last .form-control {\r
-                margin-left: 0;\r
-            }\r
-            .contact-form  .form-control {\r
-                width: 100% !important; \r
-            }\r
-            .contact-black {\r
-                padding: 20px;\r
-            }\r
-            .xs-float-none {\r
-                float: none !important;\r
-            }\r
-            \r
-        }\r
-        \r
+        <style>
+        /**************** Font ******************/
+        .font-60 {
+            font-size: 60px;    
+        }
+        .font-38 {
+            font-size: 38px;
+        }
+        .font-24 {
+            font-size: 24px;
+        }
+        .font-18 {
+            font-size: 18px;
+        }
+        .font-14 {
+            font-size: 14px;
+        }
+        
+        /**************** Map *************************/
+        
+        .contact-block {
+          min-height: 450px;
+          padding: 0;
+        }
+        
+        .contact-map .google-map {
+          min-height: inherit;
+        }
+        
+        .contact-black {
+          background: rgba(0, 0, 0, 0) url("http://ecommerce.pi.bypronto.com/wp-content/uploads/2016/11/bg_contact-info-designD.jpg") no-repeat scroll center center / cover ;
+          display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    
+          display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+          display: -ms-flexbox;  /* TWEENER - IE 10 */
+          display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+          align-items: center;
+          padding: 20px 120px;
+        }
+        
+        .contact-black address,
+        .contact-black address a,
+        .contact-black h2 {
+            color: #fff;
+        }
+        
+        .contact-phone address {
+          font-size: 18px;
+        }
+        
+        .contact-phone address i{
+          color: #fff !important;
+        }
+        
+        
+        
+        /**************** Contact Form ****************/
+        
+        .contact-us-design-d  .contact-form label {
+          display: none !important;
+        }
+        
+        .contact-form .form-control {
+          background-color: #fbfbfc;
+          min-height: 50px;
+          padding-left: 15px !important;
+          margin-bottom: 15px;
+        }
+        
+        .contact-form .name_first .form-control,
+        .contact-form .name_last .form-control{
+          max-width: 258px;
+          width: 100% !important;
+        }
+        
+        .contact-form .name_last .form-control {
+          margin-left: 4px;
+        }
+        
+        .contact-form .gform_footer .btn {
+          border-radius: 50px;
+          color: #fff;
+          padding: 15px 40px;
+        }
+        
+        .contact-form .gf_left_half,
+        .contact-form .gf_right_half {
+          margin-bottom: 0 !important;
+        }
+        
+        .contact-title {
+          border-bottom: 1px solid #ccc;
+          margin-bottom: 30px;
+          padding-bottom: 10px;
+        }
+        
+        .contact-title h2 {
+          font-weight: 400;
+        }
+        
+        
+        
+        
+        
+        /************** Footer ************/
+        
+        .social-media > a {
+            color: #fff;
+            font-size: 10px;
+        }
+        
+        .social-media > a:hover,
+        .social-media > a:active,
+        .social-media > a:focus {
+            opacity: 0.7;
+        }
+        .social-media a + a {
+            margin-left: 20px;
+        }
+        
+        /************** Bottom address *****************************/
+        
+        .bottom-address {
+          margin-top: 60px;
+        }
+        
+        .bottom-address address {
+          font-size: 14px;
+        }
+        
+        .bottom-address .google-map {
+          height: 200px  !important;
+        }
+        
+        .bottom-address hr {
+          width: 100%;
+          border-color: #ccc;
+        }
+        
+        
+        
+        /******************************@media***********************/
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+              max-width: 210px;
+            }
+        }
+        
+        @media  (max-width: 991px) {
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+              max-width: 328px;
+              width: 100% !important;
+            }
+            .contact-block {
+                min-height: 350px;
+                padding: 0;
+            }
+        
+        }
+        
+        @media (max-width: 767px) {
+            .font-60 {
+              font-size: 36px;
+            }
+            .contact-form .gform_body > ul > li {
+                width: 100% !important;
+            }
+            .contact-form .name_first .form-control, .contact-form .name_last .form-control {
+                 max-width: 100% !important;
+                 width: 100% !important;
+            }
+            .contact-info {
+                width: 100%;
+            }
+            .contact-address address,.contact-phone address {
+                display: inline-block;
+                text-align: left;
+            }
+            .name_first, .name_last {
+                width: 100% !important;
+            }
+            .contact-form .name_last .form-control {
+                margin-left: 0;
+            }
+            .contact-form  .form-control {
+                width: 100% !important; 
+            }
+            .contact-black {
+                padding: 20px;
+            }
+            .xs-float-none {
+                float: none !important;
+            }
+            
+        }
+        
         </style>
 
 - trigger: CONTACT-INNER-E
@@ -5110,160 +5110,160 @@
   scope: css
   mTime: 1481541973371
   text: |
-        <style>\r
-        /**************** Font ******************/\r
-        .font-60 {\r
-            font-size: 60px;    \r
-        }\r
-        .font-18 {\r
-            font-size: 18px;\r
-        }\r
-        .font-14 {\r
-            font-size: 14px;\r
-        }\r
-        \r
-        /**************** Map section *****************/\r
-        \r
-        .contact-map {\r
-          min-height: 375px;\r
-        }\r
-        \r
-        .contact-map .google-map  {\r
-          margin-bottom: 0;\r
-          min-height: inherit;\r
-        }\r
-        \r
-        .contact-map > p {\r
-          margin-bottom: 0;\r
-        }\r
-        \r
-        .contact-map address {\r
-          margin-bottom: 0;\r
-        }\r
-        \r
-        \r
-        /**************** Contact Form ****************/\r
-        \r
-        .contact-us-design-e  .contact-form label {\r
-          display: none !important;\r
-        }\r
-        \r
-        .contact-form .form-control {\r
-          background-color: #fbfbfc;\r
-          min-height: 50px;\r
-          padding-left: 15px !important;\r
-          margin-bottom: 15px;\r
-        }\r
-        \r
-        .contact-form .name_first .form-control,\r
-        .contact-form .name_last .form-control{\r
-          max-width: 258px;\r
-          width: 100% !important;\r
-        }\r
-        \r
-        .contact-form .name_last .form-control {\r
-          margin-left: 4px;\r
-        }\r
-        \r
-        .contact-form .gform_footer .btn {\r
-          border-radius: 50px;\r
-          color: #fff;\r
-          padding: 15px 40px;\r
-        }\r
-        \r
-        .contact-form .gf_left_half,\r
-        .contact-form .gf_right_half {\r
-          margin-bottom: 0 !important;\r
-        }\r
-        \r
-        \r
-        \r
-        \r
-        \r
-        /************** Contact Block ************/\r
-        \r
-        .contact-block {\r
-          height: 150px;\r
-        }\r
-        \r
-        .contact-block address i {\r
-          margin-top: -3px;\r
-        }\r
-        \r
-        .contact-block .fa-ul {\r
-          margin-left: 25px;\r
-        }\r
-        \r
-        .contact-address address br {\r
-          display: none;\r
-        }\r
-        \r
-        .contact-us-design-e hr {\r
-          border-color: #ccc;\r
-          width: 100%;\r
-        }\r
-        \r
-        \r
-        .social-media > a {\r
-          font-size: 10px;\r
-        }\r
-        .social-media a + a {\r
-          margin-left: 20px;\r
-        }\r
-        \r
-        /******************************@media***********************/\r
-        @media (min-width: 992px) and (max-width: 1199px) {\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-              max-width: 210px;\r
-            }\r
-        }\r
-        \r
-        @media  (max-width: 991px) {\r
-            .contact-form .name_first .form-control, \r
-            .contact-form .name_last .form-control {\r
-              max-width: 328px;\r
-              width: 100% !important;\r
-            }\r
-        \r
-        }\r
-        \r
-        @media (max-width: 767px) {\r
-            .font-60 {\r
-              font-size: 36px;\r
-            }\r
-            .contact-block {\r
-                height: 100%;\r
-            }\r
-            .contact-form .gform_body > ul > li {\r
-                width: 100% !important;\r
-            }\r
-            .contact-form .name_first .form-control, .contact-form .name_last .form-control {\r
-                 max-width: 100% !important;\r
-                 width: 100% !important;\r
-            }\r
-            .name_first, .name_last {\r
-                width: 100% !important;\r
-            }\r
-            .contact-form .name_last .form-control {\r
-                margin-left: 0;\r
-            }\r
-            .contact-form  .form-control {\r
-                width: 100% !important; \r
-            }\r
-            .xs-float-none {\r
-                float: none !important;\r
-            }\r
-            .contact-us-design-e hr {\r
-                display: none;\r
-            }\r
-            .contact-block {\r
-                border-bottom: 1px solid #ccc;\r
-                padding-bottom: 20px;\r
-                margin-bottom: 20px;\r
-            }\r
-        }\r
-        \r
+        <style>
+        /**************** Font ******************/
+        .font-60 {
+            font-size: 60px;    
+        }
+        .font-18 {
+            font-size: 18px;
+        }
+        .font-14 {
+            font-size: 14px;
+        }
+        
+        /**************** Map section *****************/
+        
+        .contact-map {
+          min-height: 375px;
+        }
+        
+        .contact-map .google-map  {
+          margin-bottom: 0;
+          min-height: inherit;
+        }
+        
+        .contact-map > p {
+          margin-bottom: 0;
+        }
+        
+        .contact-map address {
+          margin-bottom: 0;
+        }
+        
+        
+        /**************** Contact Form ****************/
+        
+        .contact-us-design-e  .contact-form label {
+          display: none !important;
+        }
+        
+        .contact-form .form-control {
+          background-color: #fbfbfc;
+          min-height: 50px;
+          padding-left: 15px !important;
+          margin-bottom: 15px;
+        }
+        
+        .contact-form .name_first .form-control,
+        .contact-form .name_last .form-control{
+          max-width: 258px;
+          width: 100% !important;
+        }
+        
+        .contact-form .name_last .form-control {
+          margin-left: 4px;
+        }
+        
+        .contact-form .gform_footer .btn {
+          border-radius: 50px;
+          color: #fff;
+          padding: 15px 40px;
+        }
+        
+        .contact-form .gf_left_half,
+        .contact-form .gf_right_half {
+          margin-bottom: 0 !important;
+        }
+        
+        
+        
+        
+        
+        /************** Contact Block ************/
+        
+        .contact-block {
+          height: 150px;
+        }
+        
+        .contact-block address i {
+          margin-top: -3px;
+        }
+        
+        .contact-block .fa-ul {
+          margin-left: 25px;
+        }
+        
+        .contact-address address br {
+          display: none;
+        }
+        
+        .contact-us-design-e hr {
+          border-color: #ccc;
+          width: 100%;
+        }
+        
+        
+        .social-media > a {
+          font-size: 10px;
+        }
+        .social-media a + a {
+          margin-left: 20px;
+        }
+        
+        /******************************@media***********************/
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+              max-width: 210px;
+            }
+        }
+        
+        @media  (max-width: 991px) {
+            .contact-form .name_first .form-control, 
+            .contact-form .name_last .form-control {
+              max-width: 328px;
+              width: 100% !important;
+            }
+        
+        }
+        
+        @media (max-width: 767px) {
+            .font-60 {
+              font-size: 36px;
+            }
+            .contact-block {
+                height: 100%;
+            }
+            .contact-form .gform_body > ul > li {
+                width: 100% !important;
+            }
+            .contact-form .name_first .form-control, .contact-form .name_last .form-control {
+                 max-width: 100% !important;
+                 width: 100% !important;
+            }
+            .name_first, .name_last {
+                width: 100% !important;
+            }
+            .contact-form .name_last .form-control {
+                margin-left: 0;
+            }
+            .contact-form  .form-control {
+                width: 100% !important; 
+            }
+            .xs-float-none {
+                float: none !important;
+            }
+            .contact-us-design-e hr {
+                display: none;
+            }
+            .contact-block {
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        
         </style>
 
 - scope: less
@@ -9559,35 +9559,35 @@
   scope: html
   mTime: 1481542252185
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]\r
-        [row]\r
-        [column span="12"]\r
-        <h1 class="font-60 uppercase">${1:Our Partner}</h1>\r
-        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>\r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        [segment tag="section" style="2" spacing="large" class="partner-section1"]\r
-        [row]\r
-        [column span="6"]\r
-        <p>${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>\r
-        <p>${4:Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.}</p>\r
-        [/column]\r
-        [column span="5" class="col-md-offset-1"]\r
-        [well class="well-white"]\r
-        [partners group="top-4" layout="popover" image_size="col-md-6"]\r
-        [/well]\r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        [segment tag="section" style="1" spacing="large" class="partner-section2"]\r
-        [row class="margin-vertical-20"]\r
-        [column span="12"]\r
-        [partners group="client-partners" layout="popover" image_size="col-md-2"]\r
-        [/column]\r
-        [/row]\r
+        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [row]
+        [column span="12"]
+        <h1 class="font-60 uppercase">${1:Our Partner}</h1>
+        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        [/column]
+        [/row]
+        [/segment]
+        
+        [segment tag="section" style="2" spacing="large" class="partner-section1"]
+        [row]
+        [column span="6"]
+        <p>${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>
+        <p>${4:Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.}</p>
+        [/column]
+        [column span="5" class="col-md-offset-1"]
+        [well class="well-white"]
+        [partners group="top-4" layout="popover" image_size="col-md-6"]
+        [/well]
+        [/column]
+        [/row]
+        [/segment]
+        
+        [segment tag="section" style="1" spacing="large" class="partner-section2"]
+        [row class="margin-vertical-20"]
+        [column span="12"]
+        [partners group="client-partners" layout="popover" image_size="col-md-2"]
+        [/column]
+        [/row]
         [/segment]
 
 - trigger: PARTNER-INNER-B
@@ -9595,21 +9595,21 @@
   description: Innerpage Partner - Design B
   mTime: 1481542309533
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]\r
-        [row]\r
-        [column span="12"]\r
-        <h1 class="font-60 uppercase">${1:Our Partner}</h1>\r
-        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>\r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        [segment tag="section" style="2" spacing="large" class="partner-design-b"]\r
-        [row]\r
-        [column span="12"]\r
-        [partners group="top-8" layout="grid" image_size="col-md-6"]\r
-        [/column]\r
-        [/row]\r
+        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [row]
+        [column span="12"]
+        <h1 class="font-60 uppercase">${1:Our Partner}</h1>
+        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        [/column]
+        [/row]
+        [/segment]
+        
+        [segment tag="section" style="2" spacing="large" class="partner-design-b"]
+        [row]
+        [column span="12"]
+        [partners group="top-8" layout="grid" image_size="col-md-6"]
+        [/column]
+        [/row]
         [/segment]
 
 - trigger: PARTNER-INNER-C
@@ -9617,34 +9617,34 @@
   scope: html
   mTime: 1481542446033
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]\r
-        [row]\r
-        [column span="12"]\r
-        <h1 class="font-60 uppercase">${1:Our Partner}</h1>\r
-        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>\r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        [segment tag="section" style="1" spacing="huge" class="partner-design-c"]\r
-        [row]\r
-        [column span="5"]\r
-        <h2 class="font-38 margin-bottom-20 sm-text-center">${3:We work with}</h2>\r
-        <p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula et tellus nec.}</p>\r
-        <p>${5:Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.}</p>\r
-        [img src="http://placehold.it/454x220" class="aligncenter"]\r
-        <div class="partner-testimonial">\r
-        <p class="margin-bottom-40">“${6:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur.}”</p>\r
-        <div class="testimonial-title">\r
-        <span class="title-img">[img src="http://placehold.it/57x57" style="circle" class="aligncenter"]</span>\r
-        <span class="title-text">${7:Full Name}<br>${8:Position}/${9:Company}</span>\r
-        </div>\r
-        </div>\r
-        [/column]\r
-        [column span="6" class="col-md-offset-1 partner-icon margin-bottom-20"]\r
-        [partners group="top-4" layout="list" image_size="col-md-3"]\r
-        [/column]\r
-        [/row]\r
+        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [row]
+        [column span="12"]
+        <h1 class="font-60 uppercase">${1:Our Partner}</h1>
+        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        [/column]
+        [/row]
+        [/segment]
+        
+        [segment tag="section" style="1" spacing="huge" class="partner-design-c"]
+        [row]
+        [column span="5"]
+        <h2 class="font-38 margin-bottom-20 sm-text-center">${3:We work with}</h2>
+        <p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula et tellus nec.}</p>
+        <p>${5:Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.}</p>
+        [img src="http://placehold.it/454x220" class="aligncenter"]
+        <div class="partner-testimonial">
+        <p class="margin-bottom-40">“${6:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur.}”</p>
+        <div class="testimonial-title">
+        <span class="title-img">[img src="http://placehold.it/57x57" style="circle" class="aligncenter"]</span>
+        <span class="title-text">${7:Full Name}<br>${8:Position}/${9:Company}</span>
+        </div>
+        </div>
+        [/column]
+        [column span="6" class="col-md-offset-1 partner-icon margin-bottom-20"]
+        [partners group="top-4" layout="list" image_size="col-md-3"]
+        [/column]
+        [/row]
         [/segment]
 
 - trigger: PARTNER-INNER-D
@@ -9652,37 +9652,37 @@
   scope: html
   mTime: 1481542501346
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]\r
-        [row]\r
-        [column span="12"]\r
-        <h1 class="font-60 uppercase">${1:Our Partner}</h1>\r
-        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>\r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        [segment tag="section" style="1" spacing="huge" class="partner-design-d"]\r
-        [row class="margin-bottom-60"]\r
-        [column span="6"]\r
-        <p>${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>\r
-        [/column]\r
-        [column span="6"]\r
-        <p>${4:Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>\r
-        [/column]\r
-        [/row]\r
-        \r
-        [row]\r
-        [column span="12"]\r
-        [partners group="top-8" layout="popover" image_size="col-md-3"]\r
-        [/column]\r
-        [/row]\r
-        \r
-        [row class="well well-large margin-top-60"]\r
-        [column span="12"]\r
-        <h2 class="font-24 text-center">${5:Other Partner}</h2>\r
-        [partners_carousel group="client-partners" layout="popover" per_slide="6" image_style="thumbnail" image_size="col-md-2" speed="7" show_nav="true"]\r
-        [/column]\r
-        [/row]\r
+        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [row]
+        [column span="12"]
+        <h1 class="font-60 uppercase">${1:Our Partner}</h1>
+        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        [/column]
+        [/row]
+        [/segment]
+        
+        [segment tag="section" style="1" spacing="huge" class="partner-design-d"]
+        [row class="margin-bottom-60"]
+        [column span="6"]
+        <p>${3:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>
+        [/column]
+        [column span="6"]
+        <p>${4:Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>
+        [/column]
+        [/row]
+        
+        [row]
+        [column span="12"]
+        [partners group="top-8" layout="popover" image_size="col-md-3"]
+        [/column]
+        [/row]
+        
+        [row class="well well-large margin-top-60"]
+        [column span="12"]
+        <h2 class="font-24 text-center">${5:Other Partner}</h2>
+        [partners_carousel group="client-partners" layout="popover" per_slide="6" image_style="thumbnail" image_size="col-md-2" speed="7" show_nav="true"]
+        [/column]
+        [/row]
         [/segment]
 
 - trigger: CONTACT-INNER-A
@@ -9690,42 +9690,42 @@
   scope: html
   mTime: 1481542773004
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]\r
-        [row]\r
-        [column span="12"]\r
-        <h1 class="font-60 uppercase">${1:Contact Us}</h1>\r
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>\r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        [segment tag="section" style="1" spacing="huge" class="contact-us-design-a"]\r
-        [row]\r
-        [column span="6"]\r
-        <h2 class="font-38">${3:Get In Touch!}</h2>\r
-        <p class="margin-bottom-40">${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus}</p>\r
-        <div class="contact-form">\r
-        [gravityform id="${5:1}" title="false" description="false" tabindex="50"]\r
-        </div>\r
-        [/column]\r
-        [column span="6" class="margin-top-20"]\r
-        [location location_id="1647 - Pronto" show_map="1" layout="vertical"]\r
-        <div class="contact-title">\r
-        <h2 class="font-24">${6:Contact Info}</h2>\r
-        </div>\r
-        <div class="row">\r
-        <div class="col-md-6 col-sm-6">\r
-        [location location_id="1647 - Pronto" show_icon="1" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" show_primary_phone="1" primary_phone_text=" " show_fax="1" show_email= "1"  layout="vertical"]\r
-        \r
-        </div>\r
-        <div class="col-md-6 col-sm-6">\r
-        <div class="social-footer pull-right xs-float-none">\r
-        <a href="${7:#}">[icon_stack icon_base="circle" icon="facebook" size="1x" icon_light="true" class="ico-facebook"]</a><a href="${8:#}">[icon_stack icon_base="circle" icon="twitter" size="1x" icon_light="true"  class="ico-twitter"]</a><a href="${9:#}">[icon_stack icon_base="circle" icon="google-plus" size="1x" icon_light="true" class="ico-google-plus"]</a><a href="${10:#}">[icon_stack icon_base="circle" icon="linkedin" size="1x" icon_light="true"  class="ico-linkedin"]</a>\r
-        </div>\r
-        </div>\r
-        \r
-        [/column]\r
-        [/row]\r
+        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [row]
+        [column span="12"]
+        <h1 class="font-60 uppercase">${1:Contact Us}</h1>
+        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        [/column]
+        [/row]
+        [/segment]
+        
+        [segment tag="section" style="1" spacing="huge" class="contact-us-design-a"]
+        [row]
+        [column span="6"]
+        <h2 class="font-38">${3:Get In Touch!}</h2>
+        <p class="margin-bottom-40">${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus}</p>
+        <div class="contact-form">
+        [gravityform id="${5:1}" title="false" description="false" tabindex="50"]
+        </div>
+        [/column]
+        [column span="6" class="margin-top-20"]
+        [location location_id="1647 - Pronto" show_map="1" layout="vertical"]
+        <div class="contact-title">
+        <h2 class="font-24">${6:Contact Info}</h2>
+        </div>
+        <div class="row">
+        <div class="col-md-6 col-sm-6">
+        [location location_id="1647 - Pronto" show_icon="1" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" show_primary_phone="1" primary_phone_text=" " show_fax="1" show_email= "1"  layout="vertical"]
+        
+        </div>
+        <div class="col-md-6 col-sm-6">
+        <div class="social-footer pull-right xs-float-none">
+        <a href="${7:#}">[icon_stack icon_base="circle" icon="facebook" size="1x" icon_light="true" class="ico-facebook"]</a><a href="${8:#}">[icon_stack icon_base="circle" icon="twitter" size="1x" icon_light="true"  class="ico-twitter"]</a><a href="${9:#}">[icon_stack icon_base="circle" icon="google-plus" size="1x" icon_light="true" class="ico-google-plus"]</a><a href="${10:#}">[icon_stack icon_base="circle" icon="linkedin" size="1x" icon_light="true"  class="ico-linkedin"]</a>
+        </div>
+        </div>
+        
+        [/column]
+        [/row]
         [/segment]
 
 - trigger: CONTACT-INNER-B
@@ -9733,42 +9733,42 @@
   scope: html
   mTime: 1481542953842
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner sm-text-center"]\r
-        [row]\r
-        [column span="10" class="col-md-offset-1"]\r
-        <h1 class="font-60 uppercase">${1:Contact Us}</h1>\r
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>\r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        [segment tag="section" style="1" spacing="huge" class="contact-us-design-b"]\r
-        [row]\r
-        \r
-        [column span="3" class="col-md-offset-1 sm-text-center"]\r
-        <h2 class="font-38 margin-bottom-40">${3:Contact Info}</h2>\r
-        \r
-        [location location_id="1647 - Pronto" show_icon="1" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" show_primary_phone="1" primary_phone_text=" " show_fax="1" show_email= "1"  layout="vertical"]\r
-        \r
-        <div class="social-media">\r
-        <h2 class="font-18 margin-bottom-20">Social Media</h2>\r
-        <a href="${4:#}">[icon type="facebook" size="2x" color="default"]</a><a href="${5:#}">[icon type="twitter" size="2x" color="default"]</a><a href="${6:#}">[icon type="instagram" size="2x" color="default"]</a><a href="${7:#}">[icon type="google-plus" size="2x" color="default"]</a><a href="${8:#}">[icon type="pinterest" size="2x" color="default"]</a>\r
-        </div>\r
-        \r
-        <h2 class="font-18 margin-bottom-20">Map</h2>\r
-        [location location_id="1647 - Pronto" show_map="1" layout="vertical"]\r
-        \r
-        [/column]\r
-        \r
-        [column span="6" class="col-md-offset-1"]\r
-        <h2 class="font-38 sm-text-center">${9:Get In Touch!}</h2>\r
-        <p class="margin-bottom-40">${10:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus}</p>\r
-        <div class="contact-form">\r
-        [gravityform id="${11:1}" title="false" description="false" tabindex="50"]\r
-        </div>\r
-        [/column]\r
-        \r
-        [/row]\r
+        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner sm-text-center"]
+        [row]
+        [column span="10" class="col-md-offset-1"]
+        <h1 class="font-60 uppercase">${1:Contact Us}</h1>
+        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        [/column]
+        [/row]
+        [/segment]
+        
+        [segment tag="section" style="1" spacing="huge" class="contact-us-design-b"]
+        [row]
+        
+        [column span="3" class="col-md-offset-1 sm-text-center"]
+        <h2 class="font-38 margin-bottom-40">${3:Contact Info}</h2>
+        
+        [location location_id="1647 - Pronto" show_icon="1" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" show_primary_phone="1" primary_phone_text=" " show_fax="1" show_email= "1"  layout="vertical"]
+        
+        <div class="social-media">
+        <h2 class="font-18 margin-bottom-20">Social Media</h2>
+        <a href="${4:#}">[icon type="facebook" size="2x" color="default"]</a><a href="${5:#}">[icon type="twitter" size="2x" color="default"]</a><a href="${6:#}">[icon type="instagram" size="2x" color="default"]</a><a href="${7:#}">[icon type="google-plus" size="2x" color="default"]</a><a href="${8:#}">[icon type="pinterest" size="2x" color="default"]</a>
+        </div>
+        
+        <h2 class="font-18 margin-bottom-20">Map</h2>
+        [location location_id="1647 - Pronto" show_map="1" layout="vertical"]
+        
+        [/column]
+        
+        [column span="6" class="col-md-offset-1"]
+        <h2 class="font-38 sm-text-center">${9:Get In Touch!}</h2>
+        <p class="margin-bottom-40">${10:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus}</p>
+        <div class="contact-form">
+        [gravityform id="${11:1}" title="false" description="false" tabindex="50"]
+        </div>
+        [/column]
+        
+        [/row]
         [/segment]
 
 - trigger: CONTACT-INNER-C
@@ -9776,53 +9776,53 @@
   scope: html
   mTime: 1481543057308
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]\r
-        [row]\r
-        [column span="12"]\r
-        <h1 class="font-60 uppercase">${1:Contact Us}</h1>\r
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>\r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        \r
-        [segment tag="section" style="1" spacing="huge" class="contact-us-design-c"]\r
-        [row]\r
-        [column span="8" class="col-md-offset-2"]\r
-        [well class="well-form"]\r
-        <h2 class="font-38 text-center">${3:Get In Touch!}</h2>\r
-        <p class="margin-bottom-40 text-center">${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus}</p>\r
-        <div class="contact-form">\r
-        [gravityform id="${5:1}" title="false" description="false" tabindex="50"]\r
-        </div>\r
-        [/well]\r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        [segment tag="section" style="4" spacing="mini" class="contact-us-map-design-c"]\r
-        [row]\r
-        \r
-        [column span="6" class="sm-text-center contact-maps"]\r
-        \r
-        [location location_id="1647 - Pronto" show_map="1" layout="vertical"]\r
-        \r
-        [/column]\r
-        \r
-        [column span="6" class="contact-blocks"]\r
-        <div class="contact-block contact-black text-center">\r
-        <h2 class="font-38">${6:Contact Info}</h2>\r
-        [location location_id="1848 - Pronto Full" show_address="1" show_state="1" show_country="1" show_zipcode="1" layout="vertical"]\r
-        </div>\r
-        <div class="contact-block contact-phone col-md-6 col-sm-6">\r
-        [location location_id="1848 - Pronto Full" show_icon="1" show_primary_phone="1" primary_phone_text=" "  show_fax="1" show_email="1"  layout="vertical"]\r
-        <div class="social-media">\r
-        <a href="${7:#}">[icon type="facebook" size="2x" color="default"]</a><a href="${8:#}">[icon type="twitter" size="2x" color="default"]</a><a href="${9:#}">[icon type="instagram" size="2x" color="default"]</a><a href="${10:#}">[icon type="google-plus" size="2x" color="default"]</a><a href="${11:#}">[icon type="pinterest" size="2x" color="default"]</a>\r
-        </div>\r
-        </div>\r
-        <div class="contact-block contact-bg col-md-6 col-sm-6"></div>\r
-        [/column]\r
-        [/row]\r
+        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [row]
+        [column span="12"]
+        <h1 class="font-60 uppercase">${1:Contact Us}</h1>
+        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        [/column]
+        [/row]
+        [/segment]
+        
+        
+        [segment tag="section" style="1" spacing="huge" class="contact-us-design-c"]
+        [row]
+        [column span="8" class="col-md-offset-2"]
+        [well class="well-form"]
+        <h2 class="font-38 text-center">${3:Get In Touch!}</h2>
+        <p class="margin-bottom-40 text-center">${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus}</p>
+        <div class="contact-form">
+        [gravityform id="${5:1}" title="false" description="false" tabindex="50"]
+        </div>
+        [/well]
+        [/column]
+        [/row]
+        [/segment]
+        
+        [segment tag="section" style="4" spacing="mini" class="contact-us-map-design-c"]
+        [row]
+        
+        [column span="6" class="sm-text-center contact-maps"]
+        
+        [location location_id="1647 - Pronto" show_map="1" layout="vertical"]
+        
+        [/column]
+        
+        [column span="6" class="contact-blocks"]
+        <div class="contact-block contact-black text-center">
+        <h2 class="font-38">${6:Contact Info}</h2>
+        [location location_id="1848 - Pronto Full" show_address="1" show_state="1" show_country="1" show_zipcode="1" layout="vertical"]
+        </div>
+        <div class="contact-block contact-phone col-md-6 col-sm-6">
+        [location location_id="1848 - Pronto Full" show_icon="1" show_primary_phone="1" primary_phone_text=" "  show_fax="1" show_email="1"  layout="vertical"]
+        <div class="social-media">
+        <a href="${7:#}">[icon type="facebook" size="2x" color="default"]</a><a href="${8:#}">[icon type="twitter" size="2x" color="default"]</a><a href="${9:#}">[icon type="instagram" size="2x" color="default"]</a><a href="${10:#}">[icon type="google-plus" size="2x" color="default"]</a><a href="${11:#}">[icon type="pinterest" size="2x" color="default"]</a>
+        </div>
+        </div>
+        <div class="contact-block contact-bg col-md-6 col-sm-6"></div>
+        [/column]
+        [/row]
         [/segment]
 
 - scope: html
@@ -9830,58 +9830,58 @@
   description: Innerpage Contact - Design D
   mTime: 1481543195406
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]\r
-        [row]\r
-        [column span="12"]\r
-        <h1 class="font-60 uppercase">${1:Contact Us}</h1>\r
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>\r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        \r
-        [segment tag="section" style="1" spacing="huge" class="contact-us-design-d"]\r
-        [row]\r
-        [column span="6" class="contact-block contact-map"]\r
-        [location location_id="1848 - Pronto Full" show_map="1" layout="vertical"]\r
-        \r
-        [/column]\r
-        [column span="6" class="contact-block contact-black"]\r
-        <div class="contact-info">\r
-        <h2 class="font-38">${3:Contact Info}</h2>\r
-        <div class="contact-address">\r
-        [location location_id="1848 - Pronto Full" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" layout="vertical"]\r
-        </div>\r
-        <div class="contact-phone">\r
-        [location location_id="1848 - Pronto Full" show_primary_phone="1" primary_phone_text="Phone: " show_fax="1" show_email="1" layout="vertical"]\r
-        </div>\r
-        <div class="social-media">\r
-        <a href="${4:#}">[icon type="facebook" size="2x" color="default"]</a><a href="${5:#}">[icon type="twitter" size="2x" color="default"]</a><a href="${6:#}">[icon type="instagram" size="2x" color="default"]</a><a href="${7:#}">[icon type="google-plus" size="2x" color="default"]</a><a href="${8:#}">[icon type="pinterest" size="2x" color="default"]</a>\r
-        </div>\r
-        </div>\r
-        [/column]\r
-        [/row]\r
-        \r
-        [row class="bottom-address"]\r
-        [column span="6" class="col-md-offset-1"]\r
-        <h2 class="font-38">${9:Get In Touch!}</h2>\r
-        <p class="margin-bottom-40">${10:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus}</p>\r
-        <div class="contact-form">\r
-        [gravityform id="${11:1}" title="false" description="false" tabindex="50"]\r
-        </div>\r
-        [/column]\r
-        [column span="3" class="col-md-offset-1"]\r
-        <h2 class="font-24">${12:Address 2}<h2>\r
-        [location location_id="1647 - Pronto" show_icon="1" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" show_primary_phone="1" primary_phone_text=""   layout="vertical"]\r
-        [location location_id="1647 - Pronto"  show_map="1" layout="vertical"]\r
-        <hr>\r
-        \r
-        <h2 class="font-24">${13:Address 3}<h2>\r
-        [location location_id="1647 - Pronto" show_icon="1" show_icon="1" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" show_primary_phone="1" primary_phone_text="" layout="vertical"]\r
-        [location location_id="18 - E-commerce Hybrid" show_map="1" layout="vertical"]\r
-        [/column]\r
-        [/row]\r
-        \r
+        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [row]
+        [column span="12"]
+        <h1 class="font-60 uppercase">${1:Contact Us}</h1>
+        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        [/column]
+        [/row]
+        [/segment]
+        
+        
+        [segment tag="section" style="1" spacing="huge" class="contact-us-design-d"]
+        [row]
+        [column span="6" class="contact-block contact-map"]
+        [location location_id="1848 - Pronto Full" show_map="1" layout="vertical"]
+        
+        [/column]
+        [column span="6" class="contact-block contact-black"]
+        <div class="contact-info">
+        <h2 class="font-38">${3:Contact Info}</h2>
+        <div class="contact-address">
+        [location location_id="1848 - Pronto Full" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" layout="vertical"]
+        </div>
+        <div class="contact-phone">
+        [location location_id="1848 - Pronto Full" show_primary_phone="1" primary_phone_text="Phone: " show_fax="1" show_email="1" layout="vertical"]
+        </div>
+        <div class="social-media">
+        <a href="${4:#}">[icon type="facebook" size="2x" color="default"]</a><a href="${5:#}">[icon type="twitter" size="2x" color="default"]</a><a href="${6:#}">[icon type="instagram" size="2x" color="default"]</a><a href="${7:#}">[icon type="google-plus" size="2x" color="default"]</a><a href="${8:#}">[icon type="pinterest" size="2x" color="default"]</a>
+        </div>
+        </div>
+        [/column]
+        [/row]
+        
+        [row class="bottom-address"]
+        [column span="6" class="col-md-offset-1"]
+        <h2 class="font-38">${9:Get In Touch!}</h2>
+        <p class="margin-bottom-40">${10:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus}</p>
+        <div class="contact-form">
+        [gravityform id="${11:1}" title="false" description="false" tabindex="50"]
+        </div>
+        [/column]
+        [column span="3" class="col-md-offset-1"]
+        <h2 class="font-24">${12:Address 2}<h2>
+        [location location_id="1647 - Pronto" show_icon="1" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" show_primary_phone="1" primary_phone_text=""   layout="vertical"]
+        [location location_id="1647 - Pronto"  show_map="1" layout="vertical"]
+        <hr>
+        
+        <h2 class="font-24">${13:Address 3}<h2>
+        [location location_id="1647 - Pronto" show_icon="1" show_icon="1" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" show_primary_phone="1" primary_phone_text="" layout="vertical"]
+        [location location_id="18 - E-commerce Hybrid" show_map="1" layout="vertical"]
+        [/column]
+        [/row]
+        
         [/segment]
 
 - trigger: CONTACT-INNER-E
@@ -9889,61 +9889,61 @@
   scope: html
   mTime: 1481543394978
   text: |
-        <div class="contact-map">\r
-        [location location_id="1647 - Pronto" show_map="1" layout="vertical"]\r
-        </div>\r
-        \r
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="small" class="text-center"]\r
-        [row]\r
-        [column span="12"]\r
-        <h1 class="font-60">${1:Contact Us Today}</h1>\r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        \r
-        [segment tag="section" style="1" spacing="huge" class="contact-us-design-e"]\r
-        [row]\r
-        [column span="4" class="col-md-offset-1 col-sm-6"]\r
-        <div class="contact-block contact-address">\r
-        <h2 class="font-38">${2:Address}</h2>\r
-        [location location_id="1647 - Pronto" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" layout="vertical"]\r
-        </div>\r
-        <hr>\r
-        <div class="contact-block contact-phone">\r
-        <h2 class="font-38">${3:Call/Fax}</h2>\r
-        [location location_id="1647 - Pronto"  show_icon="1" show_primary_phone="1" primary_phone_text="Phone: " show_fax="1" layout="vertical"]\r
-        </div>\r
-        \r
-        \r
-        [/column]\r
-        [column span="4" class="col-md-offset-2 col-sm-6"]\r
-        <div class="contact-block contact-hours">\r
-        <h2 class="font-38">${4:Hours}</h2>\r
-        <p><strong>Monday-Friday:</strong> ${5:9am}-${6:7pm}<br><strong>Weekends:</strong> ${7:10am}-${8:6pm}</p>\r
-        </div>\r
-        <hr>\r
-        <div class="contact-block contact-email">\r
-        <h2 class="font-38">${9:Email/Social}</h2>\r
-        [location location_id="1647 - Pronto" show_icon="1" primary_phone_text="Phone: " show_email="1" layout="vertical"]\r
-        <div class="social-media">\r
-        <a href="${10:#}">[icon type="facebook" size="2x" color="default"]</a><a href="${11:#}">[icon type="twitter" size="2x" color="default"]</a><a href="${12:#}">[icon type="instagram" size="2x" color="default"]</a><a href="${13:#}">[icon type="google-plus" size="2x" color="default"]</a><a href="${14:#}">[icon type="pinterest" size="2x" color="default"]</a>\r
-        </div>\r
-        </div>\r
-        \r
-        [/column]\r
-        [/row]\r
-        [/segment]\r
-        \r
-        [segment tag="section" style="2" spacing="huge" class="contact-us-design-e"]\r
-        [row]\r
-        [column span="6" class="col-md-offset-3"]\r
-        <h2 class="font-38 text-center">${15:Get In Touch!}</h2>\r
-        <p class="margin-bottom-40 text-center">${16:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus}</p>\r
-        <div class="contact-form">\r
-        [gravityform id="${17:1}" title="false" description="false" tabindex="50"]\r
-        </div>\r
-        [/column]\r
-        [/row]\r
+        <div class="contact-map">
+        [location location_id="1647 - Pronto" show_map="1" layout="vertical"]
+        </div>
+        
+        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="small" class="text-center"]
+        [row]
+        [column span="12"]
+        <h1 class="font-60">${1:Contact Us Today}</h1>
+        [/column]
+        [/row]
+        [/segment]
+        
+        
+        [segment tag="section" style="1" spacing="huge" class="contact-us-design-e"]
+        [row]
+        [column span="4" class="col-md-offset-1 col-sm-6"]
+        <div class="contact-block contact-address">
+        <h2 class="font-38">${2:Address}</h2>
+        [location location_id="1647 - Pronto" show_address="1" show_city="1" show_state="1" show_country="1" show_zipcode="1" layout="vertical"]
+        </div>
+        <hr>
+        <div class="contact-block contact-phone">
+        <h2 class="font-38">${3:Call/Fax}</h2>
+        [location location_id="1647 - Pronto"  show_icon="1" show_primary_phone="1" primary_phone_text="Phone: " show_fax="1" layout="vertical"]
+        </div>
+        
+        
+        [/column]
+        [column span="4" class="col-md-offset-2 col-sm-6"]
+        <div class="contact-block contact-hours">
+        <h2 class="font-38">${4:Hours}</h2>
+        <p><strong>Monday-Friday:</strong> ${5:9am}-${6:7pm}<br><strong>Weekends:</strong> ${7:10am}-${8:6pm}</p>
+        </div>
+        <hr>
+        <div class="contact-block contact-email">
+        <h2 class="font-38">${9:Email/Social}</h2>
+        [location location_id="1647 - Pronto" show_icon="1" primary_phone_text="Phone: " show_email="1" layout="vertical"]
+        <div class="social-media">
+        <a href="${10:#}">[icon type="facebook" size="2x" color="default"]</a><a href="${11:#}">[icon type="twitter" size="2x" color="default"]</a><a href="${12:#}">[icon type="instagram" size="2x" color="default"]</a><a href="${13:#}">[icon type="google-plus" size="2x" color="default"]</a><a href="${14:#}">[icon type="pinterest" size="2x" color="default"]</a>
+        </div>
+        </div>
+        
+        [/column]
+        [/row]
+        [/segment]
+        
+        [segment tag="section" style="2" spacing="huge" class="contact-us-design-e"]
+        [row]
+        [column span="6" class="col-md-offset-3"]
+        <h2 class="font-38 text-center">${15:Get In Touch!}</h2>
+        <p class="margin-bottom-40 text-center">${16:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus}</p>
+        <div class="contact-form">
+        [gravityform id="${17:1}" title="false" description="false" tabindex="50"]
+        </div>
+        [/column]
+        [/row]
         [/segment]
 
