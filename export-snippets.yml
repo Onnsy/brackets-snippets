@@ -984,7 +984,9 @@
         }
         
         .panel-a .panel-heading .heading {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -998,7 +1000,9 @@
         }
         
         .panel-a .panel-heading .heading .text {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -1324,7 +1328,9 @@
         }
         
         .service-masthead .row {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -1358,7 +1364,9 @@
         }
         
         .service .heading {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -1382,7 +1390,9 @@
         }
         
         .service-2 .well {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -1593,7 +1603,9 @@
         }
         
         .service-masthead .row {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -1627,7 +1639,9 @@
         }
         
         .service .heading {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -1651,7 +1665,9 @@
         }
         
         .service-2 .well {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -1853,7 +1869,9 @@
         }
         
         .service-masthead .row {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -1887,7 +1905,9 @@
         }
         
         .service .heading {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -1911,7 +1931,9 @@
         }
         
         .service-2 .well {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -2080,7 +2102,9 @@
         }
         
         .service-masthead .row {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -2141,7 +2165,9 @@
         }
         
         .service .heading {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -2165,7 +2191,9 @@
         }
         
         .service-2 .well {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -2425,7 +2453,9 @@
         }
         
         .panel-a .panel-heading .heading {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -2439,7 +2469,9 @@
         }
         
         .panel-a .panel-heading .heading .text {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -2556,7 +2588,9 @@
         }
         
         .service .heading {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -2580,7 +2614,9 @@
         }
         
         .service-2 .well {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -3006,7 +3042,9 @@
         }
         
         .panel-a .panel-heading .heading {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -3020,7 +3058,9 @@
         }
         
         .panel-a .panel-heading .heading .text {
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           display: -webkit-box;
           display: -moz-box;
           display: -ms-flexbox;
@@ -3897,7 +3937,9 @@
             display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
             display: -ms-flexbox;  /* TWEENER - IE 10 */
             display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
         
         .well-white {
@@ -4108,7 +4150,9 @@
         
         
         .testimonial-title {
-            align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */    
             display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
             display: -ms-flexbox;  /* TWEENER - IE 10 */
@@ -4941,7 +4985,9 @@
           display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
           display: -ms-flexbox;  /* TWEENER - IE 10 */
           display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-          align-items: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
           padding: 20px 120px;
         }
         
