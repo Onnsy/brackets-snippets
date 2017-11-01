@@ -556,26 +556,26 @@
             font-size: 1.2em;
         }
         .team-01 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-02 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-03 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-04 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-05 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-06 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         
         .skill-banner {
-            background: rgba(0, 0, 0, 0) url("http://placehold.it/1140x480") no-repeat scroll center center / cover ;
+            background: rgba(0, 0, 0, 0) url("https://placehold.it/1140x480") no-repeat scroll center center / cover ;
             min-height: 480px;
             padding: 60px;
         }
@@ -941,22 +941,22 @@
             font-size: 1.2em;
         }
         .team-01 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-02 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-03 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-04 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-05 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-06 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         
         
@@ -1198,28 +1198,28 @@
             font-size: 1.2em;
         }
         .team-01 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-02 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-03 {
-             background-image: url("http://placehold.it/298x372");
+             background-image: url("https://placehold.it/298x372");
         }
         .team-04 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-05 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-06 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-07 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-08 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         
         /* Services list */
@@ -1727,7 +1727,7 @@
         }
         
         .well-bg {
-            background: rgba(0, 0, 0, 0) url("http://placehold.it/1140x250") no-repeat scroll 0 0 / cover ;
+            background: rgba(0, 0, 0, 0) url("https://placehold.it/1140x250") no-repeat scroll 0 0 / cover ;
             padding: 50px 60px;
             margin: 40px 0;
         }
@@ -1986,7 +1986,7 @@
         }
         
         .well-bg {
-            background: rgba(0, 0, 0, 0) url("http://placehold.it/1140x250") no-repeat scroll 0 0 / cover ;
+            background: rgba(0, 0, 0, 0) url("https://placehold.it/1140x250") no-repeat scroll 0 0 / cover ;
             padding: 65px 80px;
         }
         
@@ -2940,7 +2940,7 @@
         }
         
         .service-bg{
-            background: url("http://placehold.it/900x518") no-repeat center center;
+            background: url("https://placehold.it/900x518") no-repeat center center;
             background-size: cover;
         }
         
@@ -3247,10 +3247,10 @@
         }
         
         .our-service {
-            background: rgba(0, 0, 0, 0) url("http://placehold.it/900x448") no-repeat scroll center top / cover ;
+            background: rgba(0, 0, 0, 0) url("https://placehold.it/900x448") no-repeat scroll center top / cover ;
         }
         .our-products {
-            background: rgba(0, 0, 0, 0) url("http://placehold.it/900x448") repeat scroll center bottom / cover;
+            background: rgba(0, 0, 0, 0) url("https://placehold.it/900x448") repeat scroll center bottom / cover;
         }
         .full-width .col-md-6 > div {
             max-width: 55%;
@@ -3323,22 +3323,22 @@
             margin: 5px 8px;
         }
         .team-01 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-02 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-03 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-04 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-05 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-06 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         
         /* Partner */
@@ -3573,22 +3573,22 @@
             font-size: 1.2em;
         }
         .team-01 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-02 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-03 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-04 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-05 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-06 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         
         /* Partner */
@@ -3753,7 +3753,7 @@
         }
         
         .our-vision-bg{
-            background: url("http://placehold.it/900x450") no-repeat center center;
+            background: url("https://placehold.it/900x450") no-repeat center center;
             background-size: cover;
         }
         
@@ -3801,22 +3801,22 @@
             margin: 5px 8px;
         }
         .team-01 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-02 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-03 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-04 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-05 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         .team-06 {
-            background-image: url("http://placehold.it/298x372");
+            background-image: url("https://placehold.it/298x372");
         }
         
         /* Partner */
@@ -7120,7 +7120,7 @@
   trigger: Our-Team-inner-D
   mTime: 1478442542060
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:Meet The Team}</h1>
@@ -7134,7 +7134,7 @@
         [column span="6" class=""]
         <div class="row margin-vertical-20 xs-no-margin-top xs-no-margin-bottom">
         <div class="col-md-6 sm-text-center col-sm-5">
-        [img src="http://placehold.it/358x452" class="aligncenter"]
+        [img src="https://placehold.it/358x452" class="aligncenter"]
         </div>
         <div class="col-md-6 col-sm-7">
         <h3 class="margin-bottom-0 font-38 sm-line-height">Lorem Ipsum</h3>
@@ -7153,7 +7153,7 @@
         [column span="6" class=""]
         <div class="row margin-vertical-20 xs-no-margin-top xs-no-margin-bottom">
         <div class="col-md-6 sm-text-center col-sm-5">
-        [img src="http://placehold.it/358x452" class="aligncenter"]
+        [img src="https://placehold.it/358x452" class="aligncenter"]
         </div>
         <div class="col-md-6 col-sm-7">
         <h3 class="margin-bottom-0 font-38 sm-line-height">Lorem Ipsum</h3>
@@ -7297,11 +7297,11 @@
         [segment tag="section" style="2" spacing="large" class="overflow-hidden"]
         [row class="about-us-partner"]
         [column span="12" class=""]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
         [/column]
         [/row]
         [/segment]
@@ -7311,7 +7311,7 @@
   description: Innerpage Our Team Design C
   mTime: 1478442099766
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:Meet The Team}</h1>
@@ -7323,7 +7323,7 @@
         [segment tag="section" style="1" spacing="huge" class="members"]
         [row]
         [column span="3" class="xs-text-center col-sm-4 margin-bottom-40"]
-        [img src="http://placehold.it/298x372" class="aligncenter"]
+        [img src="https://placehold.it/298x372" class="aligncenter"]
         <h3 class="font-24 margin-bottom-0 sm-line-height">${3:Lorem Ipsum}</h3>
         <h4 class="font-18 margin-0">${4:Founder}</h4>
         <div class="info-socials">
@@ -7335,7 +7335,7 @@
         <p>${5:Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</p>
         [/column]
         [column span="3" class="xs-text-center col-sm-4 margin-bottom-40"]
-        [img src="http://placehold.it/298x372" class="aligncenter"]
+        [img src="https://placehold.it/298x372" class="aligncenter"]
         <h3 class="font-24 margin-bottom-0 sm-line-height">${6:Lorem Ipsum}</h3>
         <h4 class="font-18 margin-0">${7:Co Founder}</h4>
         <div class="info-socials">
@@ -7347,7 +7347,7 @@
         <p>${8:Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</p>
         [/column]
         [column span="3" class="xs-text-center col-sm-4 margin-bottom-40"]
-        [img src="http://placehold.it/298x372" class="aligncenter"]
+        [img src="https://placehold.it/298x372" class="aligncenter"]
         <h3 class="font-24 margin-bottom-0 sm-line-height">Lorem Ipsum</h3>
         <h4 class="font-18 margin-0">Position</h4>
         <div class="info-socials">
@@ -7359,7 +7359,7 @@
         <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         [/column]
         [column span="3" class="xs-text-center col-sm-4 margin-bottom-40"]
-        [img src="http://placehold.it/298x372" class="aligncenter"]
+        [img src="https://placehold.it/298x372" class="aligncenter"]
         <h3 class="font-24 margin-bottom-0 sm-line-height">Lorem Ipsum</h3>
         <h4 class="font-18 margin-0">Position</h4>
         <div class="info-socials">
@@ -7372,7 +7372,7 @@
         [/column]
         
         [column span="3" class="xs-text-center col-sm-4 margin-bottom-40"]
-        [img src="http://placehold.it/298x372" class="aligncenter"]
+        [img src="https://placehold.it/298x372" class="aligncenter"]
         <h3 class="font-24 margin-bottom-0 sm-line-height">Lorem Ipsum</h3>
         <h4 class="font-18 margin-0">Position</h4>
         <div class="info-socials">
@@ -7384,7 +7384,7 @@
         <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         [/column]
         [column span="3" class="xs-text-center col-sm-4 margin-bottom-40"]
-        [img src="http://placehold.it/298x372" class="aligncenter"]
+        [img src="https://placehold.it/298x372" class="aligncenter"]
         <h3 class="font-24 margin-bottom-0 sm-line-height">Lorem Ipsum</h3>
         <h4 class="font-18 margin-0">Position</h4>
         <div class="info-socials">
@@ -7396,7 +7396,7 @@
         <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         [/column]
         [column span="3" class="xs-text-center col-sm-4 margin-bottom-40"]
-        [img src="http://placehold.it/298x372" class="aligncenter"]
+        [img src="https://placehold.it/298x372" class="aligncenter"]
         <h3 class="font-24 margin-bottom-0 sm-line-height">Lorem Ipsum</h3>
         <h4 class="font-18 margin-0">Position</h4>
         <div class="info-socials">
@@ -7408,7 +7408,7 @@
         <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         [/column]
         [column span="3" class="xs-text-center col-sm-4 margin-bottom-40"]
-        [img src="http://placehold.it/298x372" class="aligncenter"]
+        [img src="https://placehold.it/298x372" class="aligncenter"]
         <h3 class="font-24 margin-bottom-0 sm-line-height">Lorem Ipsum</h3>
         <h4 class="font-18 margin-0">Position</h4>
         <div class="info-socials">
@@ -7423,7 +7423,7 @@
         [/segment]
         
         
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x700" bgrepeat="no-repeat" bgposition="top center" bgattachment="scroll" bgsize="cover" spacing="huge" class="our-skill"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x700" bgrepeat="no-repeat" bgposition="top center" bgattachment="scroll" bgsize="cover" spacing="huge" class="our-skill"]
         [row class=""]
         [column span="8" class="col-md-offset-2 text-center"]
         <h2 class="font-38">${9:Our Skill}</h2>
@@ -7483,11 +7483,11 @@
         [segment tag="section" style="1" spacing="large" class="overflow-hidden"]
         [row class="about-us-partner"]
         [column span="12" class=""]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
         [/column]
         [/row]
         [/segment]
@@ -7497,7 +7497,7 @@
   description: Innerpage Our Team Design B
   mTime: 1478441473930
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:Meet The Team}</h1>
@@ -7509,7 +7509,7 @@
         [segment tag="section" style="1" spacing="huge" class=""]
         [row class="margin-vertical-20 xs-no-margin-top xs-no-margin-bottom flex-section"]
         [column span="4" class="sm-text-center col-sm-5"]
-        [img src="http://placehold.it/358x452 class="aligncenter"]
+        [img src="https://placehold.it/358x452" class="aligncenter"]
         [/column]
         [column span="6" class="col-md-offset-1 xs-text-center col-sm-7"]
         <h3 class="margin-bottom-0 font-38 sm-line-height">${3:Lorem Ipsum}</h3>
@@ -7533,7 +7533,7 @@
         
         [row class="margin-vertical-20 xs-no-margin-top xs-no-margin-bottom flex-section"]
         [column span="4" class="col-md-push-8 col-sm-push-7 col-sm-5"]
-        [img src="http://placehold.it/358x452 class="aligncenter"]
+        [img src="https://placehold.it/358x452 class="aligncenter"]
         [/column]
         [column span="6" class="col-md-pull-3 col-sm-pull-5 xs-text-center col-sm-7"]
         <h3 class="margin-bottom-0 font-38 sm-line-height">${6:Lorem Ipsum}</h3>
@@ -7620,7 +7620,7 @@
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordions-hs" href="#accordions-hs-group-1">
         <div class="heading">
         <div class="icon">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         </div>
         <div class="text">
         <h3 class="font-24 accent2">${12:Skill A}</h3><i class="fa fa-angle-down"></i>
@@ -7639,7 +7639,7 @@
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordions-hs" href="#accordions-hs-group-2">
         <div class="heading">
         <div class="icon">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         </div>
         <div class="text">
         <h3 class="font-24 accent2">${14:Skill B}</h3><i class="fa fa-angle-down"></i>
@@ -7658,7 +7658,7 @@
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordions-hs" href="#accordions-hs-group-3">
         <div class="heading">
         <div class="icon">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         </div>
         <div class="text">
         <h3 class="font-24 accent2">${16:Skill C}</h3><i class="fa fa-angle-down"></i>
@@ -7682,11 +7682,11 @@
         [segment tag="section" style="1" spacing="large" class="overflow-hidden"]
         [row class="about-us-partner"]
         [column span="12" class=""]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
         [/column]
         [/row]
         [/segment]
@@ -7696,7 +7696,7 @@
   scope: html
   mTime: 1478440596059
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:Meet The Team}</h1>
@@ -7705,7 +7705,7 @@
         [/row]
         [/segment]
         
-        [segment tag="section" style="2" bgimg="http://placehold.it/1800x566" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="large" class="ceo-talk"]
+        [segment tag="section" style="2" bgimg="https://placehold.it/1800x566" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="large" class="ceo-talk"]
         [row class="margin-vertical-20 xs-no-margin-top xs-no-margin-bottom"]
         [column span="6" class="sm-text-center"]
         <h2 class="font-38 xs-text-center margin-bottom-20 xs-no-margin-bottom">${3:CEO Talk}</h2>
@@ -7800,7 +7800,7 @@
         [row class="margin-top-20"]
         [column span="6" class=" col-sm-6 margin-bottom-40"]
         <div class="service-list">
-        [img src="http://placehold.it/45x45" class="aligncenter"]
+        [img src="https://placehold.it/45x45" class="aligncenter"]
         <div class="service-txt">
         <h3 class="font-24 margin-bottom-20 accent2">${9:Skill A}</h3>
         <p class="margin-bottom-10">${10:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
@@ -7809,7 +7809,7 @@
         [/column]
         [column span="6" class=" col-sm-6 margin-bottom-40"]
         <div class="service-list">
-        [img src="http://placehold.it/45x45" class="aligncenter"]
+        [img src="https://placehold.it/45x45" class="aligncenter"]
         <div class="service-txt">
         <h3 class="font-24 margin-bottom-20 accent2">${11:Skill B}</h3>
         <p class="margin-bottom-10">${12:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
@@ -7818,7 +7818,7 @@
         [/column]
         [column span="6" class="col-sm-6 margin-bottom-40"]
         <div class="service-list">
-        [img src="http://placehold.it/45x45" class="aligncenter"]
+        [img src="https://placehold.it/45x45" class="aligncenter"]
         <div class="service-txt">
         <h3 class="font-24 margin-bottom-20 accent2">${13:Skill C}</h3>
         <p class="margin-bottom-10">${14:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
@@ -7828,7 +7828,7 @@
         
         [column span="6" class=" col-sm-6 margin-bottom-40"]
         <div class="service-list">
-        [img src="http://placehold.it/45x45" class="aligncenter"]
+        [img src="https://placehold.it/45x45" class="aligncenter"]
         <div class="service-txt">
         <h3 class="font-24 margin-bottom-20 accent2">${15:Skill D}</h3>
         <p class="margin-bottom-10">${16:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
@@ -7842,11 +7842,11 @@
         [segment tag="section" style="1" spacing="large" class="overflow-hidden"]
         [row class="about-us-partner"]
         [column span="12" class=""]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
-        [img src="http://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
+        [img src="https://placehold.it/250x250"]
         [/column]
         [/row]
         [/segment]
@@ -7859,7 +7859,7 @@
         [well class="service-masthead well-service"]
         [row]
         [column span="2"]
-        [img src="http://placehold.it/200x200" style="circle"]
+        [img src="https://placehold.it/200x200" style="circle"]
         [/column]
         [column span="10"]
         <h1 class="font-38 margin-top-0">${1:Service Detail D}</h1>
@@ -7876,13 +7876,13 @@
         
         [row class="margin-top-20"]
         [column span="6" class="margin-bottom-40"]
-        [img src="http://placehold.it/400x185" class="aligncenter"]
+        [img src="https://placehold.it/400x185" class="aligncenter"]
         <h2 class="font-18 uppercase accent2 margin-top-20 mobile-text-center"><strong>${4:Nullam ultrices purus faucibus}</strong></h2>
         <p>${5:Lorem ipsum dolor sit amet, consectetur adipiscing elit,  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.}</p>
         <p class="mobile-text-center"><a class="button-custom accent2 font-underline" href="#">${6:Read More}</a></p>
         [/column]
         [column span="6" class="margin-bottom-40"]
-        [img src="http://placehold.it/400x185" class="aligncenter"]
+        [img src="https://placehold.it/400x185" class="aligncenter"]
         <h2 class="font-18 uppercase accent2 margin-top-20 mobile-text-center"><strong>${7:Nullam ultrices purus faucibus}</strong></h2>
         <p>${8:Lorem ipsum dolor sit amet, consectetur adipiscing elit,  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.}</p>
         <p class="mobile-text-center"><a class="button-custom accent2 font-underline" href="#">${9:Read More}</a></p>
@@ -7984,7 +7984,7 @@
         [segment tag="section" style="1" spacing="medium" class="service-masthead"]
         [row]
         [column span="2"]
-        [img src="http://placehold.it/128x128"]
+        [img src="https://placehold.it/128x128"]
         [/column]
         [column span="10"]
         <h1 class="font-60 margin-top-0">${1:Service Detail B}</h1>
@@ -8033,7 +8033,7 @@
         [column span="3" class="col-sm-6"]
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${13:HS Services B}</strong></h3>
         </div>
         <p>${14:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8043,7 +8043,7 @@
         [column span="3" class="col-sm-6"]
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${16:HS Services C}</strong></h3>
         </div>
         <p>${17:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8053,7 +8053,7 @@
         [column span="3" class="col-sm-6"]
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${19:HS Services D}</strong></h3>
         </div>
         <p>${20:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8063,7 +8063,7 @@
         [column span="3" class="col-sm-6"]
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${22:HS Services E}</strong></h3>
         </div>
         <p>${23:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8073,7 +8073,7 @@
         [/row]
         [/segment]
         
-        [segment tag="section" style="3" spacing="huge" bgimg="http://placehold.it/1800x418" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover"]
+        [segment tag="section" style="3" spacing="huge" bgimg="https://placehold.it/1800x418" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover"]
         [row]
         [column span="8" class="text-center col-md-offset-2"]
         <h2 class="font-38">${25:Pellentesque pulvinar elit at condim}</h2>
@@ -8088,10 +8088,10 @@
   description: Innerpage Service Detail – Design A
   mTime: 1478437311954
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
         [row]
         [column span="2"]
-        [img src="http://placehold.it/128x128"]
+        [img src="https://placehold.it/128x128"]
         [/column]
         [column span="10"]
         <h1 class="font-60 margin-top-0">${1:Service Detail A}</h1>
@@ -8127,7 +8127,7 @@
         [/row]
         [/segment]
         
-        [segment tag="section" style="1" bgimg="http://placehold.it/1800x516" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-testimonials"]
+        [segment tag="section" style="1" bgimg="https://placehold.it/1800x516" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-testimonials"]
         [row class="margin-bottom-40"]
         [column span="5" class="col-sm-6"]
         <h2 class="font-38 accent">${13:Client Testimonial}</h2>
@@ -8141,7 +8141,7 @@
         [column span="3" class="col-sm-6"]
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${14:HS Services B}</strong></h3>
         </div>
         <p>${15:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8151,7 +8151,7 @@
         [column span="3" class="col-sm-6"]
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${17:HS Services C}</strong></h3>
         </div>
         <p>${18:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8161,7 +8161,7 @@
         [column span="3" class="col-sm-6"]
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${20:HS Services D}</strong></h3>
         </div>
         <p>${21:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8171,7 +8171,7 @@
         [column span="3" class="col-sm-6"]
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${23:HS Services E}</strong></h3>
         </div>
         <p>${24:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8181,7 +8181,7 @@
         [/row]
         [/segment]
         
-        [segment tag="section" style="3" spacing="huge" bgimg="http://placehold.it/1800x418" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover"]
+        [segment tag="section" style="3" spacing="huge" bgimg="https://placehold.it/1800x418" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover"]
         [row]
         [column span="8" class="text-center col-md-offset-2"]
         <h2 class="font-38">${26:Pellentesque pulvinar elit at condim}</h2>
@@ -8196,7 +8196,7 @@
   scope: html
   mTime: 1478399364265
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x370" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x370" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:About Us}</h1>
@@ -8236,10 +8236,10 @@
         [/row]
         [/segment]
         
-        [segment tag="section" style="1" bgimg="http://placehold.it/1800x512" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge"  class="our-mission"]
+        [segment tag="section" style="1" bgimg="https://placehold.it/1800x512" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge"  class="our-mission"]
         [row]
         [column span="6" class="col-md-push-6 col-sm-12"]
-        [img src="http://placehold.it/440x330" class="aligncenter"]
+        [img src="https://placehold.it/440x330" class="aligncenter"]
         [/column]
         [column span="6" class="col-md-pull-6 col-sm-12"]
         <h2 class="font-38 sm-text-center">${8:Our Mission}</h2>
@@ -8312,7 +8312,7 @@
   scope: html
   mTime: 1478404371143
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:Services}</h1>
@@ -8326,9 +8326,9 @@
         [column span="6"]
         <a href="#"><div class="service">
         <figure>
-        <img src="http://placehold.it/200x200" class="img">
+        <img src="https://placehold.it/200x200" class="img">
         <div class="cover-bg">
-        <img src="http://placehold.it/65x65" class="icon">
+        <img src="https://placehold.it/65x65" class="icon">
         </div>
         </figure>
         <div class="desc">
@@ -8341,9 +8341,9 @@
         [column span="6"]
         <a href="#"><div class="service">
         <figure>
-        <img src="http://placehold.it/200x200" class="img">
+        <img src="https://placehold.it/200x200" class="img">
         <div class="cover-bg">
-        <img src="http://placehold.it/65x65" class="icon">
+        <img src="https://placehold.it/65x65" class="icon">
         </div>
         </figure>
         <div class="desc">
@@ -8356,9 +8356,9 @@
         [column span="6"]
         <a href="#"><div class="service">
         <figure>
-        <img src="http://placehold.it/200x200" class="img">
+        <img src="https://placehold.it/200x200" class="img">
         <div class="cover-bg">
-        <img src="http://placehold.it/65x65" class="icon">
+        <img src="https://placehold.it/65x65" class="icon">
         </div>
         </figure>
         <div class="desc">
@@ -8371,9 +8371,9 @@
         [column span="6"]
         <a href="#"><div class="service">
         <figure>
-        <img src="http://placehold.it/200x200" class="img">
+        <img src="https://placehold.it/200x200" class="img">
         <div class="cover-bg">
-        <img src="http://placehold.it/65x65" class="icon">
+        <img src="https://placehold.it/65x65" class="icon">
         </div>
         </figure>
         <div class="desc">
@@ -8386,9 +8386,9 @@
         [column span="6"]
         <a href="#"><div class="service">
         <figure>
-        <img src="http://placehold.it/200x200" class="img">
+        <img src="https://placehold.it/200x200" class="img">
         <div class="cover-bg">
-        <img src="http://placehold.it/65x65" class="icon">
+        <img src="https://placehold.it/65x65" class="icon">
         </div>
         </figure>
         <div class="desc">
@@ -8401,9 +8401,9 @@
         [column span="6"]
         <a href="#"><div class="service">
         <figure>
-        <img src="http://placehold.it/200x200" class="img">
+        <img src="https://placehold.it/200x200" class="img">
         <div class="cover-bg">
-        <img src="http://placehold.it/65x65" class="icon">
+        <img src="https://placehold.it/65x65" class="icon">
         </div>
         </figure>
         <div class="desc">
@@ -8416,7 +8416,7 @@
         [/row]
         [/segment]
         
-        [segment tag="section" style="1" bgimg="http://placehold.it/1800x516" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-testimonials"]
+        [segment tag="section" style="1" bgimg="https://placehold.it/1800x516" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-testimonials"]
         [row class="margin-bottom-40"]
         [column span="5" class="col-sm-6"]
         <h2 class="font-38 accent">${21:Client Testimonial}</h2>
@@ -8440,7 +8440,7 @@
   scope: html
   mTime: 1478404019662
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:Services}</h1>
@@ -8453,7 +8453,7 @@
         [row]
         [column span="4" class="text-center service col-sm-6"]
         <a href="#"><div>
-        [img src="http://placehold.it/100x100" class="aligncenter"]
+        [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${3:HS Services A}</strong></h2>
         <p>${4:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
         <span class="btn accent2 font-underline">${5:Read More}</span>
@@ -8461,7 +8461,7 @@
         [/column]
         [column span="4" class="text-center service col-sm-6"]
         <a href="#"><div>
-        [img src="http://placehold.it/100x100" class="aligncenter"]
+        [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${6:HS Services B}</strong></h2>
         <p>${7:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
         <span class="btn accent2 font-underline">${8:Read More}</span>
@@ -8469,7 +8469,7 @@
         [/column]
         [column span="4" class="text-center service col-sm-6"]
         <a href="#"><div>
-        [img src="http://placehold.it/100x100" class="aligncenter"]
+        [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${9:HS Services C}</strong></h2>
         <p>${10:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
         <span class="btn accent2 font-underline">${11:Read More}</span>
@@ -8477,7 +8477,7 @@
         [/column]
         [column span="4" class="text-center service col-sm-6"]
         <a href="#"><div>
-        [img src="http://placehold.it/100x100" class="aligncenter"]
+        [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${12:HS Services D}</strong></h2>
         <p>${13:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
         <span class="btn accent2 font-underline">${14:Read More}</span>
@@ -8485,7 +8485,7 @@
         [/column]
         [column span="4" class="text-center service col-sm-6"]
         <a href="#"><div>
-        [img src="http://placehold.it/100x100" class="aligncenter"]
+        [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${15:HS Services E}</strong></h2>
         <p>${16:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
         <span class="btn accent2 font-underline">${17:Read More}</span>
@@ -8493,7 +8493,7 @@
         [/column]
         [column span="4" class="text-center service col-sm-6"]
         <a href="#"><div>
-        [img src="http://placehold.it/100x100" class="aligncenter"]
+        [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${18:HS Services F}</strong></h2>
         <p>${19:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
         <span class="btn accent2 font-underline">${20:Read More}</span>
@@ -8533,7 +8533,7 @@
   scope: html
   mTime: 1478404584873
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:Services}</h1>
@@ -8554,7 +8554,7 @@
         <div class="col-md-6 col-sm-6">
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${6:HS Services A}</strong></h3>
         </div>
         <p>${7:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.} </p>
@@ -8564,7 +8564,7 @@
         <div class="col-md-6 col-sm-6">
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${9:HS Services B}</strong></h3>
         </div>
         <p>${10:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu. }</p>
@@ -8574,7 +8574,7 @@
         <div class="col-md-6 col-sm-6">
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${12:HS Services C}</strong></h3>
         </div>
         <p>${13:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.} </p>
@@ -8584,7 +8584,7 @@
         <div class="col-md-6 col-sm-6">
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${15:HS Services D}</strong></h3>
         </div>
         <p>${16:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu. }</p>
@@ -8594,7 +8594,7 @@
         <div class="col-md-6 col-sm-6">
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${18:HS Services E}</strong></h3>
         </div>
         <p>${19:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.} </p>
@@ -8604,7 +8604,7 @@
         <div class="col-md-6 col-sm-6">
         <div class="service">
         <div class="heading">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         <h3 class="font-24 accent2"><strong>${21:HS Services F}</strong></h3>
         </div>
         <p>${22:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.} </p>
@@ -8617,7 +8617,7 @@
         [row]
         [column span="12"]
         [well]
-        <img  src="http://placehold.it/105x105">
+        <img  src="https://placehold.it/105x105">
         <p class="font-24 accent">${24:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam}</p>
         [/well]
         [/column]
@@ -8625,7 +8625,7 @@
         [/segment]
         
         
-        [segment tag="section" style="3" spacing="huge" bgimg="http://placehold.it/1800x418" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover"]
+        [segment tag="section" style="3" spacing="huge" bgimg="https://placehold.it/1800x418" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover"]
         [row]
         [column span="8" class="text-center col-md-offset-2"]
         <h2 class="font-38">${25:Pellentesque pulvinar elit at condim}</h2>
@@ -8640,7 +8640,7 @@
   scope: html
   mTime: 1478404997417
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:Services}</h1>
@@ -8654,9 +8654,9 @@
         [column span="4"]
         <a href="#"><div class="service">
         <figure>
-        <img src="http://placehold.it/360x195" class="img">
+        <img src="https://placehold.it/360x195" class="img">
         <div class="cover-bg">
-        <img src="http://placehold.it/65x65" class="icon">
+        <img src="https://placehold.it/65x65" class="icon">
         </div>
         </figure>
         <div class="desc">
@@ -8669,9 +8669,9 @@
         [column span="4"]
         <a href="#"><div class="service">
         <figure>
-        <img src="http://placehold.it/360x195" class="img">
+        <img src="https://placehold.it/360x195" class="img">
         <div class="cover-bg">
-        <img src="http://placehold.it/65x65" class="icon">
+        <img src="https://placehold.it/65x65" class="icon">
         </div>
         </figure>
         <div class="desc">
@@ -8684,9 +8684,9 @@
         [column span="4"]
         <a href="#"><div class="service">
         <figure>
-        <img src="http://placehold.it/360x195" class="img">
+        <img src="https://placehold.it/360x195" class="img">
         <div class="cover-bg">
-        <img src="http://placehold.it/65x65" class="icon">
+        <img src="https://placehold.it/65x65" class="icon">
         </div>
         </figure>
         <div class="desc">
@@ -8709,7 +8709,7 @@
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordions-hs" href="#accordions-hs-group-1">
         <div class="heading">
         <div class="icon">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         </div>
         <div class="text">
         <h3 class="font-24">${14:HS Services D}</h3><i class="fa fa-angle-down"></i>
@@ -8729,7 +8729,7 @@
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordions-hs" href="#accordions-hs-group-2">
         <div class="heading">
         <div class="icon">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         </div>
         <div class="text">
         <h3 class="font-24">${17:HS Services E}</h3><i class="fa fa-angle-down"></i>
@@ -8749,7 +8749,7 @@
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordions-hs" href="#accordions-hs-group-3">
         <div class="heading">
         <div class="icon">
-        <img  src="http://placehold.it/45x45">
+        <img  src="https://placehold.it/45x45">
         </div>
         <div class="text">
         <h3 class="font-24">${20:HS Services F}</h3><i class="fa fa-angle-down"></i>
@@ -8805,7 +8805,7 @@
   scope: html
   mTime: 1478399646987
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:Who we are}</h1>
@@ -8832,11 +8832,11 @@
         [/row]
         [/segment]
         
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x580" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class=""]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x580" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class=""]
         [row class="margin-top-40"]
         [column span="4" class="xs-text-center col-sm-6 margin-bottom-40"]
         <div class="service-list">
-        [img src="http://placehold.it/50x50" class="aligncenter"]
+        [img src="https://placehold.it/50x50" class="aligncenter"]
         <div class="service-txt">
         <h3 class="font-24 margin-bottom-20">${6:HS Services A}</h3>
         <p class="margin-bottom-10">${7:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8845,7 +8845,7 @@
         [/column]
         [column span="4" class="xs-text-center col-sm-6 margin-bottom-40"]
         <div class="service-list">
-        [img src="http://placehold.it/50x50" class="aligncenter"]
+        [img src="https://placehold.it/50x50" class="aligncenter"]
         <div class="service-txt">
         <h3 class="font-24 margin-bottom-20">${8:HS Services B}</h3>
         <p class="margin-bottom-10">${9:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8854,7 +8854,7 @@
         [/column]
         [column span="4" class="xs-text-center col-sm-6 margin-bottom-40"]
         <div class="service-list">
-        [img src="http://placehold.it/50x50" class="aligncenter"]
+        [img src="https://placehold.it/50x50" class="aligncenter"]
         <div class="service-txt">
         <h3 class="font-24 margin-bottom-20">${10:HS Services C}</h3>
         <p class="margin-bottom-10">${11:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8864,7 +8864,7 @@
         
         [column span="4" class="xs-text-center col-sm-6 margin-bottom-40"]
         <div class="service-list">
-        [img src="http://placehold.it/50x50" class="aligncenter"]
+        [img src="https://placehold.it/50x50" class="aligncenter"]
         <div class="service-txt">
         <h3 class="font-24 margin-bottom-20">${12:HS Services D}</h3>
         <p class="margin-bottom-10">${13:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8873,7 +8873,7 @@
         [/column]
         [column span="4" class="xs-text-center col-sm-6 margin-bottom-40"]
         <div class="service-list">
-        [img src="http://placehold.it/50x50" class="aligncenter"]
+        [img src="https://placehold.it/50x50" class="aligncenter"]
         <div class="service-txt">
         <h3 class="font-24 margin-bottom-20">${14:HS Services E}</h3>
         <p class="margin-bottom-10">${15:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8882,7 +8882,7 @@
         [/column]
         [column span="4" class="xs-text-center col-sm-6 margin-bottom-40"]
         <div class="service-list">
-        [img src="http://placehold.it/50x50" class="aligncenter"]
+        [img src="https://placehold.it/50x50" class="aligncenter"]
         <div class="service-txt">
         <h3 class="font-24 margin-bottom-20">${16:HS Services F}</h3>
         <p class="margin-bottom-10">${17:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
@@ -8956,7 +8956,7 @@
   scope: html
   mTime: 1478401368626
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x370" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x370" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:About Us}</h1>
@@ -8965,7 +8965,7 @@
         [/row]
         [/segment]
             
-        [segment tag="section" style="1" bgimg="http://placehold.it/1800x998" bgrepeat="no-repeat" bgposition="center bottom" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-us-content"]
+        [segment tag="section" style="1" bgimg="https://placehold.it/1800x998" bgrepeat="no-repeat" bgposition="center bottom" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-us-content"]
         [row class="margin-top-40 xs-no-margin-top"]
         [column span="6" class=""]
         <h2 class="font-38 sm-text-center margin-bottom-40 xs-no-margin-bottom">${3:Company Overview}</h2>
@@ -8973,14 +8973,14 @@
         <p class="">${5:Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.}</p>
         [/column]
         [column span="6" class=""]
-        [img src="http://placehold.it/570x400" class="aligncenter"]
+        [img src="https://placehold.it/570x400" class="aligncenter"]
         [/column]
         [/row]
             
         [row]
         [column span="12"]
         [well class="well-testimonial"]
-        [img src="http://placehold.it/350x350" style="circle"]
+        [img src="https://placehold.it/350x350" style="circle"]
         <div class="testimonial-txt">
         <p class="font-24"><em>${6:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"}</em></p>
         <p class="margin-bottom-0">${7:Full Name}<br>
@@ -9068,11 +9068,11 @@
         [segment tag="section" style="2" spacing="large" class="overflow-hidden"]
         [row class="about-us-partner"]
         [column span="12" class=""]
-        [img src="http://placehold.it/200x200"]
-        [img src="http://placehold.it/200x200"]
-        [img src="http://placehold.it/200x200"]
-        [img src="http://placehold.it/200x200"]
-        [img src="http://placehold.it/200x200"]
+        [img src="https://placehold.it/200x200"]
+        [img src="https://placehold.it/200x200"]
+        [img src="https://placehold.it/200x200"]
+        [img src="https://placehold.it/200x200"]
+        [img src="https://placehold.it/200x200"]
         [/column]
         [/row]
         [/segment]
@@ -9103,7 +9103,7 @@
   scope: html
   mTime: 1478402177547
   text: |
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
         [row]
         [column span="10" class="text-center col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:About Us}</h1>
@@ -9112,7 +9112,7 @@
         [/row]
         [/segment]
         
-        [segment tag="section" style="1" bgimg="http://placehold.it/1800x565" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="company-overview"]
+        [segment tag="section" style="1" bgimg="https://placehold.it/1800x565" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="company-overview"]
         [row class="margin-top-40 xs-no-margin-top"]
         [column span="6" class="col-sm-8"]
         <h2 class="font-38 xs-text-center margin-bottom-40 xs-no-margin-bottom">${3:Company Overview}</h2>
@@ -9122,7 +9122,7 @@
         [/row]
         [/segment]
         
-        [segment tag="section" style="3" bgimg="http://placehold.it/1800x580" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class=""]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x580" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class=""]
         [row class="margin-top-40 xs-no-margin-top"]
         [column span="4" class="col-lg-3 sm-text-center"]
         <h2 class="font-38 sm-text-center margin-bottom-40 xs-no-margin-bottom margin-top-0 sm-line-height">${6:Pellentesque pulvinar elit at condim}</h2>
@@ -9135,7 +9135,7 @@
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordions-hs" href="#accordions-hs-group-1">
         <div class="heading">
         <div class="icon">
-        <img src="http://placehold.it/50x50">
+        <img src="https://placehold.it/50x50">
         </div>
         <div class="text">
         <h3 class="font-24">${8:HS Services D}</h3><i class="fa fa-angle-down"></i>
@@ -9155,7 +9155,7 @@
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordions-hs" href="#accordions-hs-group-2">
         <div class="heading">
         <div class="icon">
-        <img src="http://placehold.it/50x50">
+        <img src="https://placehold.it/50x50">
         </div>
         <div class="text">
         <h3 class="font-24">${11:HS Services E}</h3><i class="fa fa-angle-down"></i>
@@ -9175,7 +9175,7 @@
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordions-hs" href="#accordions-hs-group-3">
         <div class="heading">
         <div class="icon">
-        <img src="http://placehold.it/50x50">
+        <img src="https://placehold.it/50x50">
         </div>
         <div class="text">
         <h3 class="font-24">${14:HS Services F}</h3><i class="fa fa-angle-down"></i>
@@ -9199,11 +9199,11 @@
         [segment tag="section" style="1" spacing="large" class="overflow-hidden"]
         [row class="about-us-partner"]
         [column span="12" class=""]
-        [img src="http://placehold.it/200x200"]
-        [img src="http://placehold.it/200x200"]
-        [img src="http://placehold.it/200x200"]
-        [img src="http://placehold.it/200x200"]
-        [img src="http://placehold.it/200x200"]
+        [img src="https://placehold.it/200x200"]
+        [img src="https://placehold.it/200x200"]
+        [img src="https://placehold.it/200x200"]
+        [img src="https://placehold.it/200x200"]
+        [img src="https://placehold.it/200x200"]
         [/column]
         [/row]
         [/segment]
@@ -9430,22 +9430,22 @@
         [/row]
         [row class="margin-top-20"]
         [column span="2" class="col-sm-4 col-xs-6 margin-bottom-20"]
-        [img src="http://placehold.it/350x350" class="aligncenter"]
+        [img src="https://placehold.it/350x350" class="aligncenter"]
         [/column]
         [column span="2" class="col-sm-4 col-xs-6 margin-bottom-20"]
-        [img src="http://placehold.it/350x350" class="aligncenter"]
+        [img src="https://placehold.it/350x350" class="aligncenter"]
         [/column]
         [column span="2" class="col-sm-4 col-xs-6 margin-bottom-20"]
-        [img src="http://placehold.it/350x350" class="aligncenter"]
+        [img src="https://placehold.it/350x350" class="aligncenter"]
         [/column]
         [column span="2" class="col-sm-4 col-xs-6 margin-bottom-20"]
-        [img src="http://placehold.it/350x350" class="aligncenter"]
+        [img src="https://placehold.it/350x350" class="aligncenter"]
         [/column]
         [column span="2" class="col-sm-4 col-xs-6 margin-bottom-20"]
-        [img src="http://placehold.it/350x350" class="aligncenter"]
+        [img src="https://placehold.it/350x350" class="aligncenter"]
         [/column]
         [column span="2" class="col-sm-4 col-xs-6 margin-bottom-20"]
-        [img src="http://placehold.it/350x350" class="aligncenter"]
+        [img src="https://placehold.it/350x350" class="aligncenter"]
         [/column]
         [/row]
         [/segment]
@@ -9605,7 +9605,7 @@
   scope: html
   mTime: 1481542252185
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
         [row]
         [column span="12"]
         <h1 class="font-60 uppercase">${1:Our Partner}</h1>
@@ -9641,7 +9641,7 @@
   description: Innerpage Partner - Design B
   mTime: 1481542309533
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
         [row]
         [column span="12"]
         <h1 class="font-60 uppercase">${1:Our Partner}</h1>
@@ -9663,7 +9663,7 @@
   scope: html
   mTime: 1481542446033
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
         [row]
         [column span="12"]
         <h1 class="font-60 uppercase">${1:Our Partner}</h1>
@@ -9678,11 +9678,11 @@
         <h2 class="font-38 margin-bottom-20 sm-text-center">${3:We work with}</h2>
         <p>${4:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula et tellus nec.}</p>
         <p>${5:Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.}</p>
-        [img src="http://placehold.it/454x220" class="aligncenter"]
+        [img src="https://placehold.it/454x220" class="aligncenter"]
         <div class="partner-testimonial">
         <p class="margin-bottom-40">“${6:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur.}”</p>
         <div class="testimonial-title">
-        <span class="title-img">[img src="http://placehold.it/57x57" style="circle" class="aligncenter"]</span>
+        <span class="title-img">[img src="https://placehold.it/57x57" style="circle" class="aligncenter"]</span>
         <span class="title-text">${7:Full Name}<br>${8:Position}/${9:Company}</span>
         </div>
         </div>
@@ -9698,7 +9698,7 @@
   scope: html
   mTime: 1481542501346
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
         [row]
         [column span="12"]
         <h1 class="font-60 uppercase">${1:Our Partner}</h1>
@@ -9736,7 +9736,7 @@
   scope: html
   mTime: 1481542773004
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
         [row]
         [column span="12"]
         <h1 class="font-60 uppercase">${1:Contact Us}</h1>
@@ -9779,7 +9779,7 @@
   scope: html
   mTime: 1481542953842
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner sm-text-center"]
+        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner sm-text-center"]
         [row]
         [column span="10" class="col-md-offset-1"]
         <h1 class="font-60 uppercase">${1:Contact Us}</h1>
@@ -9822,7 +9822,7 @@
   scope: html
   mTime: 1481543057308
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
         [row]
         [column span="12"]
         <h1 class="font-60 uppercase">${1:Contact Us}</h1>
@@ -9876,7 +9876,7 @@
   description: Innerpage Contact - Design D
   mTime: 1481543195406
   text: |
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
+        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
         [row]
         [column span="12"]
         <h1 class="font-60 uppercase">${1:Contact Us}</h1>
@@ -9939,7 +9939,7 @@
         [location location_id="1647 - Pronto" show_map="1" layout="vertical"]
         </div>
         
-        [segment tag="section" style="5" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="small" class="text-center"]
+        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="small" class="text-center"]
         [row]
         [column span="12"]
         <h1 class="font-60">${1:Contact Us Today}</h1>
