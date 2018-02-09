@@ -4053,7 +4053,7 @@
           max-width: 150px;
           vertical-align: top;
           width: 30%;
-          border: none;
+          border: 1px solid #eaeaea;
         }
         .partner-design-b .partner figcaption {
           display: inline-block;
