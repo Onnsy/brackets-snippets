@@ -190,10 +190,10 @@
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
          
         var countrycodes = "1"
-        var delimiters = "-|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.|—|–|&nbsp;"
-        var phonedef = "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\+?(?:(?:(?:" + countrycodes + ")(?:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")?)?\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(?[2-9]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\d{2}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)?(?:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")?[2-9]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\d{2}(?:" + delimiters + ")?[0-9a-z]{4})"
-        var spechars = new RegExp("([- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.:]|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")","gi") //Special characters to be removed from the link
-        var phonereg = new RegExp("((^|[^0-9])(href=[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"']tel:)?((?:" + phonedef + ")[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"'][^>]*?>)?(" + phonedef + ")($|[^0-9]))","gi")
+        var delimiters = "-|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.|—|–|&nbsp;"
+        var phonedef = "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\+?(?:(?:(?:" + countrycodes + ")(?:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")?)?\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(?[2-9]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\d{2}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)?(?:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")?[2-9]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\d{2}(?:" + delimiters + ")?[0-9a-z]{4})"
+        var spechars = new RegExp("([- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.:]|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")","gi") //Special characters to be removed from the link
+        var phonereg = new RegExp("((^|[^0-9])(href=[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"']tel:)?((?:" + phonedef + ")[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"'][^>]*?>)?(" + phonedef + ")($|[^0-9]))","gi")
          
         function ReplacePhoneNumbers(oldhtml) {
         //Created by Jon Meck at LunaMetrics.com - Version 1.0
@@ -5081,10 +5081,10 @@
         
         </style>
 
-- trigger: Stylesheet-for-Adwords-Landing-Page
-  description: Stylesheet for Adwords Landing Page
+- trigger: Adwords-Landing-Page
+  description: Adwords Landing Page
   scope: css
-  mTime: 1520498362431
+  mTime: 1520499515910
   text: |
         <style>
         body p {
@@ -6181,56 +6181,56 @@
   trigger: flexcenter
   mTime: 1468296120058
   text: |
-        .${1} .row {\\\\
-        \\\\\\\\display: flex;\\\\
-                display: -ms-flexbox;\\\\
-        \\\\\\\\display: -webkit-flex;\\\\
-        \\\\\\\\\\\\
-        \\\\\\\\-ms-flex-align: center;\\\\
-        \\\\\\\\-webkit-align-items: center;\\\\
-        \\\\\\\\-webkit-box-align: center;\\\\
-        \\\\\\\\align-items: center;\\\\
+        .${1} .row {\\\\\\\\
+        \\\\\\\\\\\\\\\\display: flex;\\\\\\\\
+                display: -ms-flexbox;\\\\\\\\
+        \\\\\\\\\\\\\\\\display: -webkit-flex;\\\\\\\\
+        \\\\\\\\\\\\\\\\\\\\\\\\
+        \\\\\\\\\\\\\\\\-ms-flex-align: center;\\\\\\\\
+        \\\\\\\\\\\\\\\\-webkit-align-items: center;\\\\\\\\
+        \\\\\\\\\\\\\\\\-webkit-box-align: center;\\\\\\\\
+        \\\\\\\\\\\\\\\\align-items: center;\\\\\\\\
         }
 
 - trigger: flex
   scope: less
   mTime: 1469075481272
   text: |
-        .flexbox() {\\\\
-          display: -webkit-box;\\\\
-          display: -moz-box;\\\\
-          display: -ms-flexbox;\\\\
-          display: -webkit-flex;\\\\
-          display: flex;\\\\
-        }\\\\
-        \\\\
-        .flex(@values) {\\\\
-          -webkit-box-flex: @values;\\\\
-          -moz-box-flex:  @values;\\\\
-          -webkit-flex:  @values;\\\\
-          -ms-flex:  @values;\\\\
-          flex:  @values;\\\\
-        }\\\\
-        \\\\
-        .order(@val) {\\\\
-          -webkit-box-ordinal-group: @val;  \\\\
-          -moz-box-ordinal-group: @val;     \\\\
-          -ms-flex-order: @val;     \\\\
-          -webkit-order: @val;  \\\\
-          order: @val;\\\\
+        .flexbox() {\\\\\\\\
+          display: -webkit-box;\\\\\\\\
+          display: -moz-box;\\\\\\\\
+          display: -ms-flexbox;\\\\\\\\
+          display: -webkit-flex;\\\\\\\\
+          display: flex;\\\\\\\\
+        }\\\\\\\\
+        \\\\\\\\
+        .flex(@values) {\\\\\\\\
+          -webkit-box-flex: @values;\\\\\\\\
+          -moz-box-flex:  @values;\\\\\\\\
+          -webkit-flex:  @values;\\\\\\\\
+          -ms-flex:  @values;\\\\\\\\
+          flex:  @values;\\\\\\\\
+        }\\\\\\\\
+        \\\\\\\\
+        .order(@val) {\\\\\\\\
+          -webkit-box-ordinal-group: @val;  \\\\\\\\
+          -moz-box-ordinal-group: @val;     \\\\\\\\
+          -ms-flex-order: @val;     \\\\\\\\
+          -webkit-order: @val;  \\\\\\\\
+          order: @val;\\\\\\\\
         }
 
 - scope: less
   trigger: TMT-mainheader
   mTime: 1469169378662
   text: |
-        [row]\\\\
-        [column span="3" class="col-sm-4"]\\\\
-        [logo link="/"]\\\\
-        [/column]\\\\
-        [column span="9" class="col-sm-8"]\\\\
-        [menu menuname="main-nav-inner" menutype="primary" ulclass="pull-right nav-pills uppercase"]\\\\
-        [/column]\\\\
+        [row]\\\\\\\\
+        [column span="3" class="col-sm-4"]\\\\\\\\
+        [logo link="/"]\\\\\\\\
+        [/column]\\\\\\\\
+        [column span="9" class="col-sm-8"]\\\\\\\\
+        [menu menuname="main-nav-inner" menutype="primary" ulclass="pull-right nav-pills uppercase"]\\\\\\\\
+        [/column]\\\\\\\\
         [/row]
 
 - scope: less
