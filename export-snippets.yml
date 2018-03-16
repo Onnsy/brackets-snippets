@@ -5783,13 +5783,13 @@
         /********** Partner **********/
         
         .landing-partner .flex-box {
-        \t-webkit-box-pack: center;
-        \t-ms-flex-pack: center;
-        \tjustify-content: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
             border-top: 1px solid #DCDCDC;
-        \tborder-bottom: 1px solid #DCDCDC;
-        \tpadding-top: 45px;
-        \tpadding-bottom: 45px;
+          border-bottom: 1px solid #DCDCDC;
+          padding-top: 45px;
+          padding-bottom: 45px;
         }
         
         /********** Subscribe **********/
@@ -6123,17 +6123,17 @@
         /*********** Header ***********/
         
         .header-landing-page {
-        \tbackground-color: transparent;
-        \tposition: absolute;
-        \twidth: 100%;
+          background-color: transparent;
+          position: absolute;
+          width: 100%;
         }
         
         
         /*********** Banner ***********/
         
         .banner-landing {
-            padding-top: 200px !important;\t
-        \theight: 715px;
+            padding-top: 200px !important;  
+          height: 715px;
         }
         
         .banner-landing .gform_footer input {
@@ -6183,8 +6183,8 @@
             display: none;
         }
         .clients .testimonial-reference {
-        \tmargin-bottom: 20px;
-        \tmax-width: 400px;
+          margin-bottom: 20px;
+          max-width: 400px;
         }
         .clients .carousel .carousel-indicators {
             left: 0;
@@ -6233,9 +6233,9 @@
           border: 1px solid #DFDFDF;
         }
         .partner-box {
-        \tpadding: 20px;
-        \tmin-height: 308px;
-        \tmargin-top: 40px;
+          padding: 20px;
+          min-height: 308px;
+          margin-top: 40px;
         }
         
         .divider {
@@ -6274,8 +6274,8 @@
         
         @media  (max-width: 991px) {
             .banner-landing {
-            \tpadding-top: 200px !important;
-            \theight: auto;
+              padding-top: 200px !important;
+              height: auto;
             }
             .banner-landing .well {
                 margin-top: 40px;
@@ -6285,10 +6285,10 @@
         }
         @media (max-width: 767px) {
             .header-landing-page img {
-        \t    margin: 20px auto;
+              margin: 20px auto;
             }
             .font-48 {
-            \tfont-size: 40px;
+              font-size: 40px;
             }
             .banner-landing .well {
                 padding: 20px;
@@ -6297,11 +6297,11 @@
                 max-width: 90px;
             }
             .testimonial-b .testimonial-reference {
-        \t    display: block;
+              display: block;
             }
             .clients {
-            \tpadding: 20px;
-            \tmargin-top: 0;
+              padding: 20px;
+              margin-top: 0;
             }
             .clients .carousel .carousel-indicators {
                 text-align: center;
@@ -6367,9 +6367,9 @@
             color: #fff;
         }
         .landing-form .well {
-        \tbackground-color: #000;
-        \tborder: medium none;
-        \tpadding: 60px 100px;
+          background-color: #000;
+          border: medium none;
+          padding: 60px 100px;
         }
         .landing-form .well li label {
             display: none !important;
@@ -6381,12 +6381,12 @@
         }
         
         .landing-form .btn {
-        \twidth: 100%;
-        \tbackground-color: #b72a2a;
-        \tborder: 1px solid #b72a2a;
-        \tcolor: #fff !important;
-        \tborder-radius: 50px;
-        \tfont-size: 14px !important;
+          width: 100%;
+          background-color: #b72a2a;
+          border: 1px solid #b72a2a;
+          color: #fff !important;
+          border-radius: 50px;
+          font-size: 14px !important;
             padding: 14px 35px;
             text-transform: uppercase;
         }
@@ -6424,10 +6424,10 @@
         }
         @media (max-width: 767px) {
             .header-landing-page img {
-            \tmargin: 20px auto;
+              margin: 20px auto;
             }
             .landing-form .well {
-        \t    padding: 20px;
+              padding: 20px;
             }
             .footer-left {
                 display: block;
@@ -6522,7 +6522,7 @@
         }
         @media (max-width:767px) {
             .font-60 {
-            \tfont-size: 30px;
+              font-size: 30px;
             }
         }
             
@@ -6602,7 +6602,7 @@
         }
         @media (max-width:767px) {
             .font-60 {
-            \tfont-size: 30px;
+              font-size: 30px;
             }
         }
             
@@ -6682,7 +6682,7 @@
         
         @media (max-width:767px) {
             .font-60 {
-            \tfont-size: 30px;
+              font-size: 30px;
             }
         }
             
@@ -6699,33 +6699,33 @@
             line-height:1.2;
         }
         .testimonials-carousel-list .testimonial-d {
-        \tborder-bottom:0;
-        \tmin-height: 440px;
-        \tpadding-bottom: 0;
-        \tpadding-top:30px;
+          border-bottom:0;
+          min-height: 440px;
+          padding-bottom: 0;
+          padding-top:30px;
         }
         .testimonials-carousel-list .carousel-indicators li.active {
-        \tbackground: #B32C33;
+          background: #B32C33;
         }
         .carousel-indicators li {
-        \tbackground: rgba(255,255,255,1);
+          background: rgba(255,255,255,1);
         }
         .testimonials-carousel-list .testimonial-d h3 {
-        \tcolor: #b72a2a;
+          color: #b72a2a;
         }
         .testimonials-carousel-list .testimonial-d span[itemprop="author"] {
-        \tcolor: #fff;
+          color: #fff;
         }
         .testimonial-b .fa {
-        \tdisplay: none;
+          display: none;
         }
         @media (max-width:767px) {
             .font-60 {
-            \tfont-size: 30px;
+              font-size: 30px;
             }
             .testimonial-b img {
-            \tmax-width: 90px;
-            \twidth: 100%;
+              max-width: 90px;
+              width: 100%;
             }
         }
         </style>
@@ -6787,9 +6787,9 @@
         }
         
         hr {
-        \twidth: 100%;
-        \tborder-color: rgba(247, 247, 249, 0);
-        \tbox-shadow: 0px 1px 0px 0px #dcdcdc;
+          width: 100%;
+          border-color: rgba(247, 247, 249, 0);
+          box-shadow: 0px 1px 0px 0px #dcdcdc;
         }
         
         @media (max-width:991px) {
@@ -6802,11 +6802,11 @@
                 justify-content: center;
                 -ms-flex-flow: column;
                 flex-flow: column;
-            \ttext-align: center;
-            \tmargin-bottom: 40px;
+              text-align: center;
+              margin-bottom: 40px;
             }
             .btn-custom-primary {
-            \tpadding: 8px 25px;
+              padding: 8px 25px;
             }
             .font-60 {
                 font-size: 45px;
@@ -6820,7 +6820,7 @@
         }
         @media (max-width:767px) {
             .font-60 {
-            \tfont-size: 28px;
+              font-size: 28px;
             }
             .font-38 {
                 font-size: 25px;
@@ -6876,9 +6876,9 @@
         }
         
         hr {
-        \twidth: 100%;
-        \tborder-color: rgba(247, 247, 249, 0);
-        \tbox-shadow: 0px 1px 0px 0px #dcdcdc;
+          width: 100%;
+          border-color: rgba(247, 247, 249, 0);
+          box-shadow: 0px 1px 0px 0px #dcdcdc;
         }
         
         #gform_wrapper_1 .form-control {
@@ -6894,31 +6894,31 @@
           display: none;
         }
         div.ginput_complex.ginput_container.gf_name_has_2 span {
-        \twidth: 48.7%;
-        \tmargin-right:2px;
+          width: 48.7%;
+          margin-right:2px;
         }
         div.ginput_complex.ginput_container.gf_name_has_2 span.name_last {
-        \tmargin-right:0px;
+          margin-right:0px;
         }
         .gform_wrapper .top_label li.gfield.gf_left_half {
-        \tmargin: 0 0 0;
+          margin: 0 0 0;
         }
         .gform_wrapper .top_label li.gfield.gf_right_half {
-        \tmargin: 0 0 0;
+          margin: 0 0 0;
         }
         .gform_button {
-        \tpadding: 15px 65px;
-        \tcolor: #fff;
-        \ttext-transform: uppercase;
-        \tborder-radius: 55px;
-        \tfont-size:12px !important;
+          padding: 15px 65px;
+          color: #fff;
+          text-transform: uppercase;
+          border-radius: 55px;
+          font-size:12px !important;
         }
         .gform_button::after {
-        \tcolor: #000;
-        \tcontent: "/f178";
-        \tfont-family: fontAwesome;
-        \tpadding-left: 5px;
-        \tdisplay: inline-block;
+          color: #000;
+          content: "/f178";
+          font-family: fontAwesome;
+          padding-left: 5px;
+          display: inline-block;
         
         }
         
@@ -6932,13 +6932,13 @@
                 justify-content: center;
                 -ms-flex-flow: column;
                 flex-flow: column;
-            \ttext-align: center;
+              text-align: center;
             }
             .btn-custom-primary {
-            \tpadding: 8px 25px;
+              padding: 8px 25px;
             }
             .font-24 {
-            \tfont-size: 22px;
+              font-size: 22px;
             }
             .font-60 {
                 font-size: 45px;
@@ -6952,7 +6952,7 @@
         }
         @media (max-width:767px) {
             .font-60 {
-            \tfont-size: 28px;
+              font-size: 28px;
             }
             .font-38 {
                 font-size: 25px;
@@ -6979,25 +6979,25 @@
             font-size: 18px;
         }
         .masthead-image .navbar-search .search-query {
-        \tdisplay: block;
-        \twidth: 100%;
-        \tmin-height: 38px;
-        \tborder-radius: 55px;
-        \tbox-shadow: none;
-        \tbackground-color: #fff;
-        \tpadding: 15px 25px;
-        \tfont-size: 18px;
+          display: block;
+          width: 100%;
+          min-height: 38px;
+          border-radius: 55px;
+          box-shadow: none;
+          background-color: #fff;
+          padding: 15px 25px;
+          font-size: 18px;
             font-weight: 300;
         }
         .masthead-image .navbar-search .btn-default {
-        \tcolor: #a62626;
-        \tpadding: 10px 20px;
-        \tfont-size: 20px;
+          color: #a62626;
+          padding: 10px 20px;
+          font-size: 20px;
         }
         .masthead-image .navbar-search .btn-default:hover,
         .masthead-image .navbar-search .btn-default:active, 
         .masthead-image .navbar-search .btn-default:focus {
-        \tbackground:transparent;
+          background:transparent;
         }
         .hr-default {
             background-color: rgba(247, 247, 249, 0);
@@ -7008,9 +7008,9 @@
         }
         
         hr {
-        \twidth: 100%;
-        \tborder-color: rgba(247, 247, 249, 0);
-        \tbox-shadow: 0px 1px 0px 0px #dcdcdc;
+          width: 100%;
+          border-color: rgba(247, 247, 249, 0);
+          box-shadow: 0px 1px 0px 0px #dcdcdc;
         }
         #gform_wrapper_1 .form-control {
           min-height: 45px;
@@ -7024,31 +7024,31 @@
           display: none;
         }
         div.ginput_complex.ginput_container.gf_name_has_2 span {
-        \twidth: 48.7%;
-        \tmargin-right:2px;
+          width: 48.7%;
+          margin-right:2px;
         }
         div.ginput_complex.ginput_container.gf_name_has_2 span.name_last {
-        \tmargin-right:0px;
+          margin-right:0px;
         }
         .gform_wrapper .top_label li.gfield.gf_left_half {
-        \tmargin: 0 0 0;
+          margin: 0 0 0;
         }
         .gform_wrapper .top_label li.gfield.gf_right_half {
-        \tmargin: 0 0 0;
+          margin: 0 0 0;
         }
         .gform_button {
-        \tpadding: 15px 65px;
-        \tcolor: #fff;
-        \ttext-transform: uppercase;
-        \tborder-radius: 55px;
-        \tfont-size:12px !important;
+          padding: 15px 65px;
+          color: #fff;
+          text-transform: uppercase;
+          border-radius: 55px;
+          font-size:12px !important;
         }
         .gform_button::after {
-        \tcolor: #000;
-        \tcontent: "/f178";
-        \tfont-family: fontAwesome;
-        \tpadding-left: 5px;
-        \tdisplay: inline-block;
+          color: #000;
+          content: "/f178";
+          font-family: fontAwesome;
+          padding-left: 5px;
+          display: inline-block;
         
         }
         .well-form {
@@ -7071,7 +7071,7 @@
             .well-form {
                 padding: 20px 25px;}
             .font-60 {
-            \tfont-size: 28px;
+              font-size: 28px;
             }
             .font-38 {
                 font-size: 25px;
@@ -7154,21 +7154,21 @@
             font-weight:bold;
         }
         .panel-default > .panel-heading {
-        \tbackground-color: transparent;
-        \tpadding: 15px 0;
+          background-color: transparent;
+          padding: 15px 0;
         }
         .panel-group .panel {
-        \tmargin-bottom: 0;
-        \toverflow: hidden;
-        \tborder-radius: 0px;
-        \tborder-right:0;
-        \tborder-left:0;
-        \tborder-bottom: 0;
+          margin-bottom: 0;
+          overflow: hidden;
+          border-radius: 0px;
+          border-right:0;
+          border-left:0;
+          border-bottom: 0;
             box-shadow: 0px 0px 0px 0px #dcdcdc;
         }
         .panel-group .panel-heading + .panel-collapse .panel-body {
-        \tborder-top: 0;
-        \tpadding: 15px 0;
+          border-top: 0;
+          padding: 15px 0;
         }
         .panel-group .panel:last-child {
             box-shadow: 0px 1px 0px 0px #ddd;
@@ -7183,13 +7183,13 @@
                 justify-content: center;
                 -ms-flex-flow: column;
                 flex-flow: column;
-            \ttext-align: center;
+              text-align: center;
             }
             .btn-custom-primary {
-            \tpadding: 8px 25px;
+              padding: 8px 25px;
             }
             .font-24 {
-            \tfont-size: 22px;
+              font-size: 22px;
             }
             .font-60 {
                 font-size: 45px;
@@ -7203,7 +7203,7 @@
         }
         @media (max-width:767px) {
             .font-60 {
-            \tfont-size: 28px;
+              font-size: 28px;
             }
             .font-38 {
                 font-size: 25px;
@@ -7234,7 +7234,7 @@
             font-size: 18px;
         }
         .body-background {
-        \tpadding: 80px 0;
+          padding: 80px 0;
         }
         .masthead {
             min-height:265px;
@@ -7281,10 +7281,10 @@
             justify-content: center;
             -ms-flex-flow: column;
             flex-flow: column;
-        \ttext-align: center;
+          text-align: center;
         }
         .support-box .fa {
-        \tfont-size: 36px;
+          font-size: 36px;
         }
         .flexheight {
             display: flex;
@@ -7309,36 +7309,36 @@
           display: none;
         }
         div.ginput_complex.ginput_container.gf_name_has_2 span {
-        \twidth: 48.7%;
-        \tmargin-right:2px;
+          width: 48.7%;
+          margin-right:2px;
         }
         div.ginput_complex.ginput_container.gf_name_has_2 span.name_last {
-        \tmargin-right:0px;
+          margin-right:0px;
         }
         .gform_wrapper .top_label li.gfield.gf_left_half {
-        \tmargin: 0 0 0;
+          margin: 0 0 0;
         }
         .gform_wrapper .top_label li.gfield.gf_right_half {
-        \tmargin: 0 0 0;
+          margin: 0 0 0;
         }
         .gform_button {
-        \tpadding: 15px 65px;
-        \tcolor: #fff;
-        \ttext-transform: uppercase;
-        \tborder-radius: 55px;
-        \tfont-size:12px !important;
+          padding: 15px 65px;
+          color: #fff;
+          text-transform: uppercase;
+          border-radius: 55px;
+          font-size:12px !important;
         }
         .gform_button::after {
-        \tcolor: #000;
-        \tcontent: "/f178";
-        \tfont-family: fontAwesome;
-        \tpadding-left: 5px;
-        \tdisplay: inline-block;
+          color: #000;
+          content: "/f178";
+          font-family: fontAwesome;
+          padding-left: 5px;
+          display: inline-block;
         
         }
         @media (max-width:991px) {
             .font-48 {
-            \tfont-size: 36px;
+              font-size: 36px;
             }
             .font-60 {
                 font-size: 45px;
@@ -7354,28 +7354,28 @@
                 height: auto;
             }
             .well-form {
-            \tpadding: 20px;
+              padding: 20px;
             }
             .font-38 {
-            \tfont-size: 34px;
+              font-size: 34px;
             }
         }
         @media (max-width:767px) {
             .masthead {
-            \tpadding: 0 30px;
-            \ttext-align: center;
+              padding: 0 30px;
+              text-align: center;
             }
             .btn-custom-primary {
-            \tpadding: 8px 25px;
+              padding: 8px 25px;
             }
             .font-60 {
                 font-size: 32px;
             }
             .font-38 {
-            \tfont-size: 26px;
+              font-size: 26px;
             }
             .body-background {
-            \tpadding: 50px 0;
+              padding: 50px 0;
             }
         }
         </style>
@@ -13341,12 +13341,12 @@
         [well class="well-service"]
         <h3 class="font-18 accent2">Nullam ultrices purus faucibus commodo dignissim.</h3>
         <ul>
-        \t<li>Phasellus accumsan mauris nec tellus ornare, ac interdum </li>
-        \t<li>Mauris vel orci bibendum, venenatis lorem rhoncus, posuere lectus.</li>
-        \t<li>Aenean nec ante non risus pellentesque lobortis.</li>
-        \t<li>Proin ultrices metus sit amet elit lacinia ornare.</li>
-        \t<li>Sed pharetra ligula vitae magna tincidunt lobortis.</li>
-        \t<li>Vestibulum aliquet ante sit amet nunc placerat, vel pulvinar risus ultrices.</li>
+          <li>Phasellus accumsan mauris nec tellus ornare, ac interdum </li>
+          <li>Mauris vel orci bibendum, venenatis lorem rhoncus, posuere lectus.</li>
+          <li>Aenean nec ante non risus pellentesque lobortis.</li>
+          <li>Proin ultrices metus sit amet elit lacinia ornare.</li>
+          <li>Sed pharetra ligula vitae magna tincidunt lobortis.</li>
+          <li>Vestibulum aliquet ante sit amet nunc placerat, vel pulvinar risus ultrices.</li>
         </ul>
         [/well]
         [/column]
