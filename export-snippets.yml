@@ -5084,7 +5084,7 @@
 - trigger: Adwords-Landing-Page
   description: Adwords Landing Page
   scope: css
-  mTime: 1520499515910
+  mTime: 1521197082660
   text: |
         <style>
         body p {
@@ -5240,6 +5240,2414 @@
               padding: 40px 20px;
             }
         }
+        </style>
+
+- trigger: LandingPage-A
+  description: Stylesheet for LandingPage - A
+  scope: css
+  mTime: 1521193615058
+  text: |
+        <style>\r
+        \r
+        .font-58 {\r
+            font-size: 58px;\r
+        }\r
+        .font-32 {\r
+            font-size: 32px;\r
+        }\r
+        .font-26 {\r
+            font-size: 26px;\r
+        }\r
+        \r
+        .banner-landing .gform_footer input {\r
+            border-radius: 50px;\r
+            padding: 14px 35px;\r
+            text-transform: uppercase;\r
+        }\r
+        .banner-landing .gform_wrapper p {\r
+            margin: 0;\r
+        }\r
+        .banner-landing .well > h2, \r
+        .banner-landing .well > p {\r
+            color: #000;\r
+        }\r
+        \r
+        .banner-landing .well {\r
+            background-color: #fff;\r
+            border: medium none;\r
+            padding: 20px 50px;\r
+        }\r
+        .banner-landing .well li label {\r
+            display: none !important;\r
+        }\r
+        .banner-landing .gform_body input {\r
+            height: 50px;\r
+            padding: 10px 15px;\r
+        }\r
+        \r
+        .title-icon {\r
+            margin-bottom: 10px;\r
+        }\r
+        .title-icon img {\r
+            margin-right: 20px;\r
+        }\r
+        \r
+        .hr-divider {\r
+            border-color: #dfdfdf;\r
+            width: 100%;\r
+        }\r
+        .testimonial-b .testimonial-body {\r
+            background-color: #f2f2f2;\r
+        }\r
+        .testimonial-b .fa {\r
+            display: none;\r
+        }\r
+        .testimonial-b h3 {\r
+            color: #b72a2a;\r
+            font-size: 24px;\r
+            font-weight: 300;\r
+            margin: 0;\r
+        }\r
+        .testimonial-b span[itemprop="author"] {\r
+            color: #000;\r
+            font-size: 14px;\r
+            font-weight: 300;\r
+            text-transform: uppercase;\r
+        }\r
+        .testimonial-b {\r
+            margin: 0 auto;\r
+        }\r
+        .testimonial-body::after {\r
+            border-color: #f2f2f2 transparent transparent #f2f2f2;\r
+        }\r
+        \r
+        /* Partner */\r
+        \r
+        .about-us-partner div {\r
+            background-color: #f2f2f2;\r
+            margin-bottom: 60px;\r
+            margin-top: 40px;\r
+            padding-bottom: 50px;\r
+            padding-top: 50px;\r
+        }\r
+        \r
+        .about-us-partner div > br {\r
+            display: none;\r
+        }\r
+        \r
+        .about-us-partner div > img {\r
+            margin: 0 10px;\r
+        }\r
+        \r
+        /*** Footer ***/\r
+        .cta-subscribe form {\r
+            display: -webkit-box;\r
+            display: -ms-flexbox;\r
+            display: flex;\r
+        }\r
+        .cta-subscribe form * {\r
+            border-radius: 50px;\r
+            float: left;\r
+        }\r
+        \r
+        .cta-subscribe form li label,\r
+        .cta-subscribe form .gform_heading {\r
+            display: none !important;\r
+        }\r
+        \r
+        .cta-subscribe form .gform_footer {\r
+            margin-top: 0;\r
+            padding-top: 0.625em;\r
+        }\r
+        \r
+        .cta-subscribe form .gform_footer input {\r
+            border: medium none;\r
+            color: #fff;\r
+            padding: 14px 35px;\r
+            text-transform: uppercase;\r
+            -webkit-transition: 0.3s;\r
+            transition: 0.3s;\r
+        }\r
+        \r
+        .cta-subscribe form .gform_body input {\r
+            height: 48px;\r
+            padding: 15px;\r
+        }\r
+        \r
+        .cta-subscribe form .gform_body * {\r
+            width: 100%;\r
+        }\r
+        \r
+        .cta-subscribe .gform_wrapper input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]) {\r
+            padding: 0 25px;\r
+        }\r
+        \r
+        .cta-subscribe .gform_wrapper ul li.gfield {\r
+            margin-top: 0;\r
+        }\r
+        \r
+        /********** Media screen **********/\r
+        \r
+        @media (min-width: 992px) and (max-width: 1280px) {\r
+            .font-58 {\r
+                font-size: 48px;\r
+            }\r
+            .banner-landing .well {\r
+                padding: 20px 30px;\r
+            }\r
+            .font-24 {\r
+                font-size: 20px;\r
+            }\r
+            \r
+            .about-us-partner div {\r
+                margin-bottom: 10px;\r
+                margin-top: 0;\r
+            }\r
+            \r
+            .font-38 {\r
+                font-size: 32px;\r
+            }\r
+            \r
+            .cta-subscribe .row {\r
+                margin-bottom: 0;\r
+                margin-top: 0;\r
+            }\r
+        }\r
+        \r
+        \r
+        @media  (max-width: 991px) {\r
+            .cta-subscribe .row {\r
+                margin-bottom: 0;\r
+                margin-top: 0;\r
+            }\r
+            .font-38 {\r
+                font-size: 32px;\r
+            }\r
+            .banner-landing .well {\r
+                margin-top: 30px;\r
+                padding: 20px;\r
+                text-align: center;\r
+            }\r
+            .about-us-partner div {\r
+                -ms-flex-flow: row wrap;\r
+                    flex-flow: row wrap;\r
+            }\r
+        }\r
+        \r
+        @media (max-width: 767px) {\r
+            #header .header-landing-page img {\r
+                margin: auto auto 20px;\r
+            }\r
+            .font-58 {\r
+                font-size: 29px;\r
+            }\r
+            .font-38 {\r
+                font-size: 23px;\r
+            }\r
+            .font-32 {\r
+                font-size: 24px;\r
+            }\r
+            .testimonial-b img {\r
+                max-width: 90px;\r
+            }\r
+            .hr-divider {\r
+                margin-top: 0;\r
+            }\r
+            .cta-subscribe,\r
+            .cta-subscribe form .gform_footer {\r
+                text-align: center;\r
+            }\r
+            .cta-subscribe form {\r
+                display: block;\r
+            }\r
+            .cta-subscribe form .gform_body {\r
+                width: 100%;\r
+            }\r
+            .cta-subscribe form * {\r
+                float: none;\r
+            }\r
+            .footer-left {\r
+                display: block;\r
+            }\r
+        }\r
+        </style>
+
+- trigger: LandingPage-B
+  description: Stylesheet for LandingPage - B
+  scope: css
+  mTime: 1521193661043
+  text: |
+        <style>\r
+        .header-landing-page {\r
+            background: transparent none repeat scroll 0 0;\r
+            position: absolute;\r
+            width: 100%;\r
+        }\r
+        \r
+        /**** Font Size ****/\r
+        .font-58 {\r
+            font-size: 58px;\r
+        }\r
+        .font-32 {\r
+            font-size: 32px;\r
+        }\r
+        .font-26 {\r
+            font-size: 26px;\r
+        }\r
+        \r
+        /**** Banner ****/\r
+        .banner-landing .gform_footer input {\r
+            border-radius: 50px;\r
+            padding: 14px 35px;\r
+            text-transform: uppercase;\r
+        }\r
+        \r
+        .banner-landing .gform_wrapper p {\r
+            margin: 0;\r
+        }\r
+        \r
+        .banner-landing .well > h2, \r
+        .banner-landing .well > p {\r
+            color: #000;\r
+        }\r
+        \r
+        .banner-landing .well {\r
+            background-color: #fff;\r
+            border: medium none;\r
+            padding: 20px 50px;\r
+        }\r
+        .banner-landing .well li label {\r
+            display: none !important;\r
+        }\r
+        \r
+        .banner-landing .gform_body input {\r
+            height: 50px;\r
+            padding: 10px 15px;\r
+        }\r
+        \r
+        \r
+        .btn-landing {\r
+            border-radius: 50px;\r
+            padding: 15px 25px;\r
+            text-transform: uppercase;\r
+        }\r
+        \r
+        .btn-huge {\r
+            padding: 15px 50px;\r
+        }\r
+        \r
+        .btn-primary:after, \r
+        .button-custom:after {\r
+            content: "";\r
+        }\r
+        \r
+        .btn-landing-inverse {\r
+            background: transparent none repeat scroll 0 0;\r
+            border-color: #fff;\r
+        }\r
+        \r
+        .btn-landing-inverse:hover,\r
+        .btn-landing-inverse:focus,\r
+        .btn-landing-inverse:active {\r
+            background-color: #fff;\r
+            border-color: #fff;\r
+            color: #b72a2a !important;\r
+        }\r
+        \r
+        \r
+        .title-icon {\r
+            margin-right: 20px;\r
+        }\r
+        .txt-icon h3 {\r
+            margin-top: 0;\r
+        }\r
+        \r
+        .clients .testimonial-body {\r
+            background: #fff;\r
+        }\r
+        .clients .testimonial-body i {\r
+            display: none;\r
+        }\r
+        .clients .testimonial-body h3 {\r
+            display: none;\r
+        }\r
+        .clients .testimonial-reference {\r
+            margin-bottom: 20px;\r
+        }\r
+        .clients .carousel .carousel-indicators {\r
+            left: 0;\r
+            margin-left: 0;\r
+            text-align: left;\r
+        }\r
+        .clients .carousel .carousel-indicators li {\r
+            background-color: #fff;\r
+        }\r
+        .clients .carousel .carousel-indicators li.active {\r
+            background-color: #b82a29;\r
+        }\r
+        .landing-partner .flex-box {\r
+            -webkit-box-pack: center;\r
+                -ms-flex-pack: center;\r
+                    justify-content: center;\r
+        }\r
+        \r
+        /********** Media screen **********/\r
+        \r
+        @media (min-width: 992px) and (max-width: 1280px) {\r
+            .font-32 {\r
+                font-size: 25px;\r
+            }\r
+            .font-58 {\r
+                font-size: 48px;\r
+            }\r
+        }\r
+        \r
+        @media  (max-width: 991px) {\r
+            .banner-landing .well {\r
+                margin-top: 40px;\r
+                text-align: center;\r
+            }\r
+            .font-38 {\r
+                font-size: 32px;\r
+            }\r
+        }\r
+        @media (max-width: 767px) {\r
+            .font-58 {\r
+                font-size: 29px;\r
+            }\r
+            .font-38 {\r
+                font-size: 23px;\r
+            }\r
+            .font-32 {\r
+                font-size: 24px;\r
+            }\r
+            .banner-landing .well {\r
+                padding: 20px;\r
+            }\r
+            .testimonial-b img {\r
+                max-width: 90px;\r
+            }\r
+            .clients .carousel .carousel-indicators {\r
+                text-align: center;\r
+                width: 100%;\r
+            }\r
+            .clients .testimonial-reference {\r
+            -webkit-box-pack: center;\r
+                -ms-flex-pack: center;\r
+                    justify-content: center;\r
+            }\r
+            .footer-left {\r
+                display: block;\r
+            }\r
+            .banner-landing .gform_footer input {\r
+                width: 98%;\r
+            }\r
+            .landing-partner .flex-box {\r
+                -ms-flex-wrap: wrap;\r
+                    flex-wrap: wrap;\r
+            }\r
+            .landing-partner .flex-box img {\r
+                width: 50%;\r
+            }\r
+        }\r
+        </style>
+
+- trigger: LandingPage-C
+  description: Stylesheet for LandingPage - C
+  scope: css
+  mTime: 1521193698523
+  text: |
+        <style>\r
+        \r
+        .font-58 {\r
+            font-size: 58px;\r
+        }\r
+        .font-32 {\r
+            font-size: 32px;\r
+        }\r
+        .font-26 {\r
+            font-size: 26px;\r
+        }\r
+        \r
+        /*********** Banner ***********/\r
+        \r
+        .banner-landing .gform_footer input {\r
+            border-radius: 50px;\r
+            padding: 14px 35px;\r
+            text-transform: uppercase;\r
+            background-color: #000;\r
+            color: #fff !important;\r
+        }\r
+        \r
+        .banner-landing .gform_wrapper p {\r
+            margin: 0;\r
+        }\r
+        \r
+        .banner-landing .well > h2, \r
+        .banner-landing .well > p {\r
+            color: #fff;\r
+        }\r
+        \r
+        .banner-landing .well {\r
+            background-color: #b72a2a;\r
+            border: medium none;\r
+            padding: 20px 50px;\r
+        }\r
+        \r
+        .banner-landing .well li label {\r
+            display: none !important;\r
+        }\r
+        \r
+        .banner-landing .gform_body input {\r
+            height: 50px;\r
+            padding: 10px 15px;\r
+        }\r
+        \r
+        /********** Icon Services **********/\r
+        \r
+        .title-icon {\r
+            -webkit-box-align: center;\r
+                -ms-flex-align: center;\r
+                    align-items: center;\r
+            margin-bottom: 10px;\r
+        }\r
+        \r
+        .title-icon img {\r
+            margin-right: 20px;\r
+        }\r
+        \r
+        /********** Testimonials **********/\r
+        \r
+        .clients {\r
+           border: 1px solid #DFDFDF;\r
+        }\r
+        .clients .testimonial-body {\r
+            border: medium none;\r
+            padding: 0;\r
+        }\r
+        .clients .testimonial-body i {\r
+            display: none;\r
+        }\r
+        .clients .testimonial-body h3 {\r
+            display: none;\r
+        }\r
+        .clients .testimonial-reference {\r
+            margin-bottom: 20px;\r
+        }\r
+        .clients .carousel .carousel-indicators {\r
+            left: 0;\r
+            margin-left: 0;\r
+            text-align: left;\r
+        }\r
+        .clients .carousel .carousel-indicators li {\r
+            background-color: #fff;\r
+        }\r
+        .clients .carousel .carousel-indicators li.active {\r
+            background-color: #b82a29;\r
+        }\r
+        \r
+        .testimonial-b .testimonial-body {\r
+            background-color: #f2f2f2;\r
+        }\r
+        .testimonial-b .fa {\r
+            display: none;\r
+        }\r
+        \r
+        .testimonial-b h3 {\r
+            color: #b72a2a;\r
+            font-size: 24px;\r
+            font-weight: 300;\r
+            margin: 0;\r
+        }\r
+        \r
+        .testimonial-b span[itemprop="author"] {\r
+            color: #000;\r
+            font-size: 14px;\r
+            font-weight: 300;\r
+            text-transform: uppercase;\r
+        }\r
+        \r
+        .testimonial-b {\r
+            margin: 0 auto;\r
+        }\r
+        \r
+        .testimonial-body::after {\r
+            border-color: #f2f2f2 transparent transparent #f2f2f2;\r
+        }\r
+        \r
+        .clients .testimonial-body::after, \r
+        .clients .testimonial-body::before {\r
+            border: none;\r
+        }\r
+        \r
+        /********** Partner **********/\r
+        \r
+        .landing-partner .flex-box {\r
+        \t-webkit-box-pack: center;\r
+        \t-ms-flex-pack: center;\r
+        \tjustify-content: center;\r
+            border-top: 1px solid #DCDCDC;\r
+        \tborder-bottom: 1px solid #DCDCDC;\r
+        \tpadding-top: 45px;\r
+        \tpadding-bottom: 45px;\r
+        }\r
+        \r
+        /********** Subscribe **********/\r
+        \r
+        .subscribe-c form {\r
+          display: -webkit-box;\r
+          display: -ms-flexbox;\r
+          display: flex;\r
+          -webkit-box-pack: center;\r
+              -ms-flex-pack: center;\r
+                  justify-content: center;\r
+        }\r
+        .subscribe-c form > .gform_body {\r
+          width: 50%;\r
+        }\r
+        .subscribe-c form > .gform_body input {\r
+          border-radius: 50px;\r
+          height: 50px;\r
+          padding: 10px 15px;\r
+          background-color: #f2f2f2;\r
+        }\r
+        .subscribe-c form > .gform_body label {\r
+          display: none !important;\r
+        }\r
+        .subscribe-c form > .gform_footer {\r
+          margin-top: 0;\r
+          padding-top: 0;\r
+        }\r
+        .subscribe-c form > .gform_body div {\r
+          margin-top: 0 !important;\r
+        }\r
+        .subscribe-c form > .gform_footer input {\r
+            border-radius: 50px;\r
+            font-size: 14px !important;\r
+            padding: 14px 35px;\r
+            text-transform: uppercase;\r
+           color: #fff !important;\r
+        }\r
+        \r
+        \r
+        /********** Media screen **********/\r
+        \r
+        @media (min-width: 992px) and (max-width: 1280px) {\r
+            .font-32 {\r
+                font-size: 25px;\r
+            }\r
+            .font-58 {\r
+                font-size: 48px;\r
+            }\r
+        }\r
+        \r
+        @media  (max-width: 991px) {\r
+            .banner-landing .well {\r
+                margin-top: 40px;\r
+                text-align: center;\r
+            }\r
+            .font-38 {\r
+                font-size: 32px;\r
+            }\r
+        }\r
+        @media (max-width: 767px) {\r
+            .font-58 {\r
+                font-size: 29px;\r
+            }\r
+            .font-38 {\r
+                font-size: 23px;\r
+            }\r
+            .font-32 {\r
+                font-size: 24px;\r
+            }\r
+            .banner-landing .well {\r
+                padding: 20px;\r
+            }\r
+            .testimonial-b img {\r
+                max-width: 90px;\r
+            }\r
+            .clients .carousel .carousel-indicators {\r
+                text-align: center;\r
+                width: 100%;\r
+            }\r
+            .clients .testimonial-reference {\r
+            -webkit-box-pack: center;\r
+                -ms-flex-pack: center;\r
+                    justify-content: center;\r
+            }\r
+            .footer-left {\r
+                display: block;\r
+            }\r
+            .banner-landing .gform_footer input {\r
+                width: 98%;\r
+            }\r
+            .landing-partner .flex-box {\r
+                -ms-flex-wrap: wrap;\r
+                    flex-wrap: wrap;\r
+            }\r
+            .landing-partner .flex-box img {\r
+                width: 50%;\r
+            }\r
+            .subscribe-c form > .gform_body {\r
+                width: 100%;\r
+                margin-bottom: 15px;\r
+            }\r
+        }\r
+        </style>
+
+- trigger: LandingPage-D
+  description: Stylesheet for LandingPage - D
+  scope: css
+  mTime: 1521193735136
+  text: |
+        <style>\r
+        .font-58 {\r
+            font-size: 58px;\r
+        }\r
+        .font-32 {\r
+            font-size: 32px;\r
+        }\r
+        .font-26 {\r
+            font-size: 26px;\r
+        }\r
+        \r
+        /*********** Banner ***********/\r
+        \r
+        .banner-landing .gform_footer input {\r
+            border-radius: 50px;\r
+            font-size: 14px !important;\r
+            padding: 14px 35px;\r
+            text-transform: uppercase;\r
+            background-color: #000;\r
+            color: #fff !important;\r
+        }\r
+        .banner-landing .gform_wrapper p {\r
+            margin: 0;\r
+        }\r
+        .banner-landing .well > h2, \r
+        .banner-landing .well > p {\r
+            color: #fff;\r
+        }\r
+        .banner-landing .well {\r
+            background-color: #b72a2a;\r
+            border: medium none;\r
+            padding: 20px 35px;\r
+        }\r
+        .banner-landing .well li label {\r
+            display: none !important;\r
+        }\r
+        .banner-landing .gform_body input {\r
+            height: 50px;\r
+            padding: 10px 15px;\r
+        }\r
+        \r
+        /********** Testimonials **********/\r
+        \r
+        .clients .testimonial-body {\r
+            border: medium none;\r
+            padding: 0;\r
+        }\r
+        .clients .testimonial-body i {\r
+            display: none;\r
+        }\r
+        .clients .testimonial-body h3 {\r
+            display: none;\r
+        }\r
+        .clients .testimonial-reference {\r
+            margin-bottom: 20px;\r
+        }\r
+        .clients .carousel .carousel-indicators {\r
+            left: 0;\r
+            margin-left: 0;\r
+            text-align: left;\r
+        }\r
+        .clients .carousel .carousel-indicators li {\r
+            background-color: #fff;\r
+        }\r
+        .clients .carousel .carousel-indicators li.active {\r
+            background-color: #b82a29;\r
+        }\r
+        \r
+        .testimonial-b .testimonial-body {\r
+            background-color: #f2f2f2;\r
+        }\r
+        .testimonial-b .fa {\r
+            display: none;\r
+        }\r
+        .testimonial-b h3 {\r
+            color: #b72a2a;\r
+            font-size: 24px;\r
+            font-weight: 300;\r
+            margin: 0;\r
+        }\r
+        .testimonial-b span[itemprop="author"] {\r
+            color: #000;\r
+            font-family: "Libre Franklin",lucida grande,Arial,sans-serif;\r
+            font-size: 14px;\r
+            font-weight: 300;\r
+            text-transform: uppercase;\r
+        }\r
+        .testimonial-b {\r
+            margin: 0 auto;\r
+        }\r
+        .testimonial-body::after {\r
+            border-color: #f2f2f2 transparent transparent #f2f2f2;\r
+        }\r
+        .clients .testimonial-body::after, \r
+        .clients .testimonial-body::before {\r
+            border: none;\r
+        }\r
+        \r
+        .partner-box,\r
+        .clients {\r
+          border: 1px solid #DFDFDF;\r
+          min-height: 380px;\r
+        }\r
+        .partner-box {\r
+            padding-top: 45px;\r
+        }\r
+        \r
+        .divider {\r
+            width: 100%;\r
+            border-color: #dedede;\r
+            margin-top: 45px;\r
+            margin-bottom: 45px;\r
+        }\r
+        \r
+        .subscribe-d .btn {\r
+            border-radius: 50px;\r
+            font-size: 14px !important;\r
+            padding: 14px 35px;\r
+            text-transform: uppercase;\r
+            color: #fff !important;\r
+        }\r
+        .subscribe-d .btn:after {\r
+            color: #000 !important;\r
+        }\r
+        \r
+        \r
+        /********** Media screen **********/\r
+        \r
+        @media (min-width: 992px) and (max-width: 1280px) {\r
+            .font-32 {\r
+                font-size: 25px;\r
+            }\r
+            .font-58 {\r
+                font-size: 48px;\r
+            }\r
+        }\r
+        \r
+        @media  (max-width: 991px) {\r
+            .banner-landing .well {\r
+                margin-top: 40px;\r
+                text-align: center;\r
+            }\r
+            .font-38 {\r
+                font-size: 32px;\r
+            }\r
+            .divider {\r
+            margin-top: 40px;\r
+            margin-bottom: 25px;\r
+        }\r
+        .partner-box {\r
+            margin-bottom: 20px;\r
+        }\r
+            .clients .carousel .carousel-indicators {\r
+                text-align: center;\r
+                width: 100%;\r
+            }\r
+            .clients .testimonial-reference {\r
+            -webkit-box-pack: center;\r
+                -ms-flex-pack: center;\r
+                    justify-content: center;\r
+            }\r
+            .banner-landing .gform_footer input {\r
+                width: 98%;\r
+            }\r
+        }\r
+        @media (max-width: 767px) {\r
+            .font-58 {\r
+                font-size: 29px;\r
+            }\r
+            .font-48 {\r
+                font-size: 30px;\r
+            }\r
+            .font-38 {\r
+                font-size: 23px;\r
+            }\r
+            .font-32 {\r
+                font-size: 24px;\r
+            }\r
+            .banner-landing .well {\r
+                padding: 20px;\r
+            }\r
+            .testimonial-b img {\r
+                max-width: 90px;\r
+            }\r
+            .footer-left {\r
+                display: block;\r
+            }\r
+            .banner-d img {\r
+                margin: auto;\r
+            }\r
+            .landing-partner .flex-box {\r
+                -ms-flex-wrap: wrap;\r
+                    flex-wrap: wrap;\r
+            }\r
+            .landing-partner .flex-box img {\r
+                width: 50%;\r
+            }\r
+        }\r
+        \r
+        </style>
+
+- trigger: LandingPage-E
+  description: Stylesheet for LandingPage - E
+  scope: css
+  mTime: 1521193772494
+  text: |
+        <style>\r
+        .font-48 {\r
+            font-size: 48px;    \r
+        }\r
+        .font-26 {\r
+            font-size: 26px;\r
+        }\r
+        .font-24 {\r
+            font-size: 26px;\r
+        }\r
+        .font-18 {\r
+            font-size: 18px;\r
+        }\r
+        \r
+        /*********** Header ***********/\r
+        \r
+        .header-landing-page {\r
+        \tbackground-color: transparent;\r
+        \tposition: absolute;\r
+        \twidth: 100%;\r
+        }\r
+        \r
+        \r
+        /*********** Banner ***********/\r
+        \r
+        .banner-landing {\r
+            padding-top: 200px !important;\t\r
+        \theight: 715px;\r
+        }\r
+        \r
+        .banner-landing .gform_footer input {\r
+            border-radius: 50px;\r
+            font-size: 14px !important;\r
+            padding: 14px 35px;\r
+            text-transform: uppercase;\r
+            background-color: #000;\r
+            color: #fff !important;\r
+        }\r
+        .banner-landing .gform_wrapper p {\r
+            margin: 0;\r
+        }\r
+        .banner-landing .well > h2, \r
+        .banner-landing .well > p {\r
+            color: #fff;\r
+        }\r
+        .banner-landing .well {\r
+            background-color: #b72a2a;\r
+            border: medium none;\r
+            padding: 20px 40px;\r
+        }\r
+        .banner-landing .well li label {\r
+            display: none !important;\r
+        }\r
+        .banner-landing .gform_body input {\r
+            height: 50px;\r
+            padding: 10px 15px;\r
+        }\r
+        \r
+        \r
+        /********** Testimonials **********/\r
+        .clients {\r
+            border: 1px solid #DFDFDF;\r
+            min-height: 380px;\r
+            padding: 40px 60px;\r
+            margin-top: -50px;\r
+        }\r
+        .clients .testimonial-body {\r
+            border: medium none;\r
+            padding: 0;\r
+        }\r
+        .clients .testimonial-body i {\r
+            display: none;\r
+        }\r
+        .clients .testimonial-body h3 {\r
+            display: none;\r
+        }\r
+        .clients .testimonial-reference {\r
+        \tmargin-bottom: 20px;\r
+        \tmax-width: 400px;\r
+        }\r
+        .clients .carousel .carousel-indicators {\r
+            left: 0;\r
+            margin-left: 0;\r
+            text-align: left;\r
+        }\r
+        .clients .carousel .carousel-indicators li {\r
+            background-color: #fff;\r
+        }\r
+        .clients .carousel .carousel-indicators li.active {\r
+            background-color: #b82a29;\r
+        }\r
+        \r
+        .testimonial-e .testimonial-body {\r
+            background-color: #f2f2f2;\r
+        }\r
+        .testimonial-e .fa {\r
+            display: none;\r
+        }\r
+        .testimonial-e h3 {\r
+            color: #b72a2a;\r
+            font-size: 24px;\r
+            font-weight: 300;\r
+            margin: 0;\r
+        }\r
+        .testimonial-e span[itemprop="author"] {\r
+            color: #000;\r
+            font-family: "Libre Franklin",lucida grande,Arial,sans-serif;\r
+            font-size: 14px;\r
+            font-weight: 300;\r
+            text-transform: uppercase;\r
+        }\r
+        .testimonial-e {\r
+            margin: 0 auto;\r
+        }\r
+        .testimonial-body::after {\r
+            border-color: #f2f2f2 transparent transparent #f2f2f2;\r
+        }\r
+        .clients .testimonial-body::after, \r
+        .clients .testimonial-body::before {\r
+            border: none;\r
+        }\r
+        \r
+        .partner-box,\r
+        .clients {\r
+          border: 1px solid #DFDFDF;\r
+        }\r
+        .partner-box {\r
+        \tpadding: 20px;\r
+        \tmin-height: 308px;\r
+        \tmargin-top: 40px;\r
+        }\r
+        \r
+        .divider {\r
+            width: 100%;\r
+            border-color: #dedede;\r
+            margin-top: 45px;\r
+            margin-bottom: 45px;\r
+        }\r
+        \r
+        .subscribe-e .btn {\r
+            border-radius: 50px;\r
+            font-size: 14px !important;\r
+            padding: 14px 35px;\r
+            text-transform: uppercase;\r
+            color: #fff !important;\r
+        }\r
+        .subscribe-e .btn:after {\r
+            color: #000 !important;\r
+        }\r
+        \r
+        /********* Footer *********/\r
+        \r
+        .footer-left * {\r
+            line-height: 24px;\r
+            padding: 0;\r
+        }\r
+        .footer-left > div {\r
+            margin-right: 10px;\r
+        }\r
+        \r
+        /********** Media screen **********/\r
+        \r
+        @media (min-width: 992px) and (max-width: 1280px) {\r
+        \r
+        }\r
+        \r
+        @media  (max-width: 991px) {\r
+            .banner-landing {\r
+            \tpadding-top: 200px !important;\r
+            \theight: auto;\r
+            }\r
+            .banner-landing .well {\r
+                margin-top: 40px;\r
+                text-align: center;\r
+            }\r
+        \r
+        }\r
+        @media (max-width: 767px) {\r
+            .header-landing-page img {\r
+        \t    margin: 20px auto;\r
+            }\r
+            .font-48 {\r
+            \tfont-size: 40px;\r
+            }\r
+            .banner-landing .well {\r
+                padding: 20px;\r
+            }\r
+            .testimonial-b img {\r
+                max-width: 90px;\r
+            }\r
+            .testimonial-b .testimonial-reference {\r
+        \t    display: block;\r
+            }\r
+            .clients {\r
+            \tpadding: 20px;\r
+            \tmargin-top: 0;\r
+            }\r
+            .clients .carousel .carousel-indicators {\r
+                text-align: center;\r
+                width: 100%;\r
+            }\r
+            .clients .testimonial-reference {\r
+            -webkit-box-pack: center;\r
+                -ms-flex-pack: center;\r
+                    justify-content: center;\r
+            }\r
+            .footer-left {\r
+                display: block;\r
+            }\r
+            .banner-landing .gform_footer input {\r
+                width: 98%;\r
+            }\r
+            .landing-partner .flex-box {\r
+                -ms-flex-wrap: wrap;\r
+                    flex-wrap: wrap;\r
+            }\r
+            .landing-partner .flex-box img {\r
+                width: 50%;\r
+            }\r
+            .subscribe-e form > .gform_body {\r
+                width: 100%;\r
+                margin-bottom: 15px;\r
+            }\r
+        }\r
+        \r
+        \r
+        </style>
+
+- trigger: LandingPage-F
+  description: Stylesheet for LandingPage - F
+  scope: css
+  mTime: 1521193794718
+  text: |
+        <style>\r
+        .font-48 {\r
+            font-size: 48px;    \r
+        }\r
+        .font-26 {\r
+            font-size: 26px;\r
+        }\r
+        .font-24 {\r
+            font-size: 26px;\r
+        }\r
+        .font-18 {\r
+            font-size: 18px;\r
+        }\r
+        \r
+        \r
+        \r
+        \r
+        /*********** Form ***********/\r
+        \r
+        \r
+        .landing-form .gform_wrapper p {\r
+            margin: 0;\r
+        }\r
+        .landing-form .well > h2, \r
+        .landing-form .well > p {\r
+            color: #fff;\r
+        }\r
+        .landing-form .well {\r
+        \tbackground-color: #000;\r
+        \tborder: medium none;\r
+        \tpadding: 60px 100px;\r
+        }\r
+        .landing-form .well li label {\r
+            display: none !important;\r
+        }\r
+        .landing-form .gform_body input {\r
+            height: 50px;\r
+            padding: 10px 15px;\r
+            width:100%;\r
+        }\r
+        \r
+        .landing-form .btn {\r
+        \twidth: 100%;\r
+        \tbackground-color: #b72a2a;\r
+        \tborder: 1px solid #b72a2a;\r
+        \tcolor: #fff !important;\r
+        \tborder-radius: 50px;\r
+        \tfont-size: 14px !important;\r
+            padding: 14px 35px;\r
+            text-transform: uppercase;\r
+        }\r
+        \r
+        .landing-form .btn:hover,\r
+        .landing-form .btn:focus,\r
+        .landing-form .btn:active {\r
+            background-color: #b72a2a;\r
+            border: 1px solid #b72a2a;\r
+        }\r
+        \r
+        \r
+        \r
+        \r
+        \r
+        /********* Footer *********/\r
+        \r
+        .footer-left * {\r
+            line-height: 24px;\r
+            padding: 0;\r
+        }\r
+        .footer-left > div {\r
+            margin-right: 10px;\r
+        }\r
+        \r
+        /********** Media screen **********/\r
+        \r
+        @media (min-width: 992px) and (max-width: 1280px) {\r
+        \r
+        }\r
+        \r
+        @media  (max-width: 991px) {\r
+        \r
+        \r
+        }\r
+        @media (max-width: 767px) {\r
+            .header-landing-page img {\r
+            \tmargin: 20px auto;\r
+            }\r
+            .landing-form .well {\r
+        \t    padding: 20px;\r
+            }\r
+            .footer-left {\r
+                display: block;\r
+            }\r
+        }\r
+        \r
+        \r
+        </style>
+
+- trigger: Testimonial-Design-A
+  description: Innerpage Testimonial - Design A
+  scope: css
+  mTime: 1521195758709
+  text: |
+        <style>\r
+        .font-60 {\r
+            font-size:60px;\r
+            line-height:1.2;\r
+        }\r
+        .testimonial-c {\r
+            min-height: 340px;\r
+        }\r
+        \r
+        /******************TESTIMONIAL********************/\r
+        .testimonial-b h3 {\r
+          color: #b72a2a;\r
+          font-size: 24px;\r
+          font-weight: 300;\r
+          margin:0;\r
+        }\r
+        \r
+        .testimonial-b span[itemprop="author"] {\r
+          font-size: 14px;\r
+          font-weight: 300;\r
+          font-family: "Libre Franklin", lucida grande, Arial, sans-serif;\r
+          color: #000;\r
+          text-transform:uppercase;\r
+        }\r
+        \r
+        .testimonial-b {\r
+          margin: 20px auto;\r
+        }\r
+        \r
+        .testimonial-d span[itemprop="author"] {\r
+          font-size: 18px;\r
+          font-weight: 300;\r
+          font-family: "Libre Franklin", lucida grande, Arial, sans-serif;\r
+          color: #000;\r
+        }\r
+        \r
+        .testimonial-d h3 {\r
+          color: #b72a2a;\r
+          font-size: 24px;\r
+          font-weight: 300;\r
+          margin:0;\r
+          margin-bottom: 25px;\r
+        }\r
+        \r
+        .testimonial-d div[itemprop="reviewBody"] {\r
+          font-size: 18px;\r
+        }\r
+        \r
+        .testimonial-d .author-bottom {\r
+          font-size:18px;\r
+        }\r
+        \r
+        .testimonial-c h3 {\r
+          color: #b72a2a;\r
+          font-size: 24px;\r
+          font-weight: 300;\r
+          margin:0;\r
+        }\r
+        \r
+        .testimonial-c span[itemprop="author"] {\r
+          font-size: 14px;\r
+          font-weight: 300;\r
+          font-family: "Libre Franklin", lucida grande, Arial, sans-serif;\r
+          color: #000;\r
+          text-transform:uppercase;\r
+        }\r
+        \r
+        @media (min-width: 768px) and (max-width: 1024px) {\r
+            .testimonial-c {\r
+                min-height: 360px;\r
+            }\r
+        }\r
+        \r
+        @media (max-width:991px) {\r
+            .testimonial-c {\r
+                min-height: auto;\r
+            }\r
+        }\r
+        @media (max-width:767px) {\r
+            .font-60 {\r
+            \tfont-size: 30px;\r
+            }\r
+        }\r
+            \r
+        </style>
+
+- trigger: Testimonial-Design-B
+  description: Innerpage Testimonial - Design B
+  scope: css
+  mTime: 1521195780336
+  text: |
+        <style>\r
+        .font-60 {\r
+            font-size:60px;\r
+            line-height:1.2;\r
+        }\r
+        \r
+        .testimonial-b .fa {\r
+            display:none;\r
+        }\r
+        \r
+        /******************TESTIMONIAL********************/\r
+        .testimonial-b h3 {\r
+          color: #b72a2a;\r
+          font-size: 24px;\r
+          font-weight: 300;\r
+          margin:0;\r
+        }\r
+        \r
+        .testimonial-b span[itemprop="author"] {\r
+          font-size: 14px;\r
+          font-weight: 300;\r
+          font-family: "Libre Franklin", lucida grande, Arial, sans-serif;\r
+          color: #000;\r
+          text-transform:uppercase;\r
+        }\r
+        \r
+        .testimonial-b {\r
+          margin: 20px auto;\r
+        }\r
+        \r
+        .testimonial-d span[itemprop="author"] {\r
+          font-size: 18px;\r
+          font-weight: 300;\r
+          font-family: "Libre Franklin", lucida grande, Arial, sans-serif;\r
+          color: #000;\r
+        }\r
+        \r
+        .testimonial-d h3 {\r
+          color: #b72a2a;\r
+          font-size: 24px;\r
+          font-weight: 300;\r
+          margin:0;\r
+          margin-bottom: 25px;\r
+        }\r
+        \r
+        .testimonial-d div[itemprop="reviewBody"] {\r
+          font-size: 18px;\r
+        }\r
+        \r
+        .testimonial-d .author-bottom {\r
+          font-size:18px;\r
+        }\r
+        \r
+        .testimonial-c h3 {\r
+          color: #b72a2a;\r
+          font-size: 24px;\r
+          font-weight: 300;\r
+          margin:0;\r
+        }\r
+        \r
+        .testimonial-c span[itemprop="author"] {\r
+          font-size: 14px;\r
+          font-weight: 300;\r
+          font-family: "Libre Franklin", lucida grande, Arial, sans-serif;\r
+          color: #000;\r
+          text-transform:uppercase;\r
+        }\r
+        @media (max-width:767px) {\r
+            .font-60 {\r
+            \tfont-size: 30px;\r
+            }\r
+        }\r
+            \r
+        </style>
+
+- trigger: Testimonial-Design-C
+  description: Innerpage Testimonial - Design C
+  scope: css
+  mTime: 1521195801594
+  text: |
+        <style>\r
+        .font-60 {\r
+            font-size:60px;\r
+            line-height:1.2;\r
+        }\r
+        .no-border {\r
+            border:none;\r
+        }\r
+        \r
+        /******************TESTIMONIAL********************/\r
+        .testimonial-b h3 {\r
+          color: #b72a2a;\r
+          font-size: 24px;\r
+          font-weight: 300;\r
+          margin:0;\r
+        }\r
+        \r
+        .testimonial-b span[itemprop="author"] {\r
+          font-size: 14px;\r
+          font-weight: 300;\r
+          font-family: "Libre Franklin", lucida grande, Arial, sans-serif;\r
+          color: #000;\r
+          text-transform:uppercase;\r
+        }\r
+        \r
+        .testimonial-b {\r
+          margin: 20px auto;\r
+        }\r
+        \r
+        .testimonial-d span[itemprop="author"] {\r
+          font-size: 18px;\r
+          font-weight: 300;\r
+          font-family: "Libre Franklin", lucida grande, Arial, sans-serif;\r
+          color: #000;\r
+        }\r
+        \r
+        .testimonial-d h3 {\r
+          color: #b72a2a;\r
+          font-size: 24px;\r
+          font-weight: 300;\r
+          margin:0;\r
+          margin-bottom: 25px;\r
+        }\r
+        \r
+        .testimonial-d div[itemprop="reviewBody"] {\r
+          font-size: 18px;\r
+        }\r
+        \r
+        .testimonial-d .author-bottom {\r
+          font-size:18px;\r
+        }\r
+        \r
+        .testimonial-c h3 {\r
+          color: #b72a2a;\r
+          font-size: 24px;\r
+          font-weight: 300;\r
+          margin:0;\r
+        }\r
+        \r
+        .testimonial-c span[itemprop="author"] {\r
+          font-size: 14px;\r
+          font-weight: 300;\r
+          font-family: "Libre Franklin", lucida grande, Arial, sans-serif;\r
+          color: #000;\r
+          text-transform:uppercase;\r
+        }\r
+        \r
+        @media (max-width:767px) {\r
+            .font-60 {\r
+            \tfont-size: 30px;\r
+            }\r
+        }\r
+            \r
+        </style>
+
+- trigger: Testimonial–Design-D
+  description: Innerpage Testimonial – Design D
+  scope: css
+  mTime: 1521195867893
+  text: |
+        <style>\r
+        .font-60 {\r
+            font-size:60px;\r
+            line-height:1.2;\r
+        }\r
+        .testimonials-carousel-list .testimonial-d {\r
+        \tborder-bottom:0;\r
+        \tmin-height: 440px;\r
+        \tpadding-bottom: 0;\r
+        \tpadding-top:30px;\r
+        }\r
+        .testimonials-carousel-list .carousel-indicators li.active {\r
+        \tbackground: #B32C33;\r
+        }\r
+        .carousel-indicators li {\r
+        \tbackground: rgba(255,255,255,1);\r
+        }\r
+        .testimonials-carousel-list .testimonial-d h3 {\r
+        \tcolor: #b72a2a;\r
+        }\r
+        .testimonials-carousel-list .testimonial-d span[itemprop="author"] {\r
+        \tcolor: #fff;\r
+        }\r
+        .testimonial-b .fa {\r
+        \tdisplay: none;\r
+        }\r
+        @media (max-width:767px) {\r
+            .font-60 {\r
+            \tfont-size: 30px;\r
+            }\r
+            .testimonial-b img {\r
+            \tmax-width: 90px;\r
+            \twidth: 100%;\r
+            }\r
+        }\r
+        </style>
+
+- trigger: Support-Center-Design-A
+  description: Innerpage Support Center Design A
+  scope: css
+  mTime: 1521196583288
+  text: |
+        <style>\r
+        .font-60 {\r
+            font-size: 60px;\r
+        }\r
+        .font-38 {\r
+            font-size: 38px;\r
+        }\r
+        .font-24 {\r
+            font-size: 24px;\r
+        }\r
+        .font-18 {\r
+            font-size: 18px;\r
+        }\r
+        .btn-round {\r
+            border-radius:55px;\r
+        }\r
+        \r
+        .btn-custom-primary {\r
+            border-color:#b72a2a;\r
+            background-color:#b72a2a;\r
+            color:#fff;\r
+            padding:8px 35px;\r
+        }\r
+        \r
+        .btn-custom-primary:hover,\r
+        .btn-custom-primary:hover,\r
+        .btn-custom-primary:hover {\r
+            border-color:#a22525;\r
+            background-color:#a22525;\r
+        }\r
+        \r
+        .support-box {\r
+          display: flex;\r
+          display: -webkit-box;\r
+          display: -ms-flexbox;\r
+          display: -webkit-flex;\r
+        }\r
+        \r
+        .icon-support {\r
+          font-size: 16px;\r
+          width: 60px;\r
+        }\r
+        \r
+        .hr-default {\r
+            background-color: rgba(247, 247, 249, 0);\r
+            box-shadow: 0px 1px 0px 0px #dcdcdc;\r
+            border:0;\r
+            height:1px;\r
+            width:100%;\r
+        }\r
+        \r
+        hr {\r
+        \twidth: 100%;\r
+        \tborder-color: rgba(247, 247, 249, 0);\r
+        \tbox-shadow: 0px 1px 0px 0px #dcdcdc;\r
+        }\r
+        \r
+        @media (max-width:991px) {\r
+            .support-box {\r
+                -webkit-box-align: center;\r
+                -ms-flex-align: center;\r
+                align-items: center;\r
+                -webkit-box-pack: center;\r
+                -ms-flex-pack: center;\r
+                justify-content: center;\r
+                -ms-flex-flow: column;\r
+                flex-flow: column;\r
+            \ttext-align: center;\r
+            \tmargin-bottom: 40px;\r
+            }\r
+            .btn-custom-primary {\r
+            \tpadding: 8px 25px;\r
+            }\r
+            .font-60 {\r
+                font-size: 45px;\r
+            }\r
+            .font-18 {\r
+                font-size: 14px;\r
+            }\r
+            .font-38 {\r
+                font-size: 30px;\r
+            }\r
+        }\r
+        @media (max-width:767px) {\r
+            .font-60 {\r
+            \tfont-size: 28px;\r
+            }\r
+            .font-38 {\r
+                font-size: 25px;\r
+            }\r
+        }\r
+        </style>
+
+- trigger: Support-Center-Design-B
+  description: Innerpage Support Center Design B
+  scope: css
+  mTime: 1521196508601
+  text: |
+        <style>\r
+        .font-60 {\r
+            font-size: 60px;\r
+        }\r
+        .font-38 {\r
+            font-size: 38px;\r
+        }\r
+        .font-24 {\r
+            font-size: 24px;\r
+        }\r
+        .font-18 {\r
+            font-size: 18px;\r
+        }\r
+        .btn-round {\r
+            border-radius:55px;\r
+        }\r
+        .btn-ghost {\r
+            border-color:#000;\r
+            background-color:transparent;\r
+            color:#000;\r
+            padding:8px 35px;\r
+            -webkit-transition:.3s;\r
+            transition:.3s;\r
+        }\r
+        .btn-ghost:hover,\r
+        .btn-ghost:active,\r
+        .btn-ghost:focus {\r
+            border-color:#a22525;\r
+            background-color:#a22525;\r
+            color:#fff;\r
+        }\r
+        .support-box {\r
+          display: flex;\r
+          display: -webkit-box;\r
+          display: -ms-flexbox;\r
+          display: -webkit-flex;\r
+        }\r
+        .icon-support {\r
+          font-size: 16px;\r
+          width: 60px;\r
+        }\r
+        \r
+        hr {\r
+        \twidth: 100%;\r
+        \tborder-color: rgba(247, 247, 249, 0);\r
+        \tbox-shadow: 0px 1px 0px 0px #dcdcdc;\r
+        }\r
+        \r
+        #gform_wrapper_1 .form-control {\r
+          background: #f7f7f9;\r
+          min-height: 45px;\r
+          margin-bottom: 20px;\r
+          padding:10px;\r
+        }\r
+        #gform_wrapper_1 .gfield_label {\r
+          display: none;\r
+        }\r
+        #gform_wrapper_1 label {\r
+          display: none;\r
+        }\r
+        div.ginput_complex.ginput_container.gf_name_has_2 span {\r
+        \twidth: 48.7%;\r
+        \tmargin-right:2px;\r
+        }\r
+        div.ginput_complex.ginput_container.gf_name_has_2 span.name_last {\r
+        \tmargin-right:0px;\r
+        }\r
+        .gform_wrapper .top_label li.gfield.gf_left_half {\r
+        \tmargin: 0 0 0;\r
+        }\r
+        .gform_wrapper .top_label li.gfield.gf_right_half {\r
+        \tmargin: 0 0 0;\r
+        }\r
+        .gform_button {\r
+        \tpadding: 15px 65px;\r
+        \tcolor: #fff;\r
+        \ttext-transform: uppercase;\r
+        \tborder-radius: 55px;\r
+        \tfont-size:12px !important;\r
+        }\r
+        .gform_button::after {\r
+        \tcolor: #000;\r
+        \tcontent: "/f178";\r
+        \tfont-family: fontAwesome;\r
+        \tpadding-left: 5px;\r
+        \tdisplay: inline-block;\r
+        \r
+        }\r
+        \r
+        @media (max-width:991px) {\r
+            .support-box {\r
+                -webkit-box-align: center;\r
+                -ms-flex-align: center;\r
+                align-items: center;\r
+                -webkit-box-pack: center;\r
+                -ms-flex-pack: center;\r
+                justify-content: center;\r
+                -ms-flex-flow: column;\r
+                flex-flow: column;\r
+            \ttext-align: center;\r
+            }\r
+            .btn-custom-primary {\r
+            \tpadding: 8px 25px;\r
+            }\r
+            .font-24 {\r
+            \tfont-size: 22px;\r
+            }\r
+            .font-60 {\r
+                font-size: 45px;\r
+            }\r
+            .font-18 {\r
+                font-size: 14px;\r
+            }\r
+            .font-38 {\r
+                font-size: 30px;\r
+            }\r
+        }\r
+        @media (max-width:767px) {\r
+            .font-60 {\r
+            \tfont-size: 28px;\r
+            }\r
+            .font-38 {\r
+                font-size: 25px;\r
+            }\r
+        }\r
+        </style>
+
+- trigger: Support-Center-Design-C
+  description: Innerpage Support Center Design C
+  scope: css
+  mTime: 1521196460116
+  text: |
+        <style>\r
+        .font-60 {\r
+            font-size: 60px;\r
+        }\r
+        .font-38 {\r
+            font-size: 38px;\r
+        }\r
+        .font-24 {\r
+            font-size: 24px;\r
+        }\r
+        .font-18 {\r
+            font-size: 18px;\r
+        }\r
+        .masthead-image .navbar-search .search-query {\r
+        \tdisplay: block;\r
+        \twidth: 100%;\r
+        \tmin-height: 38px;\r
+        \tborder-radius: 55px;\r
+        \tbox-shadow: none;\r
+        \tbackground-color: #fff;\r
+        \tpadding: 15px 25px;\r
+        \tfont-size: 18px;\r
+            font-weight: 300;\r
+        }\r
+        .masthead-image .navbar-search .btn-default {\r
+        \tcolor: #a62626;\r
+        \tpadding: 10px 20px;\r
+        \tfont-size: 20px;\r
+        }\r
+        .masthead-image .navbar-search .btn-default:hover,\r
+        .masthead-image .navbar-search .btn-default:active, \r
+        .masthead-image .navbar-search .btn-default:focus {\r
+        \tbackground:transparent;\r
+        }\r
+        .hr-default {\r
+            background-color: rgba(247, 247, 249, 0);\r
+            box-shadow: 0px 1px 0px 0px #dcdcdc;\r
+            border:0;\r
+            height:1px;\r
+            width:100%;\r
+        }\r
+        \r
+        hr {\r
+        \twidth: 100%;\r
+        \tborder-color: rgba(247, 247, 249, 0);\r
+        \tbox-shadow: 0px 1px 0px 0px #dcdcdc;\r
+        }\r
+        #gform_wrapper_1 .form-control {\r
+          min-height: 45px;\r
+          margin-bottom: 20px;\r
+          padding:10px;\r
+        }\r
+        #gform_wrapper_1 .gfield_label {\r
+          display: none;\r
+        }\r
+        #gform_wrapper_1 label {\r
+          display: none;\r
+        }\r
+        div.ginput_complex.ginput_container.gf_name_has_2 span {\r
+        \twidth: 48.7%;\r
+        \tmargin-right:2px;\r
+        }\r
+        div.ginput_complex.ginput_container.gf_name_has_2 span.name_last {\r
+        \tmargin-right:0px;\r
+        }\r
+        .gform_wrapper .top_label li.gfield.gf_left_half {\r
+        \tmargin: 0 0 0;\r
+        }\r
+        .gform_wrapper .top_label li.gfield.gf_right_half {\r
+        \tmargin: 0 0 0;\r
+        }\r
+        .gform_button {\r
+        \tpadding: 15px 65px;\r
+        \tcolor: #fff;\r
+        \ttext-transform: uppercase;\r
+        \tborder-radius: 55px;\r
+        \tfont-size:12px !important;\r
+        }\r
+        .gform_button::after {\r
+        \tcolor: #000;\r
+        \tcontent: "/f178";\r
+        \tfont-family: fontAwesome;\r
+        \tpadding-left: 5px;\r
+        \tdisplay: inline-block;\r
+        \r
+        }\r
+        .well-form {\r
+            padding: 50px 85px;\r
+        }\r
+        \r
+        @media  (max-width: 991px) {\r
+            .font-60 {\r
+                font-size: 45px;\r
+            }\r
+            .font-18 {\r
+                font-size: 14px;\r
+            }\r
+            .font-38 {\r
+                font-size: 30px;\r
+            }\r
+        }\r
+        \r
+        @media (max-width: 767px) {\r
+            .well-form {\r
+                padding: 20px 25px;}\r
+            .font-60 {\r
+            \tfont-size: 28px;\r
+            }\r
+            .font-38 {\r
+                font-size: 25px;\r
+            }\r
+        }\r
+        </style>
+
+- trigger: Support-Center-Design-D
+  description: Innerpage Support Center Design D
+  scope: css
+  mTime: 1521196665107
+  text: |
+        <style>\r
+        .font-60 {\r
+            font-size: 60px;\r
+        }\r
+        .font-38 {\r
+            font-size: 38px;\r
+        }\r
+        .font-24 {\r
+            font-size: 24px;\r
+        }\r
+        .font-18 {\r
+            font-size: 18px;\r
+        }\r
+        .btn-round {\r
+            border-radius:55px;\r
+        }\r
+        .btn-custom-primary {\r
+            border-color:#b72a2a;\r
+            background-color:#b72a2a;\r
+            color:#fff;\r
+            padding:8px 35px;\r
+        }\r
+        .btn-custom-primary:hover,\r
+        .btn-custom-primary:hover,\r
+        .btn-custom-primary:hover {\r
+            border-color:#a22525;\r
+            background-color:#a22525;\r
+        }\r
+        .support-box {\r
+          display: flex;\r
+          display: -webkit-box;\r
+          display: -ms-flexbox;\r
+          display: -webkit-flex;\r
+        }\r
+        .icon-support {\r
+          font-size: 16px;\r
+          width: 60px;\r
+        }\r
+        .hr-default {\r
+            background-color: rgba(247, 247, 249, 0);\r
+            box-shadow: 0px 1px 0px 0px #dcdcdc;\r
+            border:0;\r
+            height:1px;\r
+            width:100%;\r
+        }\r
+        \r
+        /* Accordions - Show State Collapse*/\r
+        .panel-heading .accordion-toggle:after {\r
+            /* symbol for "opening" panels */\r
+            font-family: 'FontAwesome'; \r
+            content:"\\f139";\r
+            float: right;       \r
+            color: #ededed;\r
+            width: 15px;\r
+            height: 15px;\r
+            background: #666;\r
+            border-radius: 50%;\r
+            line-height: 0.8;\r
+            margin-top: 9px;\r
+            margin-right: 2px;\r
+        }\r
+        .panel-heading .accordion-toggle.collapsed:after {\r
+            /* symbol for "collapsed" panels */\r
+            content:"\\f13a";    \r
+        }\r
+        .panel-title {\r
+            font-size:18px;\r
+            font-weight:bold;\r
+        }\r
+        .panel-default > .panel-heading {\r
+        \tbackground-color: transparent;\r
+        \tpadding: 15px 0;\r
+        }\r
+        .panel-group .panel {\r
+        \tmargin-bottom: 0;\r
+        \toverflow: hidden;\r
+        \tborder-radius: 0px;\r
+        \tborder-right:0;\r
+        \tborder-left:0;\r
+        \tborder-bottom: 0;\r
+            box-shadow: 0px 0px 0px 0px #dcdcdc;\r
+        }\r
+        .panel-group .panel-heading + .panel-collapse .panel-body {\r
+        \tborder-top: 0;\r
+        \tpadding: 15px 0;\r
+        }\r
+        .panel-group .panel:last-child {\r
+            box-shadow: 0px 1px 0px 0px #ddd;\r
+        }\r
+        @media (max-width:991px) {\r
+            .support-box {\r
+                -webkit-box-align: center;\r
+                -ms-flex-align: center;\r
+                align-items: center;\r
+                -webkit-box-pack: center;\r
+                -ms-flex-pack: center;\r
+                justify-content: center;\r
+                -ms-flex-flow: column;\r
+                flex-flow: column;\r
+            \ttext-align: center;\r
+            }\r
+            .btn-custom-primary {\r
+            \tpadding: 8px 25px;\r
+            }\r
+            .font-24 {\r
+            \tfont-size: 22px;\r
+            }\r
+            .font-60 {\r
+                font-size: 45px;\r
+            }\r
+            .font-18 {\r
+                font-size: 14px;\r
+            }\r
+            .font-38 {\r
+                font-size: 30px;\r
+            }\r
+        }\r
+        @media (max-width:767px) {\r
+            .font-60 {\r
+            \tfont-size: 28px;\r
+            }\r
+            .font-38 {\r
+                font-size: 25px;\r
+            }\r
+            .support-box {\r
+                margin-bottom: 20px;\r
+                margin-top: 20px;\r
+            }\r
+        }\r
+        </style>
+
+- trigger: Support-Center-Design-E
+  description: Innerpage Support Center Design E
+  scope: css
+  mTime: 1521196823487
+  text: |
+        <style>\r
+        .font-60 {\r
+            font-size: 60px;\r
+        }\r
+        .font-38 {\r
+            font-size: 38px;\r
+        }\r
+        .font-24 {\r
+            font-size: 24px;\r
+        }\r
+        .font-18 {\r
+            font-size: 18px;\r
+        }\r
+        .body-background {\r
+        \tpadding: 80px 0;\r
+        }\r
+        .masthead {\r
+            min-height:265px;\r
+            background:url('http://placehold.it/848x265') no-repeat scroll left top / cover;\r
+            padding: 0 60px;\r
+            display: flex;\r
+            display: -webkit-box;\r
+            display: -ms-flexbox;\r
+            display: -webkit-flex;\r
+            -ms-flex-flow: column;\r
+            flex-flow: column;\r
+            -webkit-box-pack: center;\r
+            -ms-flex-pack: center;\r
+            justify-content: center;\r
+        }\r
+        .btn-round {\r
+            border-radius:55px;\r
+        }\r
+        .btn-custom-primary {\r
+            border-color:#b72a2a;\r
+            background-color:#b72a2a;\r
+            color:#fff;\r
+            padding:8px 35px;\r
+        }\r
+        .btn-custom-primary:hover,\r
+        .btn-custom-primary:active,\r
+        .btn-custom-primary:focus {\r
+            border-color:#a22525;\r
+            background-color:#a22525;\r
+        }\r
+        .support-box {\r
+            border: 1px solid #ddd;\r
+            padding: 30px;\r
+            height: 100%;\r
+            display: flex;\r
+            display: -webkit-box;\r
+            display: -ms-flexbox;\r
+            display: -webkit-flex;\r
+            -webkit-box-align: center;\r
+            -ms-flex-align: center;\r
+            align-items: center;\r
+            -webkit-box-pack: center;\r
+            -ms-flex-pack: center;\r
+            justify-content: center;\r
+            -ms-flex-flow: column;\r
+            flex-flow: column;\r
+        \ttext-align: center;\r
+        }\r
+        .support-box .fa {\r
+        \tfont-size: 36px;\r
+        }\r
+        .flexheight {\r
+            display: flex;\r
+            display: -webkit-box;\r
+            display: -ms-flexbox;\r
+            display: -webkit-flex;\r
+            -ms-flex-flow: row wrap;\r
+                flex-flow: row wrap;\r
+        }\r
+        .well-form {\r
+            padding: 40px 120px;\r
+        }\r
+        #gform_wrapper_1 .form-control {\r
+          min-height: 45px;\r
+          margin-bottom: 20px;\r
+          padding:10px;\r
+        }\r
+        #gform_wrapper_1 .gfield_label {\r
+          display: none;\r
+        }\r
+        #gform_wrapper_1 label {\r
+          display: none;\r
+        }\r
+        div.ginput_complex.ginput_container.gf_name_has_2 span {\r
+        \twidth: 48.7%;\r
+        \tmargin-right:2px;\r
+        }\r
+        div.ginput_complex.ginput_container.gf_name_has_2 span.name_last {\r
+        \tmargin-right:0px;\r
+        }\r
+        .gform_wrapper .top_label li.gfield.gf_left_half {\r
+        \tmargin: 0 0 0;\r
+        }\r
+        .gform_wrapper .top_label li.gfield.gf_right_half {\r
+        \tmargin: 0 0 0;\r
+        }\r
+        .gform_button {\r
+        \tpadding: 15px 65px;\r
+        \tcolor: #fff;\r
+        \ttext-transform: uppercase;\r
+        \tborder-radius: 55px;\r
+        \tfont-size:12px !important;\r
+        }\r
+        .gform_button::after {\r
+        \tcolor: #000;\r
+        \tcontent: "/f178";\r
+        \tfont-family: fontAwesome;\r
+        \tpadding-left: 5px;\r
+        \tdisplay: inline-block;\r
+        \r
+        }\r
+        @media (max-width:991px) {\r
+            .font-48 {\r
+            \tfont-size: 36px;\r
+            }\r
+            .font-60 {\r
+                font-size: 45px;\r
+            }\r
+            .font-18 {\r
+                font-size: 14px;\r
+            }\r
+            .font-38 {\r
+                font-size: 30px;\r
+            }\r
+            .support-box {\r
+                margin-bottom:30px;\r
+                height: auto;\r
+            }\r
+            .well-form {\r
+            \tpadding: 20px;\r
+            }\r
+            .font-38 {\r
+            \tfont-size: 34px;\r
+            }\r
+        }\r
+        @media (max-width:767px) {\r
+            .masthead {\r
+            \tpadding: 0 30px;\r
+            \ttext-align: center;\r
+            }\r
+            .btn-custom-primary {\r
+            \tpadding: 8px 25px;\r
+            }\r
+            .font-60 {\r
+                font-size: 32px;\r
+            }\r
+            .font-38 {\r
+            \tfont-size: 26px;\r
+            }\r
+            .body-background {\r
+            \tpadding: 50px 0;\r
+            }\r
+        }\r
+        </style>
+
+- trigger: Adwords-Landing-Page-B
+  description: Adwords Landing Page B
+  scope: css
+  mTime: 1521197191868
+  text: |
+        <style>\r
+        .header-landing-page {\r
+            background: transparent none repeat scroll 0 0;\r
+            position: absolute;\r
+            width: 100%;\r
+        }\r
+        \r
+        .well-service {\r
+            padding: 35px 65px;\r
+        }\r
+        \r
+        .well-service > ul {\r
+            padding-left: 2em;\r
+        }\r
+        \r
+        .well-service > h3 {\r
+            margin-bottom: 1.5em;\r
+        }\r
+        \r
+        .well-service li::before {\r
+            content: "";\r
+            display: block;\r
+            font-family: fontawesome;\r
+            height: 0;\r
+            left: -2em;\r
+            margin-right: 10px;\r
+            position: relative;\r
+            width: 0;\r
+        }\r
+        \r
+        .well-service li {\r
+            list-style: outside none none;\r
+        }\r
+        \r
+        .well-service li + li {\r
+            margin-top: 1em;\r
+        }\r
+        \r
+        @media (max-width: 767px) {\r
+        .font-60 {\r
+            font-size: 33px;\r
+        }\r
+        \r
+        .font-38 {\r
+            font-size: 22px;\r
+        }\r
+        \r
+        .testimonial-b .testimonial-reference {\r
+            display: block;\r
+        }\r
+        \r
+        .well-service {\r
+            padding: 20px;\r
+        }\r
+        }\r
+        \r
+        /**** Font Size ****/\r
+        .font-58 {\r
+            font-size: 58px;\r
+        }\r
+        .font-32 {\r
+            font-size: 32px;\r
+        }\r
+        .font-26 {\r
+            font-size: 26px;\r
+        }\r
+        .font-18 {\r
+            font-size: 18px;\r
+        }\r
+        \r
+        /**** Banner ****/\r
+        .banner-landing .gform_footer input {\r
+            border-radius: 50px;\r
+            padding: 14px 35px;\r
+            text-transform: uppercase;\r
+        }\r
+        \r
+        .banner-landing .gform_wrapper p {\r
+            margin: 0;\r
+        }\r
+        \r
+        .banner-landing .well > h2, \r
+        .banner-landing .well > p {\r
+            color: #000;\r
+        }\r
+        \r
+        .banner-landing .well {\r
+            background-color: #fff;\r
+            border: medium none;\r
+            padding: 20px 50px;\r
+        }\r
+        .banner-landing .well li label {\r
+            display: none !important;\r
+        }\r
+        \r
+        .banner-landing .gform_body input {\r
+            height: 50px;\r
+            padding: 10px 15px;\r
+        }\r
+        \r
+        \r
+        .btn-landing {\r
+            border-radius: 50px;\r
+            padding: 15px 25px;\r
+            text-transform: uppercase;\r
+        }\r
+        \r
+        .btn-huge {\r
+            padding: 15px 50px;\r
+        }\r
+        \r
+        .btn-primary:after, \r
+        .button-custom:after {\r
+            content: "";\r
+        }\r
+        \r
+        .btn-landing-inverse {\r
+            background: transparent none repeat scroll 0 0;\r
+            border-color: #fff;\r
+        }\r
+        \r
+        .btn-landing-inverse:hover,\r
+        .btn-landing-inverse:focus,\r
+        .btn-landing-inverse:active {\r
+            background-color: #fff;\r
+            border-color: #fff;\r
+            color: #b72a2a !important;\r
+        }\r
+        \r
+        \r
+        .title-icon {\r
+            margin-right: 20px;\r
+        }\r
+        .txt-icon h3 {\r
+            margin-top: 0;\r
+        }\r
+        \r
+        .clients .testimonial-body {\r
+            background: #fff;\r
+        }\r
+        .clients .testimonial-body i {\r
+            display: none;\r
+        }\r
+        .clients .testimonial-body h3 {\r
+            display: none;\r
+        }\r
+        .clients .testimonial-reference {\r
+            margin-bottom: 20px;\r
+        }\r
+        .clients .carousel .carousel-indicators {\r
+            left: 0;\r
+            margin-left: 0;\r
+            text-align: left;\r
+        }\r
+        .clients .carousel .carousel-indicators li {\r
+            background-color: #fff;\r
+        }\r
+        .clients .carousel .carousel-indicators li.active {\r
+            background-color: #b82a29;\r
+        }\r
+        \r
+        /********** Media screen **********/\r
+        \r
+        @media (min-width: 992px) and (max-width: 1280px) {\r
+            .font-32 {\r
+                font-size: 25px;\r
+            }\r
+            .font-58 {\r
+                font-size: 48px;\r
+            }\r
+        }\r
+        \r
+        @media  (max-width: 991px) {\r
+            .banner-landing .well {\r
+                margin-top: 40px;\r
+                text-align: center;\r
+            }\r
+            .font-38 {\r
+                font-size: 32px;\r
+            }\r
+        }\r
+        @media (max-width: 767px) {\r
+            .font-58 {\r
+                font-size: 29px;\r
+            }\r
+            .font-38 {\r
+                font-size: 23px;\r
+            }\r
+            .font-32 {\r
+                font-size: 24px;\r
+            }\r
+            .banner-landing .well {\r
+                padding: 20px;\r
+            }\r
+            .testimonial-b img {\r
+                max-width: 90px;\r
+            }\r
+            .clients .carousel .carousel-indicators {\r
+                text-align: center;\r
+                width: 100%;\r
+            }\r
+            .clients .testimonial-reference {\r
+            -webkit-box-pack: center;\r
+                -ms-flex-pack: center;\r
+                    justify-content: center;\r
+            }\r
+            .footer-left {\r
+                display: block;\r
+            }\r
+            .banner-landing .gform_footer input {\r
+                width: 98%;\r
+            }\r
+            .landing-partner .flex-box {\r
+                -ms-flex-wrap: wrap;\r
+                    flex-wrap: wrap;\r
+            }\r
+            .landing-partner .flex-box img {\r
+                width: 50%;\r
+            }\r
+        }\r
+        \r
+        /****** Maps ***********/\r
+        \r
+        .map-section {\r
+          position: relative;\r
+        }\r
+        \r
+        .map-section .google-map {\r
+          height: 460px;\r
+            min-height: 460px;\r
+            margin-bottom: 0 !important;\r
+        }\r
+        .map-section > p {\r
+          display: none;\r
+        }\r
+        \r
+        .well-location {\r
+          background-color: #ffffff;\r
+          left: 20%;\r
+          max-width: 450px;\r
+          padding: 40px 60px 60px;\r
+          position: absolute;\r
+          top: 18%;\r
+          width: 100%;\r
+          box-shadow: 0px 5px 65px 0px rgba(0, 0, 0, 0.25);\r
+          border-radius: 0px;\r
+        }\r
+        \r
+        .well-location ul {\r
+          margin-left: 25px;\r
+        }\r
+        \r
+        .well-location ul > li > i {\r
+          font-size: 15px;\r
+        }\r
+        .well-location address {\r
+          font-size: 16px;\r
+          margin-bottom: 0px;\r
+        }\r
+        .map-section address {\r
+          margin-bottom: 0;\r
+        }\r
+        \r
         </style>
 
 - scope: less
@@ -7425,7 +9833,7 @@
 - scope: html
   trigger: Our-Team-inner-B
   description: Innerpage Our Team Design B
-  mTime: 1478441473930
+  mTime: 1521195087760
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
         [row]
@@ -8733,7 +11141,7 @@
 - trigger: About-us-inner-B
   description: Innerpage About us/Who we are – Design B
   scope: html
-  mTime: 1478399646987
+  mTime: 1521197292352
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
         [row]
@@ -8880,6 +11288,7 @@
         </div></div>
         [/column]
         [/row]
+        [/segment]
 
 - trigger: About-us-inner-C
   description: Innerpage About us/Who we are – Design C
@@ -9923,10 +12332,10 @@
         [/row]
         [/segment]
 
-- trigger: Adwords-Landing-Page-Demo
-  description: Adwords Landing Page - Demo
+- trigger: Adwords-Landing-Page-Demo-A
+  description: Adwords Landing Page - Demo A
   scope: html
-  mTime: 1520498311792
+  mTime: 1521197099389
   text: |
         [segment tag="section" style="3" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class=""]
         [row]
@@ -9979,4 +12388,998 @@
         [location location_id="3548 - PP’s Hidden Cave" show_icon="1" show_address="1" show_city="1" show_state="1" show_zipcode="1" show_primary_phone="1" primary_phone_text="Phone: "  layout="vertical"]
         [/well]
         </div>
+
+- trigger: LandingPage-A
+  description: Innerpage LandingPage - A
+  scope: html
+  mTime: 1521194198264
+  text: |
+        [segment tag="section" style="4" bgimg="http://placehold.it/1800x610" bgrepeat="no-repeat" bgposition="top center" bgattachment="scroll" bgsize="cover" spacing="large" class="banner-landing banner-a"]\r
+        [row class="margin-vertical-20"]\r
+        [column span="6" class="sm-text-center margin-top-40"]\r
+        <p class="uppercase margin-bottom-0 font-18">Landing Page Demo - Design A</p>\r
+        <h1 class="font-58 uppercase sm-line-height font-semi-bold">Lorem ipsum dolor sit amet</h1>\r
+        <p class="font-18">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>\r
+        [img src="https://pages.prontomarketing.com/wp-content/uploads/2016/12/white-arrow.png" class="alignright visible-lg visible-md"]\r
+        [/column]\r
+        [column span="6" class="col-sm-8 col-sm-offset-2 col-md-offset-0"]\r
+        [well style="light-transparent" class="margin-0"]\r
+        <h2 class="font-32 margin-bottom-0 font-bold">Free Assessment!</h2>\r
+        <p class="padding-bottom-20">Fill out the form below today to receive a free assessment</p>\r
+        [gravityform id="3" title="false" description="true"]\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        [segment tag="section" style="1" spacing="large" class=""]\r
+        [row class="margin-vertical-20"]\r
+        [column span="5" class="sm-text-center margin-top-40"]\r
+          <h2 class="font-38 sm-line-height margin-bottom-40">Sed ut perspiciatis unde <br class="visible-lg">omnis iste natus error sit.</h2>\r
+          <p class="xs-text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r
+        [/column]\r
+        [column span="7" class="col-lg-6 col-lg-offset-1"]\r
+        <div class="row">\r
+        <div class="col-md-6 col-sm-6 margin-top-40">\r
+        <div class="title-icon flex-box">\r
+        [img src="http://placehold.it/65x65"]\r
+        <h3 class="font-24 accent2">Sed do eiusmod</h3>\r
+        </div>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+          <div class="col-md-6 col-sm-6 margin-top-40">\r
+        <div class="title-icon flex-box">\r
+        [img src="http://placehold.it/65x65"]\r
+        <h3 class="font-24 accent2">Sed do eiusmod</h3>\r
+        </div>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+          <div class="col-md-6 col-sm-6 margin-top-40">\r
+        <div class="title-icon flex-box">\r
+        [img src="http://placehold.it/65x65"]\r
+        <h3 class="font-24 accent2">Sed do eiusmod</h3>\r
+        </div>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+          <div class="col-md-6 col-sm-6 margin-top-40">\r
+        <div class="title-icon flex-box">\r
+        [img src="http://placehold.it/65x65"]\r
+        <h3 class="font-24 accent2">Sed do eiusmod</h3>\r
+        </div>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+        </div>\r
+        [/column]\r
+        [/row]\r
+        \r
+        [row class=""]\r
+        [column span="12" class="margin-top-20"]\r
+        <hr class="hr-divider"/>\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="small"]\r
+        [row class=""]\r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="267 - Less is more"]\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="268 - Out of Box"]\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="269 - Think Different"]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="large" class=""]\r
+        [row class="about-us-partner"]\r
+        [column span="12" class="flex-box"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo01.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo02.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo03.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo04.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo05.png"]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" bgimg="http://placehold.it/1800x418" bgrepeat="no-repeat" bgposition="top center" bgattachment="scroll" bgsize="cover" spacing="large" class="cta-subscribe"]\r
+        [row class="margin-vertical-40"]\r
+        [column span="7" class="col-sm-9"]\r
+        <h2 class="font-38 accent ">Subscribe today for latest offers!</h2>\r
+        <p class="font-18 padding-bottom-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod .</p>\r
+        [gravityform id="4" title="false" description="true"]\r
+        [/column]\r
+        [/row]\r
+        [/segment]
+
+- trigger: LandingPage-B
+  description: Innerpage LandingPage - B
+  scope: html
+  mTime: 1521194370594
+  text: |
+        [segment tag="section" style="4" bgimg="http://placehold.it/1800x740" bgrepeat="no-repeat" bgposition="top center" bgattachment="scroll" bgsize="cover" spacing="large" class="banner-landing banner-b"]\r
+        [row class="margin-top-100 padding-vertical-40"]\r
+        [column span="6" class="sm-text-center margin-top-40"]\r
+        <p class="uppercase margin-bottom-0 font-18">Landing Page Demo - Design B</p>\r
+        \r
+        <h1 class="font-58 uppercase sm-line-height font-semi-bold">Lorem ipsum dolor sit amet</h1>\r
+        <p class="font-18">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>\r
+        \r
+        <div class="row">\r
+        <div class="col-md-6 col-sm-5 col-sm-offset-1 col-md-offset-0 margin-top-20">[button text="Get Started Now" class="btn-landing btn-block" link="#" type="primary"]</div>\r
+        <div class="col-md-6 col-sm-5 margin-top-20">[button text="Contact Us now" class="btn-landing btn-landing-inverse btn-block" link="#" type="primary"]</div>\r
+        </div>\r
+        [/column]\r
+        [column span="5" class="col-sm-8 col-sm-offset-2 col-md-offset-1"]\r
+        [well style="light-transparent" class="margin-0"]\r
+        <h2 class="font-32 accent font-bold">Register Today for<br class="visible-lg" /> Free Assessment!</h2>\r
+        [gravityform id="3" title="false" description="true"]\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="huge"]\r
+        [row]\r
+        [column span="10" class="col-md-offset-1 text-center margin-bottom-20 xs-no-margin-top"]\r
+        <h2 class="font-38 margin-bottom-20">Lorem ipsum dolor sit amet</h2>\r
+        <p class="font-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>\r
+        [/column]\r
+        [/row]\r
+        \r
+        [row class=""]\r
+        [column span="4" class="col-sm-6 margin-top-40 flex-box"]\r
+        <div class="title-icon">[img src="http://placehold.it/68x68"]</div>\r
+        <div class="txt-icon">\r
+        <h3 class="font-24 accent2">Sed do eiusmod</h3>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6 margin-top-40 flex-box"]\r
+        <div class="title-icon">[img src="http://placehold.it/68x68"]</div>\r
+        <div class="txt-icon">\r
+        <h3 class="font-24 accent2">Sed do eiusmod</h3>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6 margin-top-40 flex-box"]\r
+        <div class="title-icon">[img src="http://placehold.it/68x68"]</div>\r
+        <div class="txt-icon">\r
+        <h3 class="font-24 accent2">Sed do eiusmod</h3>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6 margin-top-40 flex-box"]\r
+        <div class="title-icon">[img src="http://placehold.it/68x68"]</div>\r
+        <div class="txt-icon">\r
+        <h3 class="font-24 accent2">Sed do eiusmod</h3>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6 margin-top-40 flex-box"]\r
+        <div class="title-icon">[img src="http://placehold.it/68x68"]</div>\r
+        <div class="txt-icon">\r
+        <h3 class="font-24 accent2">Sed do eiusmod</h3>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6 margin-top-40 flex-box"]\r
+        <div class="title-icon">[img src="http://placehold.it/68x68"]</div>\r
+        <div class="txt-icon">\r
+        <h3 class="font-24 accent2">Sed do eiusmod</h3>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+        [/column]\r
+        [/row]\r
+        \r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" bgimg="http://placehold.it/1800x520" bgrepeat="no-repeat" bgposition="top center" bgattachment="scroll" bgsize="cover" spacing="large" class="clients"]\r
+        [row]\r
+        [column span="5" class="col-sm-7"]\r
+        <h2 class="font-38 margin-bottom-20 xs-text-center">Client Testimonial</h2>\r
+        [testimonials_carousel group="client-testimonials" layout="list" style="b" image_style="circle"]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        \r
+        [segment tag="section" style="1" spacing="large" class=""]\r
+        [row class="landing-partner"]\r
+        [column span="12" class="flex-box"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo01.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo02.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo03.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo04.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo05.png"]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="4" bgimg="http://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="top center" bgattachment="scroll" bgsize="cover" spacing="large" class="cta-landing-b"]\r
+        [row class="margin-vertical-40"]\r
+        [column span="12" class="text-center"]\r
+        <h2 class="font-38 ">Register Today for Free Assessment!</h2>\r
+        <p class="font-18 padding-bottom-20">Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>\r
+        [button text="Register" class="btn-landing btn-huge" link="#" type="primary"]\r
+        [/column]\r
+        [/row]\r
+        [/segment]
+
+- trigger: LandingPage-C
+  description: Innerpage LandingPage - C
+  scope: html
+  mTime: 1521194503665
+  text: |
+        [segment tag="section" style="4" bgimg="http://placehold.it/1800x310" bgrepeat="no-repeat" bgposition="top center" bgattachment="scroll" bgsize="cover" spacing="huge"]\r
+        [row]\r
+        [column span="12" class="text-center"]\r
+        <p class="font-18 margin-bottom-0 uppercase">Landing Page Demo - Design C</p>\r
+        <h1 class="font-58 uppercase sm-line-height font-semi-bold">Lorem ipsum dolor sit amet</h1>\r
+        <p class="font-14 margin-bottom-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <br class="visible-lg"/>doloremque laudantium.</p>\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="medium" class="banner-landing banner-c"]\r
+        [row class="margin-top-40  margin-bottom-20"]\r
+        [column span="7" class=""]\r
+        [img src="https://pages.prontomarketing.com/wp-content/uploads/2016/12/video-image.jpg"]\r
+        [/column]\r
+        [column span="5" class="col-sm-8 col-sm-offset-2 col-md-offset-0"]\r
+        [well style="light-transparent" class="margin-0"]\r
+        <h2 class="font-32 margin-bottom-0 font-bold">Free Assessment!</h2>\r
+        <p class="padding-bottom-20">Fill out the form below today to receive a free assessment</p>\r
+        [gravityform id="3" title="false" description="true"]\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        \r
+        [segment tag="section" style="1" spacing="mini" class=""]\r
+        [row class=""]\r
+        [column span="7" class=""]\r
+        <div class="row">\r
+        <div class="col-md-6 col-sm-6 margin-top-40">\r
+        <div class="title-icon flex-box">\r
+        [img src="http://placehold.it/68x68"]\r
+        <h3 class="font-24 accent2"><strong>Sed do eiusmod</strong></h3>\r
+        </div>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+          <div class="col-md-6 col-sm-6 margin-top-40">\r
+        <div class="title-icon flex-box">\r
+        [img src="http://placehold.it/68x68"]\r
+        <h3 class="font-24 accent2"><strong>Sed do eiusmod</strong></h3>\r
+        </div>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+          <div class="col-md-6 col-sm-6 margin-top-40">\r
+        <div class="title-icon flex-box">\r
+        [img src="http://placehold.it/68x68"]\r
+        <h3 class="font-24 accent2"><strong>Sed do eiusmod</strong></h3>\r
+        </div>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+          <div class="col-md-6 col-sm-6 margin-top-40">\r
+        <div class="title-icon flex-box">\r
+        [img src="http://placehold.it/68x68"]\r
+        <h3 class="font-24 accent2"><strong>Sed do eiusmod</strong></h3>\r
+        </div>\r
+        <p>Pellentesque vitae metus suscipit purus pharetra lacinia. In ac accumsan tellus. Praesent justo lorem. </p>\r
+        </div>\r
+        </div>\r
+        [/column]\r
+        [column span="5" class="sm-text-center margin-top-20"]\r
+        [well size="large" class="clients"]\r
+        <h2 class="font-24 margin-bottom-20 xs-text-center"><strong>Client Testimonial</strong></h2>\r
+        [testimonials_carousel group="client-testimonials" layout="list" style="b" image_style="circle"]\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="large" class=""]\r
+        [row class="landing-partner"]\r
+        [column span="12" class=""]\r
+        <div class="flex-box">\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo01.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo02.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo03.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo04.png"]\r
+        [img src="/wp-content/uploads/2016/08/placeholder_logo05.png"]\r
+        </div>\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="mini" class="subscribe-c"]\r
+        [row class=""]\r
+        [column span="8" class="col-md-offset-2 text-center margin-bottom-40 padding-bottom-20"]\r
+        <h2 class="font-24 margin-bottom-20 font-semi-bold">Subscribe today for latest offers!</h2>\r
+        <p class="margin-bottom-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tLorem ipsum dolor sit amet, <br class="visible-lg"/>consectetur adipiscing elit, sed do eiusmod .</p>\r
+        [gravityform id="4" title="false" description="false"]\r
+        [/column]\r
+        [/row]\r
+        [/segment]
+
+- trigger: LandingPage-D
+  description: Innerpage LandingPage - D
+  scope: html
+  mTime: 1521194711761
+  text: |
+        [segment tag="section" style="1" spacing="medium" class="banner-landing banner-d border-top"]\r
+        [row class="margin-top-40  margin-bottom-20"]\r
+        [column span="7" class=""]\r
+        <p class="font-18 sm-text-center margin-bottom-0 uppercase">Landing Page Demo - Design D</p>\r
+        <h1 class="font-48 sm-text-center sm-line-height "><strong>Lorem ipsum dolor sit amet</strong></h1>\r
+        <p class="font-18 sm-text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>\r
+        <div class="row">\r
+        <div class="col-md-7 col-sm-8 margin-top-20">\r
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r
+        </div>\r
+        <div class="col-md-5 col-sm-4 text-right xs-text-center">[img src="http://pages.prontomarketing.com/wp-content/uploads/2016/12/book-cover.png"]</div>\r
+        </div>\r
+        [/column]\r
+        [column span="5" class="col-sm-8 col-sm-offset-2 col-md-offset-0"]\r
+        [well style="light-transparent" class="margin-0"]\r
+        <h2 class="font-32 margin-bottom-0 font-bold">Download Free eBook</h2>\r
+        <p class="padding-bottom-20">Fill out the form below today to receive a free assessment</p>\r
+        [gravityform id="3" title="false" description="true"]\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [row]\r
+        [column span="12"]\r
+        <hr class="divider"/>\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="mini" class=""]\r
+        [row class=""]\r
+        [column span="7" class=""]\r
+        <div class="partner-box">\r
+        <div class="row">\r
+        <div class="col-sm-3 col-sm-3 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-3 col-sm-3 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-3 col-sm-3 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-3 col-sm-3 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-3 col-sm-3 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-3 col-sm-3 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-3 col-sm-3 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-3 col-sm-3 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        </div></div>\r
+        [/column]\r
+        [column span="5" class="sm-text-center"]\r
+        [well size="large" class="clients"]\r
+        <h2 class="font-24 margin-bottom-20 xs-text-center"><strong>Client Testimonial</strong></h2>\r
+        [testimonials_carousel group="client-testimonials" layout="list" style="b" image_style="circle"]\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="large" class="subscribe-d"]\r
+        [row class=""]\r
+        [column span="12" class="text-center margin-bottom-20"]\r
+        [well class="padding-vertical-40"]\r
+        <h2 class="font-24 margin-bottom-20"><strong>Lorem ipsum dolor sit amet consectetur</strong></h2>\r
+        <p class="margin-bottom-40">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem <br class="visible-lg"/> aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>\r
+        [button text="Contact us" link="/contact-us/" type="primary"]\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [/segment]
+
+- trigger: LandingPage-E
+  description: Innerpage LandingPage - E
+  scope: html
+  mTime: 1521194909578
+  text: |
+        [segment tag="section" style="4" bgimg="http://placehold.it/1800x712" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="banner-landing banner-e"]\r
+        [row class="margin-bottom-60"]\r
+        [column span="12" class="text-center"]\r
+        <p class="font-18 sm-text-center margin-bottom-0 uppercase">Landing Page Demo - Design E</p>\r
+        <h1 class="font-48 sm-text-center sm-line-height "><strong>Lorem ipsum dolor sit amet</strong></h1>\r
+        <p class="font-18 sm-text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>\r
+        [/column]\r
+        [/row]\r
+        [row]\r
+        [column span="4" class="col-sm-8 margin-top-40"]\r
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r
+        [/column]\r
+        [column span="3" class="col-sm-4"]\r
+        [img src="http://pages.prontomarketing.com/wp-content/uploads/2016/12/book-cover.png" class="aligncenter"]\r
+        [/column]\r
+        <div class="clearfix hidden-lg hidden-md"></div>\r
+        [column span="5"]\r
+        [well style="light-transparent" class="margin-0"]\r
+        <h2 class="font-32 margin-bottom-0 font-bold">Download Free eBook</h2>\r
+        <p class="padding-bottom-20">Fill out the form below today to receive a free assessment</p>\r
+        [gravityform id="3" title="false" description="true"]\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="huge"]\r
+        [row]\r
+        [column span="7"]\r
+        [well size="large" class="clients"]\r
+        <h2 class="font-24 margin-bottom-20 xs-text-center"><strong>Client Testimonial</strong></h2>\r
+        [testimonials_carousel group="client-testimonials" layout="list" style="b" image_style="circle"]\r
+        [/well]\r
+        [/column]\r
+        [column span="5"]\r
+        <div class="partner-box">\r
+        <div class="row">\r
+        <div class="col-sm-4 col-sm-4 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-4 col-sm-4 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-4 col-sm-4 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-4 col-sm-4 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-4 col-sm-4 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        <div class="col-sm-4 col-sm-4 col-xs-6">[img src="http://placehold.it/300x300"]</div>\r
+        </div>\r
+        </div>\r
+        [/column]\r
+        [/row]\r
+        [row class="subscribe-e margin-top-40"]\r
+        [column span="12" class="text-center margin-vertical-40 "]\r
+        [well class="padding-vertical-40"]\r
+        <h2 class="font-24 margin-bottom-20"><strong>Lorem ipsum dolor sit amet consectetur</strong></h2>\r
+        <p class="margin-bottom-40">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem <br class="visible-lg"/> aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>\r
+        [button text="Contact us" link="#" type="primary"]\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        
+
+- trigger: LandingPage-F
+  description: Innerpage LandingPage - F
+  scope: html
+  mTime: 1521194980417
+  text: |
+        [segment tag="section" style="4" bgimg="http://placehold.it/1800x310" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="banner-landing banner-f text-center"]\r
+        [row]\r
+        [column span="12" class="text-center"]\r
+        <h1 class="font-48 sm-text-center sm-line-height "><strong>Lorem ipsum dolor sit amet</strong></h1>\r
+        <p class="font-18 sm-text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="huge"]\r
+        [row class="margin-bottom-40"]\r
+        [column span="8" class="col-md-offset-2"]\r
+        <h2 class="text-center uppercase font-24 margin-bottom-40">Landing Page Demo - Design F</h2>\r
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r
+        [/column]\r
+        [/row]\r
+        [row]\r
+        [column span="8" class="landing-form col-md-offset-2"]\r
+        [well]\r
+        <h2 class="font-24 text-center"><strong>Register Today for Free Assessment!</strong></h2>\r
+        <p class="text-center margin-bottom-40">Fill out the form below today to receive a free assessment</p>\r
+        [gravityform id="5" title="false" description="false"]\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [/segment]
+
+- trigger: Testimonial-Design-A
+  description: Innerpage Testimonial - Design A
+  scope: html
+  mTime: 1521195916675
+  text: |
+        [row]\r
+        [column span="6"]\r
+        [testimonials group="client-testimonials" layout="list" style="c" image_style="circle" id="268 - Out of Box"]\r
+        [/column]\r
+        [column span="6"]\r
+        [testimonials group="client-testimonials" layout="list" style="c" image_style="circle" id="267 - Less is more"]\r
+        [/column]\r
+        [/row]\r
+        [row]\r
+        [column span="6"]\r
+        [testimonials group="client-testimonials" layout="list" style="c" image_style="circle" id="269 - Think Different"]\r
+        [/column]\r
+        [column span="6"]\r
+        [testimonials group="client-testimonials" layout="list" style="c"  image_style="circle" id="268 - Out of Box"]\r
+        [/column]\r
+        [/row]
+
+- trigger: Testimonial-Design-B
+  description: Innerpage Testimonial - Design B
+  scope: html
+  mTime: 1521195944877
+  text: |
+        [row class="margin-top-20"]\r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="269 - Think Different"]\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="268 - Out of Box"]\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="267 - Less is more"]\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="269 - Think Different"]\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="268 - Out of Box"]\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="267 - Less is more"]\r
+        [/column]\r
+        [/row]\r
+        
+
+- trigger: Testimonial-Design-C
+  description: Innerpage Testimonial - Design C
+  scope: html
+  mTime: 1521195969532
+  text: |
+        [row]\r
+        [column span="10" class="col-md-offset-1"]\r
+        [testimonials group="client-testimonials" layout="list" style="d" image_style="circle" id="267 - Less is more"]\r
+        [/column]\r
+        [column span="10" class="col-md-offset-1"]\r
+        [testimonials group="client-testimonials" layout="list" style="d" image_style="circle" id="268 - Out of Box"]\r
+        [/column]\r
+        [column span="10" class="col-md-offset-1"]\r
+        [testimonials group="client-testimonials" layout="list" style="d" image_style="circle" id="269 - Think Different" class="no-border-bottom"]\r
+        [/column]\r
+        [/row]
+
+- description: Innerpage Testimonial Design - D
+  scope: html
+  trigger: Testimonial-Design-D
+  mTime: 1521196054572
+  text: |
+        [segment tag="section" style="4" bgimg="http://placehold.it/1800x576" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="medium"]\r
+        [row class="margin-bottom-60"]\r
+        [column span="10" class="col-md-offset-1"]\r
+        [testimonials_carousel group="client-testimonials" layout="list" style="d" image_style="circle"]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="huge"]\r
+        [row]\r
+        [column span="6"]\r
+        [testimonials group="client-testimonials" layout="list" style="c" image_style="circle" id="267 - Less is more"]\r
+        [/column]\r
+        [column span="6"]\r
+        [testimonials group="client-testimonials" layout="list" style="c" image_style="circle" id="268 - Out of Box"]\r
+        [/column]\r
+        [/row]\r
+        \r
+        [row class="margin-top-20"]\r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="267 - Less is more"]\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="268 - Out of Box"]\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-6"]\r
+        [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="269 - Think Different"]\r
+        [/column]\r
+        [/row]\r
+        [/segment]
+
+- trigger: Support-Center-Design-A
+  description: Innerpage Support Center Design A
+  scope: html
+  mTime: 1521196878882
+  text: |
+        [row class="margin-vertical-100 padding-top-40 no-mobile-margin-vertical"]\r
+        [column span="4" class="col-sm-4"]\r
+        <div class="support-box">\r
+        <div class="icon-support">[icon type="laptop" size="2x" color="default" class="accent2"]</div>\r
+        <div class="title-support"><h3 class="font-24 margin-top-0"><strong>Support Portal</strong></h3>\r
+        [button text="Access Support Portal" type="info" link="#" class="btn-custom2 margin-top-10"]\r
+        </div>\r
+        </div>\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-4"]\r
+        <div class="support-box">\r
+        <div class="icon-support">[icon type="comments-o" size="2x" class="accent2" color="default"]</div>\r
+        <div class="title-support"><h3 class="font-24 margin-top-0"><strong>LiveChat</strong></h3>\r
+        <p class="accent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>\r
+        </div>\r
+        </div>\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-4"]\r
+        <div class="support-box">\r
+        <div class="icon-support">[icon type="phone" size="2x" class="accent2" color="default"]</div>\r
+        <div class="title-support"><h3 class="font-24 margin-top-0"><strong>Phone Support</strong></h3>\r
+        <p class="accent2 font-24">+66 2-278-4319</p>\r
+        </div>\r
+        </div>\r
+        [/column]\r
+        [/row]\r
+        \r
+        <hr/>\r
+        \r
+        [row class="margin-vertical-40"]\r
+        [column span="12" class="text-center"]\r
+        <h3 class="font-38">FAQ</h3>\r
+        [/column]\r
+        [/row]\r
+        [row]\r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        [/column]\r
+        \r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        [/column]\r
+        \r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        [/column]\r
+        \r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        [/column]\r
+        \r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        [/column]\r
+        \r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        [/column]\r
+        [/row]
+
+- trigger: Support-Center-Design-B
+  description: Innerpage Support Center Design B
+  scope: html
+  mTime: 1521196931293
+  text: |
+        [row class="no-mobile-margin-vertical segment space-large"]\r
+        [column span="5"]\r
+        <div class="support-box">\r
+        <div class="icon-support">[icon type="laptop" size="2x" color="default" class="accent2"]</div>\r
+        <div class="title-support"><h3 class="font-24 margin-top-0"><strong>Support Portal</strong></h3>\r
+        [button text="Access Support Portal" type="info" link="#" class="btn-custom2 btn-ghost margin-top-10"]\r
+        </div>\r
+        </div>\r
+        \r
+        <hr />\r
+        \r
+        <div class="support-box">\r
+        <div class="icon-support">[icon type="comments-o" size="2x" class="accent2" color="default"]</div>\r
+        <div class="title-support"><h3 class="font-24 margin-top-0"><strong>LiveChat</strong></h3>\r
+        <p class="accent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>\r
+        </div>\r
+        </div>\r
+        \r
+        <hr />\r
+        \r
+        \r
+        <div class="support-box">\r
+        <div class="icon-support">[icon type="phone" size="2x" class="accent2" color="default"]</div>\r
+        <div class="title-support"><h3 class="font-24 margin-top-0"><strong>Phone Support</strong></h3>\r
+        <p class="accent2 font-24">+66 2-278-4319</p>\r
+        </div>\r
+        </div>\r
+        \r
+        <hr/>\r
+        [/column]\r
+        \r
+        [column span="6" class="col-md-offset-1"]\r
+        <h3 class="font-38 sm-text-center">Submit a Support Request</h3>\r
+        [gravityform id="1" title="false" description="false"]\r
+        [/column]\r
+        [/row]
+
+- trigger: Support-Center-Design-C
+  description: Innerpage Support Center Design C
+  scope: html
+  mTime: 1521196973301
+  text: |
+        [row class="margin-vertical-60"]\r
+        [column span="12" class="text-center"]\r
+        <h3 class="font-38">FAQ</h3>\r
+        [/column]\r
+        [/row]\r
+        [row]\r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p class="margin-top-20 margin-bottom-20">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        <a href="#" class="accent2 button-custom">read more</a>\r
+        [/column]\r
+        \r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p class="margin-top-20 margin-bottom-20">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        <a href="#" class="accent2 button-custom">read more</a>\r
+        [/column]\r
+        \r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p class="margin-top-20 margin-bottom-20">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        <a href="#" class="accent2 button-custom">read more</a>\r
+        [/column]\r
+        \r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p class="margin-top-20 margin-bottom-20">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        <a href="#" class="accent2 button-custom">read more</a>\r
+        [/column]\r
+        \r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p class="margin-top-20 margin-bottom-20">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        <a href="#" class="accent2 button-custom">read more</a>\r
+        [/column]\r
+        \r
+        [column span="4" class="margin-bottom-40 col-sm-6"]\r
+        <p class="font-18 accent"><strong>Lorem ipsum dolor sit amet?</strong></p>\r
+        <p class="margin-top-20 margin-bottom-20">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo enim ipsam.</p>\r
+        <a href="#" class="accent2 button-custom">read more</a>\r
+        [/column]\r
+        [/row]\r
+        \r
+        \r
+        <hr/>\r
+        \r
+        [row class="margin-top-40"]\r
+        [column span="8" class="col-md-offset-2"]\r
+        [well class="well-form"]\r
+        <div class="text-center margin-bottom-20">\r
+        <h4 class="font-38">Submit Support Request</h4>\r
+        <p>Please use the following contact information for technical support requests only. <br class="visible-lg">For all other inquiries please use the information and form on the Contact Us page.</p>\r
+        </div>\r
+        [gravityform id="1" title="false" description="false"]\r
+        [/well]\r
+        [/column]\r
+        [/row]
+
+- trigger: Support-Center-Design-D
+  description: Innerpage Support Center Design D
+  scope: html
+  mTime: 1521197013281
+  text: |
+        [segment tag="section" style="1" spacing="huge"]\r
+        [row class=""]\r
+        [column span="12" class="text-center"]\r
+        <h3 class="font-38">How can we help you?</h3>\r
+        [/column]\r
+        [/row]\r
+        \r
+        [row]\r
+        [column span="6"]\r
+        <h3 class="accent2 font-28 margin-vertical-40">Frequently Asked Questions</h3>\r
+        [accordions title="show-state"]\r
+        \r
+        [accordion title="Lorem ipsum dolor sit amet?"]\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>\r
+        \r
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>\r
+        [/accordion]\r
+        \r
+        [accordion title="Lorem ipsum dolor sit amet?"]\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>\r
+        \r
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>\r
+        [/accordion]\r
+        \r
+        [accordion title="Lorem ipsum dolor sit amet?"]\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>\r
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>\r
+        [/accordion]\r
+        [/accordions]\r
+        [/column]\r
+        \r
+        [column span="6"]\r
+        <h3 class="accent2 font-28 margin-vertical-40">Download Ebook/Document</h3>\r
+        [accordions title="download-ebook"]\r
+        \r
+        [accordion title="Sed ut perspiciatis unde omnis iste natus error sit."]\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>\r
+         <a href="#" class="accent2 button-custom">Download</a>\r
+        [/accordion]\r
+        \r
+        [accordion title="Sed ut perspiciatis unde omnis iste natus error sit."]\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>\r
+         <a href="#" class="accent2 button-custom">Download</a>\r
+        [/accordion]\r
+        \r
+        [accordion title="Sed ut perspiciatis unde omnis iste natus error sit."]\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>\r
+         <a href="#" class="accent2 button-custom">Download</a>\r
+        [/accordion]\r
+        \r
+        [accordion title="Sed ut perspiciatis unde omnis iste natus error sit."]\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>\r
+         <a href="#" class="accent2 button-custom">Download</a>\r
+        [/accordion]\r
+        \r
+        [accordion title="Sed ut perspiciatis unde omnis iste natus error sit."]\r
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>\r
+         <a href="#" class="accent2 button-custom">Download</a>\r
+        [/accordion]\r
+        [/accordions]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="2" spacing="huge"]\r
+        [row]\r
+        [column span="4" class="col-sm-4"]\r
+        <div class="support-box">\r
+        <div class="icon-support">[icon type="laptop" size="2x" color="default" class="accent2"]</div>\r
+        <div class="title-support"><h3 class="font-24 margin-top-0"><strong>Support Portal</strong></h3>\r
+        [button text="Access Support Portal" type="info" link="#" class="btn-custom2 margin-top-10"]\r
+        </div>\r
+        </div>\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-4"]\r
+        <div class="support-box">\r
+        <div class="icon-support">[icon type="comments-o" size="2x" class="accent2" color="default"]</div>\r
+        <div class="title-support"><h3 class="font-24 margin-top-0"><strong>LiveChat</strong></h3>\r
+        <p class="accent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>\r
+        </div>\r
+        </div>\r
+        [/column]\r
+        \r
+        [column span="4" class="col-sm-4"]\r
+        <div class="support-box">\r
+        <div class="icon-support">[icon type="phone" size="2x" class="accent2" color="default"]</div>\r
+        <div class="title-support"><h3 class="font-24 margin-top-0"><strong>Phone Support</strong></h3>\r
+        <p class="accent2 font-24">+66 2-278-4319</p>\r
+        </div>\r
+        </div>\r
+        [/column]\r
+        [/row]\r
+        [/segment]
+
+- trigger: Support-Center-Design-E
+  description: Innerpage Support Center Design E
+  scope: html
+  mTime: 1521197049992
+  text: |
+        [row]\r
+        [column span="12"]\r
+        <div class="masthead segment3">\r
+        <h3 class="font-48 uppercase line-height-small">Support Center</h3>\r
+        <h3 class="font-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae.</h3>\r
+        </div>\r
+        [/column]\r
+        [/row]\r
+        \r
+        [row class="margin-vertical-40 flexheight"]\r
+        [column span="6" class="col-sm-12 col-xs-12"]\r
+        <div class="support-box">\r
+        <div class="icon-support">[icon type="laptop" size="2x" color="default" class="accent2"]</div>\r
+        <div class="title-support"><h3 class="font-24 margin-top-0"><strong>Support Portal</strong></h3>\r
+        [button text="Access Support Portal" type="info" link="#" class="btn-custom2 margin-top-10"]\r
+        </div>\r
+        </div>\r
+        [/column]\r
+        [column span="6" class="col-sm-12 col-xs-12"]\r
+        <div class="support-box">\r
+        <div class="icon-support">[icon type="phone" size="2x" class="accent2" color="default"]</div>\r
+        <div class="title-support"><h3 class="font-24 margin-top-0"><strong>Phone Support</strong></h3>\r
+        <p class="accent2 font-24">+66 2-278-4319</p>\r
+        </div>\r
+        </div>\r
+        [/column]\r
+        [/row]\r
+        \r
+        [row class="margin-top-40"]\r
+        [column span="12" class=""]\r
+        [well class="well-form"]\r
+        <div class="text-center margin-bottom-20">\r
+        <h4 class="font-38">Submit Support Request</h4>\r
+        <p>Please use the following contact information for technical support requests only. <br class="visible-lg">For all other inquiries please use the information and form on the Contact Us page.</p>\r
+        </div>\r
+        [gravityform id="1" title="false" description="false"]\r
+        [/well]\r
+        [/column]\r
+        [/row]
+
+- trigger: Adwords-Landing-Page-Demo-B
+  description: Adwords Landing Page Demo B
+  scope: html
+  mTime: 1521197254207
+  text: |
+        [segment tag="section" style="4" bgimg="http://via.placeholder.com/1800x460" bgrepeat="no-repeat" bgposition="top center" bgattachment="scroll" bgsize="cover" spacing="large" class="banner-landing banner-b"]\r
+        [row class="padding-vertical-40"]\r
+        [column span="6" class="sm-text-center margin-top-40"]\r
+        <h1 class="font-58 uppercase sm-line-height font-semi-bold">Adwords Landing Page - B</h1>\r
+        <p class="font-18">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>\r
+        [/column]\r
+        [column span="5" class="col-sm-8 col-sm-offset-2 col-md-offset-1"]\r
+        [well style="light-transparent" class="margin-0"]\r
+        <h2 class="font-26 accent font-bold">Talk With Our Experts Today</h2>\r
+        [gravityform id="1" title="false" description="true" tabindex="20"]\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" spacing="huge"]\r
+        [row class="margin-top-40 sm-no-margin-top xs-no-margin-top"]\r
+        [column span="6"]\r
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis molestiae non recusandae.</p>\r
+        [/column]\r
+        [column span="6"]\r
+        [well class="well-service"]\r
+        <h3 class="font-18 accent2">Nullam ultrices purus faucibus commodo dignissim.</h3>\r
+        <ul>\r
+        \t<li>Phasellus accumsan mauris nec tellus ornare, ac interdum </li>\r
+        \t<li>Mauris vel orci bibendum, venenatis lorem rhoncus, posuere lectus.</li>\r
+        \t<li>Aenean nec ante non risus pellentesque lobortis.</li>\r
+        \t<li>Proin ultrices metus sit amet elit lacinia ornare.</li>\r
+        \t<li>Sed pharetra ligula vitae magna tincidunt lobortis.</li>\r
+        \t<li>Vestibulum aliquet ante sit amet nunc placerat, vel pulvinar risus ultrices.</li>\r
+        </ul>\r
+        [/well]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="1" bgimg="http://via.placeholder.com/1800x460" bgrepeat="no-repeat" bgposition="top center" bgattachment="scroll" bgsize="cover" spacing="large" class="clients"]\r
+        [row]\r
+        [column span="5" class="col-sm-7"]\r
+        <h2 class="font-38 margin-bottom-20 xs-text-center">Client Testimonial</h2>\r
+        [testimonials_carousel group="all-testimonials" layout="list" style="b" image_style="circle"]\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        [segment tag="section" style="4" spacing="medium" class="cta-footer"]\r
+        [row]\r
+        [column span="7" class="sm-text-center"]\r
+        <h2 class="font-30">Say goodbye to IT headaches for good</h2>\r
+        [/column]\r
+        [column span="5" class="text-center margin-top-10"]\r
+        <a class="btn btn-primary btn-lg" href="#top" rel="jumpdown">Talk With Our Experts Today</a>\r
+        [/column]\r
+        [/row]\r
+        [/segment]\r
+        \r
+        <div class="map-section">\r
+        [location location_id="3548 - PP’s Hidden Cave" show_map="1" layout="vertical"]\r
+        [well class="well-location"]\r
+        <h2 class="font-18 font-black margin-bottom-20"><strong>[company_long]</strong></h2>\r
+        [location location_id="3548 - PP’s Hidden Cave" show_icon="1" show_address="1" show_city="1" show_state="1" show_zipcode="1" show_primary_phone="1" primary_phone_text="Phone: "  layout="vertical"]\r
+        [/well]\r
+        </div>\r
+        \r
+        
 
