@@ -190,10 +190,10 @@
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
          
         var countrycodes = "1"
-        var delimiters = "-|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.|—|–|&nbsp;"
-        var phonedef = "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\+?(?:(?:(?:" + countrycodes + ")(?:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")?)?\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(?[2-9]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\d{2}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)?(?:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")?[2-9]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\d{2}(?:" + delimiters + ")?[0-9a-z]{4})"
-        var spechars = new RegExp("([- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.:]|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")","gi") //Special characters to be removed from the link
-        var phonereg = new RegExp("((^|[^0-9])(href=[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"']tel:)?((?:" + phonedef + ")[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"'][^>]*?>)?(" + phonedef + ")($|[^0-9]))","gi")
+        var delimiters = "-|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.|—|–|&nbsp;"
+        var phonedef = "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\+?(?:(?:(?:" + countrycodes + ")(?:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")?)?\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(?[2-9]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\d{2}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)?(?:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")?[2-9]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\d{2}(?:" + delimiters + ")?[0-9a-z]{4})"
+        var spechars = new RegExp("([- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.:]|\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\s|" + delimiters + ")","gi") //Special characters to be removed from the link
+        var phonereg = new RegExp("((^|[^0-9])(href=[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"']tel:)?((?:" + phonedef + ")[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"'][^>]*?>)?(" + phonedef + ")($|[^0-9]))","gi")
          
         function ReplacePhoneNumbers(oldhtml) {
         //Created by Jon Meck at LunaMetrics.com - Version 1.0
@@ -1673,6 +1673,10 @@
             text-decoration: none;
         }
         
+        .service .heading img {
+          max-width: 80px;
+        }
+        
         .service .heading {
             -webkit-box-align: center;
                 -ms-flex-align: center;
@@ -1931,6 +1935,10 @@
         .service-2 a:active,
         .service-2 a:focus{
             text-decoration: none;
+        }
+        
+        .service .heading img {
+          max-width: 80px;
         }
         
         .service .heading {
@@ -2562,13 +2570,18 @@
           display: -ms-flexbox;
           display: -webkit-flex;
           display: flex;
+          align-items: flex-start;
           margin-bottom: 60px;
         }
         .service-2 .service .desc {
           margin-left: 35px;
         }
         .service-2 .service > * {
-          margin: auto;
+          margin: 0;
+        }
+        
+        .service-2 .service p {
+          color: #55626d;
         }
         
         .service-2 .service .desc .btn{
@@ -4104,51 +4117,51 @@
         }
         
         /**************** Contact Form ****************/
+        .contact-form .gform_wrapper .gform_body .gfield label {
+            display: none;
         
         .contact-us-design-a  .contact-form label {
-          display: none !important;
+        .contact-form .gform_wrapper .top_label li.gfield.gf_left_half,
+            margin-top: 9px;
         }
         
-        .contact-form .form-control {
-          background-color: #fbfbfc;
-          min-height: 50px;
-          padding-left: 15px !important;
-          margin-bottom: 15px;
+        .contact-form .gform_wrapper .form-control {
+            min-height: 50px;
+            padding: 15px !important;
+            background-color: #fbfbfc;
         }
         
-        .contact-form .name_first .form-control,
-        .contact-form .name_last .form-control{
-          max-width: 258px;
-          width: 100% !important;
+        .contact-form .gform_wrapper .ginput_container_address .ginput_full {
+            display: block;
+            margin-bottom: 15px;
         }
         
-        .contact-form .name_last .form-control {
-          margin-left: 4px;
+        .gform_wrapper .ginput_complex.ginput_container_address span.ginput_right + span.ginput_left,
+        .gform_wrapper .ginput_complex.ginput_container_address .address_country {
+            margin-top: 15px;
+        }
+        
+        .contact-form .gform_wrapper .gform_body .ginput_container_checkbox label {
+            display: inline-block;
         }
         
         .contact-form .gform_footer .btn {
-          border-radius: 50px;
-          color: #fff;
-          padding: 15px 40px;
-        }
-        
-        .contact-form .gf_left_half,
-        .contact-form .gf_right_half {
-          margin-bottom: 0 !important;
+            color: #fff;
+            padding: 15px 40px;
         }
         
         .contact-title {
-          border-bottom: 1px solid #ccc;
-          margin-bottom: 30px;
-          padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
         }
         
         .contact-title h2 {
-          font-weight: 400;
+            font-weight: 400;
         }
         
         address {
-          line-height: 1.7;
+            line-height: 1.7;
         }
         
         
@@ -4161,42 +4174,23 @@
           margin-left: 8px;
         }
         
-        /******************************@media***********************/
-        @media (min-width: 992px) and (max-width: 1199px) {
-            .contact-form .name_first .form-control, 
-            .contact-form .name_last .form-control {
-              max-width: 210px;
-            }
-        }
-        
-        @media  (max-width: 991px) {
-            .contact-form .name_first .form-control, 
-            .contact-form .name_last .form-control {
-              max-width: 328px;
-              width: 100% !important;
-            }
-        
-        }
-        
+        /******************************@media***********************/       
         @media (max-width: 767px) {
             .font-60 {
               font-size: 36px;
             }
-            .contact-form .gform_body > ul > li {
-                width: 100% !important;
+            .contact-form .gform_wrapper input:not([type="radio"]):not([type="checkbox"]):not([type="image"]):not([type="file"]) {
+                min-height: 50px;
             }
-            .contact-form .name_first .form-control, .contact-form .name_last .form-control {
-                 max-width: 100% !important;
-                 width: 100% !important;
+            .contact-form .gform_wrapper .top_label li.gfield.gf_left_half, 
+            .contact-form .gform_wrapper .top_label li.gfield.gf_right_half {
+                width: 100%;
+                margin-top: 0;
+                float: none;
             }
-            .name_first, .name_last {
-                width: 100% !important;
-            }
-            .contact-form .name_last .form-control {
-                margin-left: 0;
-            }
-            .contact-form  .form-control {
-                width: 100% !important; 
+            .contact-form .gform_wrapper .ginput_container span:not(.ginput_price),
+            .contact-form .gform_wrapper .top_label div.ginput_container {
+                margin-top: 15px;
             }
             .xs-float-none {
                 float: none !important;
@@ -5081,8 +5075,8 @@
         
         </style>
 
-- trigger: Adwords-Landing-Page
-  description: Adwords Landing Page
+- trigger: Adwords-Landing-Page-A
+  description: Adwords Landing Page A
   scope: css
   mTime: 1521197082660
   text: |
@@ -7134,7 +7128,7 @@
         .panel-heading .accordion-toggle:after {
             /* symbol for "opening" panels */
             font-family: 'FontAwesome'; 
-            content:"\\f139";
+            content:"\\\\f139";
             float: right;       
             color: #ededed;
             width: 15px;
@@ -7147,7 +7141,7 @@
         }
         .panel-heading .accordion-toggle.collapsed:after {
             /* symbol for "collapsed" panels */
-            content:"\\f13a";    
+            content:"\\\\f13a";    
         }
         .panel-title {
             font-size:18px;
@@ -7648,6 +7642,212 @@
           margin-bottom: 0;
         }
         
+        </style>
+
+- trigger: Innerpage-Masthead
+  description: Innerpage Masthead
+  scope: css
+  mTime: 1521785249091
+  text: |
+        <style>
+        .inner-masthead {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          height: 350px;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          text-align: center;
+        }
+        
+        @media (max-width: 767px) {
+          .inner-masthead {
+          height: 250px;
+          }
+        }
+        </style>
+
+- trigger: New-Sidebar-Template
+  description: New Sidebar Template
+  scope: css
+  mTime: 1521785532459
+  text: |
+        <style>
+        /* example http://ecommerce.pi.bypronto.com/services/innerpage-service-index-design-d/innerpage-service-detail-design-d/ */
+        
+        /* sidebar */
+        div[role="complementary"]{
+          width: 20%;
+        }
+        
+        div[role="complementary"] .inner {
+          border: 0 none;
+          border-radius: 0;
+        }
+        
+        div[role="complementary"] aside > h3:hover, 
+        div[role="complementary"] div > h3:hover {
+          background: none;
+        }
+        
+        div[role="complementary"] aside > h3, 
+        div[role="complementary"] div > h3 {
+          background-color: transparent;
+          border-bottom: 0 none;
+          border-top: 0 none;
+          padding: 0;
+        }
+        
+        div[role="complementary"] aside > .nav-tabs, 
+        div[role="complementary"] div > ul {
+          margin-left: 0;
+          margin-right: 0;
+          padding: 0;
+          border: 0;
+        }
+        
+        div[role="complementary"] .flexnav a.current-page {
+          color: #8cb837 !important; /* edit this property for active page */
+        }
+        
+        .sidebar-content .nav.nav-tabs.nav-stacked a,
+        div[role="complementary"] .widget > ul > li > a{
+          background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+          border: 0 none;
+          padding: 7px 0;
+          color: #333;
+        }
+        
+        .sidebar-content .nav.nav-tabs.nav-stacked a:hover,
+        div[role="complementary"] .widget > ul > li > a:hover,
+        .sidebar-content .nav.nav-tabs.nav-stacked a:active,
+        div[role="complementary"] .widget > ul > li > a:active,
+        .sidebar-content .nav.nav-tabs.nav-stacked a:focus,
+        div[role="complementary"] .widget > ul > li > a:focus  {
+          color: #f00; /* edit this property for recent post widget */
+          text-decoration: none;
+        }
+        
+        div[role="complementary"] div ul {
+          padding-left: 0;
+        }
+        
+        div[role="complementary"] .inner ul ul {
+          font-size: 12px;
+          margin-left: 30px;
+          list-style: outside none none;
+        }
+        
+        div[role="complementary"] .inner ul ul li a {
+          border-top: 0 none !important;
+          display: inline;
+          color: #666;
+        }
+        
+        div[role="complementary"] .inner ul ul li a::before {
+          content: "";
+          display: block;
+          font-family: fontawesome;
+          height: 0;
+          left: -1em;
+          position: relative;
+          width: 0;
+        }
+        
+        div[role="complementary"] .inner ul ul li {
+          margin: 5px 0;
+          overflow: visible;
+        }
+        
+        div[role="complementary"] .widget-title::after, 
+        div[role="complementary"] h3::after {
+          background: #b72a2a none repeat scroll 0 0; /*edit this property for underline color */
+          content: "";
+          display: block;
+          height: 1px;
+          margin-top: 10px;
+          width: 26px;
+        }
+        
+        div[role="complementary"] .widget-title {
+          color: #000; /* edit this property to dark color */
+          font-size: 18px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+        
+        div[role="complementary"] .widget-title a {
+          color: #000; /* edit this property to dark color */
+        }
+        
+        div[role="complementary"] .product-categories {
+          font-size: 12px;
+          list-style: outside none none;
+          margin-top: 20px;
+          padding: 0;
+        }
+        
+        div[role="complementary"] .well {
+          background-color: #f2f2f2;
+          border-radius: 0;
+          box-shadow: none;
+        }
+        
+        div[role="complementary"] > .inner > .search-widget:first-child {
+          background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+          border-radius: 0;
+          padding: 0;
+          margin-bottom: 30px;
+        }
+        
+        div[role="complementary"] > .inner > .search-widget:first-child .navbar-search .search-query {
+          border: 1px solid #ccc;
+          border-radius: 0;
+          box-shadow: none;
+          font-weight: lighter;
+        }
+        
+        div[role="complementary"] div > select {
+          margin: 10px 0;
+          width: 100%;
+        }
+        
+        div[role="complementary"] .inner div > div, 
+        div[role="complementary"] .inner div > p {
+          margin: 0;
+        }
+        
+        div[role="complementary"] div > ul > li {
+          border: 0 none;
+          padding: 5px 0;
+        }
+        
+        .sidebar-content .nav.nav-tabs.nav-stacked .parent ul a.selected, 
+        .sidebar-content .nav li li a:hover, 
+        div[role="complementary"] div > ul > li:hover {
+          background-color: transparent;
+          border: 0 none !important;
+        }
+        
+        @media (min-width: 992px) and (max-width: 1199px) {
+        
+        }
+        
+        @media  (max-width: 991px) {
+          div[role="complementary"] {
+          width: 30%;
+          }
+        }
+        @media (max-width: 767px) {
+          div[role="complementary"] {
+          width: 100%;
+          }
+        }
         </style>
 
 - scope: less
@@ -8589,56 +8789,56 @@
   trigger: flexcenter
   mTime: 1468296120058
   text: |
-        .${1} .row {\\\\\\\\
-        \\\\\\\\\\\\\\\\display: flex;\\\\\\\\
-                display: -ms-flexbox;\\\\\\\\
-        \\\\\\\\\\\\\\\\display: -webkit-flex;\\\\\\\\
-        \\\\\\\\\\\\\\\\\\\\\\\\
-        \\\\\\\\\\\\\\\\-ms-flex-align: center;\\\\\\\\
-        \\\\\\\\\\\\\\\\-webkit-align-items: center;\\\\\\\\
-        \\\\\\\\\\\\\\\\-webkit-box-align: center;\\\\\\\\
-        \\\\\\\\\\\\\\\\align-items: center;\\\\\\\\
+        .${1} .row {\\\\\\\\\\\\\\\\
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\display: flex;\\\\\\\\\\\\\\\\
+                display: -ms-flexbox;\\\\\\\\\\\\\\\\
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\display: -webkit-flex;\\\\\\\\\\\\\\\\
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-ms-flex-align: center;\\\\\\\\\\\\\\\\
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-webkit-align-items: center;\\\\\\\\\\\\\\\\
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-webkit-box-align: center;\\\\\\\\\\\\\\\\
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\align-items: center;\\\\\\\\\\\\\\\\
         }
 
 - trigger: flex
   scope: less
   mTime: 1469075481272
   text: |
-        .flexbox() {\\\\\\\\
-          display: -webkit-box;\\\\\\\\
-          display: -moz-box;\\\\\\\\
-          display: -ms-flexbox;\\\\\\\\
-          display: -webkit-flex;\\\\\\\\
-          display: flex;\\\\\\\\
-        }\\\\\\\\
-        \\\\\\\\
-        .flex(@values) {\\\\\\\\
-          -webkit-box-flex: @values;\\\\\\\\
-          -moz-box-flex:  @values;\\\\\\\\
-          -webkit-flex:  @values;\\\\\\\\
-          -ms-flex:  @values;\\\\\\\\
-          flex:  @values;\\\\\\\\
-        }\\\\\\\\
-        \\\\\\\\
-        .order(@val) {\\\\\\\\
-          -webkit-box-ordinal-group: @val;  \\\\\\\\
-          -moz-box-ordinal-group: @val;     \\\\\\\\
-          -ms-flex-order: @val;     \\\\\\\\
-          -webkit-order: @val;  \\\\\\\\
-          order: @val;\\\\\\\\
+        .flexbox() {\\\\\\\\\\\\\\\\
+          display: -webkit-box;\\\\\\\\\\\\\\\\
+          display: -moz-box;\\\\\\\\\\\\\\\\
+          display: -ms-flexbox;\\\\\\\\\\\\\\\\
+          display: -webkit-flex;\\\\\\\\\\\\\\\\
+          display: flex;\\\\\\\\\\\\\\\\
+        }\\\\\\\\\\\\\\\\
+        \\\\\\\\\\\\\\\\
+        .flex(@values) {\\\\\\\\\\\\\\\\
+          -webkit-box-flex: @values;\\\\\\\\\\\\\\\\
+          -moz-box-flex:  @values;\\\\\\\\\\\\\\\\
+          -webkit-flex:  @values;\\\\\\\\\\\\\\\\
+          -ms-flex:  @values;\\\\\\\\\\\\\\\\
+          flex:  @values;\\\\\\\\\\\\\\\\
+        }\\\\\\\\\\\\\\\\
+        \\\\\\\\\\\\\\\\
+        .order(@val) {\\\\\\\\\\\\\\\\
+          -webkit-box-ordinal-group: @val;  \\\\\\\\\\\\\\\\
+          -moz-box-ordinal-group: @val;     \\\\\\\\\\\\\\\\
+          -ms-flex-order: @val;     \\\\\\\\\\\\\\\\
+          -webkit-order: @val;  \\\\\\\\\\\\\\\\
+          order: @val;\\\\\\\\\\\\\\\\
         }
 
 - scope: less
   trigger: TMT-mainheader
   mTime: 1469169378662
   text: |
-        [row]\\\\\\\\
-        [column span="3" class="col-sm-4"]\\\\\\\\
-        [logo link="/"]\\\\\\\\
-        [/column]\\\\\\\\
-        [column span="9" class="col-sm-8"]\\\\\\\\
-        [menu menuname="main-nav-inner" menutype="primary" ulclass="pull-right nav-pills uppercase"]\\\\\\\\
-        [/column]\\\\\\\\
+        [row]\\\\\\\\\\\\\\\\
+        [column span="3" class="col-sm-4"]\\\\\\\\\\\\\\\\
+        [logo link="/"]\\\\\\\\\\\\\\\\
+        [/column]\\\\\\\\\\\\\\\\
+        [column span="9" class="col-sm-8"]\\\\\\\\\\\\\\\\
+        [menu menuname="main-nav-inner" menutype="primary" ulclass="pull-right nav-pills uppercase"]\\\\\\\\\\\\\\\\
+        [/column]\\\\\\\\\\\\\\\\
         [/row]
 
 - scope: less
@@ -9458,11 +9658,11 @@
   trigger: Our-Team-inner-D
   mTime: 1478442542060
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="team-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:Meet The Team}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:Meet The Team}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -9649,11 +9849,11 @@
   description: Innerpage Our Team Design C
   mTime: 1478442099766
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="team-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:Meet The Team}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:Meet The Team}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -9835,11 +10035,11 @@
   description: Innerpage Our Team Design B
   mTime: 1521195087760
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="team-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:Meet The Team}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:Meet The Team}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -10034,11 +10234,11 @@
   scope: html
   mTime: 1478440596059
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="team-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="team-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:Meet The Team}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:Meet The Team}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -10217,13 +10417,13 @@
         [img src="https://placehold.it/400x185" class="aligncenter"]
         <h2 class="font-18 uppercase accent2 margin-top-20 mobile-text-center"><strong>${4:Nullam ultrices purus faucibus}</strong></h2>
         <p>${5:Lorem ipsum dolor sit amet, consectetur adipiscing elit,  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.}</p>
-        <p class="mobile-text-center"><a class="button-custom accent2 font-underline" href="#">${6:Read More}</a></p>
+        <p class="mobile-text-center"><a class="accent2 font-underline" href="#">${6:Read More}</a></p>
         [/column]
         [column span="6" class="margin-bottom-40"]
         [img src="https://placehold.it/400x185" class="aligncenter"]
         <h2 class="font-18 uppercase accent2 margin-top-20 mobile-text-center"><strong>${7:Nullam ultrices purus faucibus}</strong></h2>
         <p>${8:Lorem ipsum dolor sit amet, consectetur adipiscing elit,  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.}</p>
-        <p class="mobile-text-center"><a class="button-custom accent2 font-underline" href="#">${9:Read More}</a></p>
+        <p class="mobile-text-center"><a class="accent2 font-underline" href="#">${9:Read More}</a></p>
         [/column]
         [/row]
         
@@ -10375,7 +10575,7 @@
         <h3 class="font-24 accent2"><strong>${13:HS Services B}</strong></h3>
         </div>
         <p>${14:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
-        <span class="btn accent2 font-underline">${15:Read More}</span>
+        <a href="#" class="accent2 font-underline">${15:Read More}</a>
         </div>
         [/column]
         [column span="3" class="col-sm-6"]
@@ -10385,7 +10585,7 @@
         <h3 class="font-24 accent2"><strong>${16:HS Services C}</strong></h3>
         </div>
         <p>${17:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
-        <span class="btn accent2 font-underline">${18:Read More}</span>
+        <a href="#" class="accent2 font-underline">${18:Read More}</a>
         </div>
         [/column]
         [column span="3" class="col-sm-6"]
@@ -10395,7 +10595,7 @@
         <h3 class="font-24 accent2"><strong>${19:HS Services D}</strong></h3>
         </div>
         <p>${20:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
-        <span class="btn accent2 font-underline">${21:Read More}</span>
+        <a href="#" class="accent2 font-underline">${21:Read More}</a>
         </div>
         [/column]
         [column span="3" class="col-sm-6"]
@@ -10405,7 +10605,7 @@
         <h3 class="font-24 accent2"><strong>${22:HS Services E}</strong></h3>
         </div>
         <p>${23:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
-        <span class="btn accent2 font-underline">${24:Read More}</span>
+        <a href="#" class="accent2 font-underline">${24:Read More}</a>
         </div>
         [/column]
         [/row]
@@ -10416,7 +10616,7 @@
         [column span="8" class="text-center col-md-offset-2"]
         <h2 class="font-38">${25:Pellentesque pulvinar elit at condim}</h2>
         <p class="margin-bottom-40 margin-top-40">${26:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula et tellus nec.}</p>
-        [button text="Contact us" type="primary" size="large" class="btn-custom2"]
+        [button text="Contact us" type="primary" size="large" class="btn-custom2" link="#"]
         [/column]
         [/row]
         [/segment]
@@ -10426,14 +10626,14 @@
   description: Innerpage Service Detail – Design A
   mTime: 1478437311954
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="service-masthead"]
+        [row class="inner-masthead"]
         [column span="2"]
         [img src="https://placehold.it/128x128"]
         [/column]
         [column span="10"]
         <h1 class="font-60 margin-top-0">${1:Service Detail A}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
         [/column]
         [/row]
         [/segment]
@@ -10483,7 +10683,7 @@
         <h3 class="font-24 accent2"><strong>${14:HS Services B}</strong></h3>
         </div>
         <p>${15:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
-        <span class="btn accent2 font-underline">${16:Read More}</span>
+        <a href="#" class="accent2 font-underline">${16:Read More}</a>
         </div>
         [/column]
         [column span="3" class="col-sm-6"]
@@ -10493,7 +10693,7 @@
         <h3 class="font-24 accent2"><strong>${17:HS Services C}</strong></h3>
         </div>
         <p>${18:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
-        <span class="btn accent2 font-underline">${19:Read More}</span>
+        <a href="#" class="accent2 font-underline">${19:Read More}</a>
         </div>
         [/column]
         [column span="3" class="col-sm-6"]
@@ -10503,7 +10703,7 @@
         <h3 class="font-24 accent2"><strong>${20:HS Services D}</strong></h3>
         </div>
         <p>${21:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
-        <span class="btn accent2 font-underline">${22:Read More}</span>
+        <a href="#" class="accent2 font-underline">${22:Read More}</a>
         </div>
         [/column]
         [column span="3" class="col-sm-6"]
@@ -10513,7 +10713,7 @@
         <h3 class="font-24 accent2"><strong>${23:HS Services E}</strong></h3>
         </div>
         <p>${24:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.}</p>
-        <span class="btn accent2 font-underline">${25:Read More}</span>
+        <a href="#" class="accent2 font-underline">${25:Read More}</a>
         </div>
         [/column]
         [/row]
@@ -10524,7 +10724,7 @@
         [column span="8" class="text-center col-md-offset-2"]
         <h2 class="font-38">${26:Pellentesque pulvinar elit at condim}</h2>
         <p class="margin-bottom-40 margin-top-40">${27:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula et tellus nec.}</p>
-        [button text="Contact us" type="primary" size="large" class="btn-custom2"]
+        [button text="Contact us" type="primary" size="large" class="btn-custom2" link="#"]
         [/column]
         [/row]
         [/segment]
@@ -10534,11 +10734,11 @@
   scope: html
   mTime: 1478399364265
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x370" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x370" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="about-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:About Us}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:About Us}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -10650,11 +10850,11 @@
   scope: html
   mTime: 1478404371143
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="service-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:Services}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
+        <h1 class="font-60 margin-top-0">${1:Services}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
         [/column]
         [/row]
         [/segment]
@@ -10672,7 +10872,7 @@
         <div class="desc">
         <h2 class="font-24 uppercase accent2"><strong>${3:HS Services A}</strong></h2>
         <p class="margin-top-20 margin-bottom-20">${4:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${5:Read More}</span>
+        <span class="accent2 font-underline">${5:Read More}</span>
         </div>
         </div></a>
         [/column]
@@ -10687,7 +10887,7 @@
         <div class="desc">
         <h2 class="font-24 uppercase accent2"><strong>${6:HS Services B}</strong></h2>
         <p class="margin-top-20 margin-bottom-20">${7:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${8:Read More}</span>
+        <span class="accent2 font-underline">${8:Read More}</span>
         </div>
         </div></a>
         [/column]
@@ -10702,7 +10902,7 @@
         <div class="desc">
         <h2 class="font-24 uppercase accent2"><strong>${9:HS Services C}</strong></h2>
         <p class="margin-top-20 margin-bottom-20">${10:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${11:Read More}</span>
+        <span class="accent2 font-underline">${11:Read More}</span>
         </div>
         </div></a>
         [/column]
@@ -10717,7 +10917,7 @@
         <div class="desc">
         <h2 class="font-24 uppercase accent2"><strong>${12:HS Services D}</strong></h2>
         <p class="margin-top-20 margin-bottom-20">${13:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${14:Read More}</span>
+        <span class="accent2 font-underline">${14:Read More}</span>
         </div>
         </div></a>
         [/column]
@@ -10732,7 +10932,7 @@
         <div class="desc">
         <h2 class="font-24 uppercase accent2"><strong>${15:HS Services E}</strong></h2>
         <p class="margin-top-20 margin-bottom-20">${16:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${17:Read More}</span>
+        <span class="accent2 font-underline">${17:Read More}</span>
         </div>
         </div></a>
         [/column]
@@ -10747,7 +10947,7 @@
         <div class="desc">
         <h2 class="font-24 uppercase accent2"><strong>${18:HS Services F}</strong></h2>
         <p class="margin-top-20 margin-bottom-20">${19:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${20:Read More}</span>
+        <span class="accent2 font-underline">${20:Read More}</span>
         </div>
         </div></a>
         [/column]
@@ -10768,7 +10968,7 @@
         [column span="8" class="text-center col-md-offset-2"]
         <h2 class="font-38">${22:Pellentesque pulvinar elit at condim}</h2>
         <p class="margin-bottom-40 margin-top-40">${23:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula et tellus nec.}</p>
-        [button text="Contact us" type="primary" size="large" class="btn-custom2"]
+        [button text="Contact us" type="primary" size="large" class="btn-custom2" link="#"]
         [/column]
         [/row]
         [/segment]
@@ -10778,11 +10978,11 @@
   scope: html
   mTime: 1478404019662
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="service-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:Services}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
+        <h1 class="font-60 margin-top-0">${1:Services}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
         [/column]
         [/row]
         [/segment]
@@ -10794,7 +10994,7 @@
         [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${3:HS Services A}</strong></h2>
         <p>${4:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${5:Read More}</span>
+        <span class="accent2 font-underline">${5:Read More}</span>
         </div></a>
         [/column]
         [column span="4" class="text-center service col-sm-6"]
@@ -10802,7 +11002,7 @@
         [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${6:HS Services B}</strong></h2>
         <p>${7:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${8:Read More}</span>
+        <span class="accent2 font-underline">${8:Read More}</span>
         </div></a>
         [/column]
         [column span="4" class="text-center service col-sm-6"]
@@ -10810,7 +11010,7 @@
         [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${9:HS Services C}</strong></h2>
         <p>${10:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${11:Read More}</span>
+        <span class="accent2 font-underline">${11:Read More}</span>
         </div></a>
         [/column]
         [column span="4" class="text-center service col-sm-6"]
@@ -10818,7 +11018,7 @@
         [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${12:HS Services D}</strong></h2>
         <p>${13:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${14:Read More}</span>
+        <span class="accent2 font-underline">${14:Read More}</span>
         </div></a>
         [/column]
         [column span="4" class="text-center service col-sm-6"]
@@ -10826,7 +11026,7 @@
         [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${15:HS Services E}</strong></h2>
         <p>${16:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${17:Read More}</span>
+        <span class="accent2 font-underline">${17:Read More}</span>
         </div></a>
         [/column]
         [column span="4" class="text-center service col-sm-6"]
@@ -10834,7 +11034,7 @@
         [img src="https://placehold.it/100x100" class="aligncenter"]
         <h2 class="font-24 accent2"><strong>${18:HS Services F}</strong></h2>
         <p>${19:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <span class="btn accent2 font-underline">${20:Read More}</span>
+        <span class="accent2 font-underline">${20:Read More}</span>
         </div></a>
         [/column]
         [/row]
@@ -10849,7 +11049,7 @@
         <div class="col-md-10 col-md-offset-2 mobile-text-center">
         <h2 class="font-38">${21:Duis dolor est tincidunt vel}</h2>
         <p class="margin-bottom-40 margin-top-40 xs-no-margin-top">${22:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula et tellus nec.}</p>
-        [button text="Read More " type="primary" size="large" class="btn-custom2"]
+        [button text="Read More " type="primary" size="large" class="btn-custom2" link="#"]
         </div>
         </div>
         [/column]
@@ -10861,7 +11061,7 @@
         [column span="8" class="text-center col-md-offset-2"]
         <h2 class="font-38">${23:Pellentesque pulvinar elit at condim}</h2>
         <p class="margin-bottom-40 margin-top-40">${24:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula et tellus nec.}</p>
-        [button text="Contact us" type="primary" size="large" class="btn-custom2"]
+        [button text="Contact us" type="primary" size="large" class="btn-custom2" link="#"]
         [/column]
         [/row]
         [/segment]
@@ -10871,11 +11071,11 @@
   scope: html
   mTime: 1478404584873
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="service-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:Services}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
+        <h1 class="font-60 margin-top-0">${1:Services}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
         [/column]
         [/row]
         [/segment]
@@ -10896,7 +11096,7 @@
         <h3 class="font-24 accent2"><strong>${6:HS Services A}</strong></h3>
         </div>
         <p>${7:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.} </p>
-        <span class="btn accent2 font-underline">${8:Read More}</span>
+        <a href="#" class="accent2 font-underline">${8:Read More}</a>
         </div>
         </div>
         <div class="col-md-6 col-sm-6">
@@ -10906,7 +11106,7 @@
         <h3 class="font-24 accent2"><strong>${9:HS Services B}</strong></h3>
         </div>
         <p>${10:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu. }</p>
-        <span class="btn accent2 font-underline">${11:Read More}</span>
+        <a href="#" class="accent2 font-underline">${11:Read More}</a>
         </div>
         </div>
         <div class="col-md-6 col-sm-6">
@@ -10916,7 +11116,7 @@
         <h3 class="font-24 accent2"><strong>${12:HS Services C}</strong></h3>
         </div>
         <p>${13:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.} </p>
-        <span class="btn accent2 font-underline">${14:Read More}</span>
+        <a href="#" class="accent2 font-underline">${14:Read More}</a>
         </div>
         </div>
         <div class="col-md-6 col-sm-6">
@@ -10926,7 +11126,7 @@
         <h3 class="font-24 accent2"><strong>${15:HS Services D}</strong></h3>
         </div>
         <p>${16:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu. }</p>
-        <span class="btn accent2 font-underline">${17:Read More}</span>
+        <a href="#" class="accent2 font-underline">${17:Read More}</a>
         </div>
         </div>
         <div class="col-md-6 col-sm-6">
@@ -10936,7 +11136,7 @@
         <h3 class="font-24 accent2"><strong>${18:HS Services E}</strong></h3>
         </div>
         <p>${19:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.} </p>
-        <span class="btn accent2 font-underline">${20:Read More}</span>
+        <a href="#" class="accent2 font-underline">${20:Read More}</a>
         </div>
         </div>
         <div class="col-md-6 col-sm-6">
@@ -10946,7 +11146,7 @@
         <h3 class="font-24 accent2"><strong>${21:HS Services F}</strong></h3>
         </div>
         <p>${22:Excepteur sint occaecat cupidatat non proident, sunt in culpa qu.} </p>
-        <span class="btn accent2 font-underline">${23:Read More}</span>
+        <a href="#" class="accent2 font-underline">${23:Read More}</a>
         </div>
         </div>
         </div>
@@ -10968,7 +11168,7 @@
         [column span="8" class="text-center col-md-offset-2"]
         <h2 class="font-38">${25:Pellentesque pulvinar elit at condim}</h2>
         <p class="margin-bottom-40 margin-top-40">${26:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula et tellus nec.}</p>
-        ${27:[button text="Contact us" type="primary" size="large" class="btn-custom2"]}
+        ${27:[button text="Contact us" type="primary" size="large" class="btn-custom2" link="#"]}
         [/column]
         [/row]
         [/segment]
@@ -10978,11 +11178,11 @@
   scope: html
   mTime: 1478404997417
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="service-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="service-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:Services}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
+        <h1 class="font-60 margin-top-0">${1:Services}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
         [/column]
         [/row]
         [/segment]
@@ -11000,7 +11200,7 @@
         <div class="desc">
         <h2 class="font-24 accent2 uppercase"><strong>${3:HS Services A}</strong></h2>
         <p>${4:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>
-        <span class="btn font-underline">${5:Read More}</span>
+        <span class="font-underline">${5:Read More}</span>
         </div>
         </div></a>
         [/column]
@@ -11015,7 +11215,7 @@
         <div class="desc">
         <h2 class="font-24 accent2 uppercase"><strong>${6:HS Services B}</strong></h2>
         <p>${7:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>
-        <span class="btn font-underline">${8:Read More}</span>
+        <span class="font-underline">${8:Read More}</span>
         </div>
         </div></a>
         [/column]
@@ -11030,7 +11230,7 @@
         <div class="desc">
         <h2 class="font-24 accent2 uppercase"><strong>${9:HS Services C}</strong></h2>
         <p>${10:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>
-        <span class="btn font-underline">${11:Read More}</span>
+        <span class="font-underline">${11:Read More}</span>
         </div>
         </div></a>
         [/column]
@@ -11058,7 +11258,7 @@
         <div id="accordions-hs-group-1" class="panel-collapse in">
         <div class="panel-body">
         <p>${15:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>
-        <p><span class="btn font-underline">${16:Read More}</span>
+        <p><a href="#" class="btn font-underline">${16:Read More}</a>
         </p></div>
         </div>
         </div>
@@ -11078,7 +11278,7 @@
         <div id="accordions-hs-group-2" class="panel-collapse collapse">
         <div class="panel-body">
         <p>${18:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>
-        <p><span class="btn font-underline">${19:Read More}</span>
+        <p><a href="#" class="font-underline">${19:Read More}</a>
         </p></div>
         </div>
         </div>
@@ -11098,7 +11298,7 @@
         <div id="accordions-hs-group-3" class="panel-collapse collapse">
         <div class="panel-body">
         <p>${21:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}</p>
-        <p><span class="btn font-underline">${22:Read More}</span>
+        <p><a href="#" class="font-underline">${22:Read More}</a>
         </p></div>
         </div>
         </div>
@@ -11133,7 +11333,7 @@
         [column span="8" class="text-center col-md-offset-2"]
         <h2 class="font-38">${28:Pellentesque pulvinar elit at condim}</h2>
         <p class="margin-bottom-40 margin-top-40">${29:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur, tristique ligula a, pellentesque ipsum. Quisque augue ipsum, vehicula et tellus nec.}</p>
-        ${30:[button text="Contact us" type="primary" size="large" class="btn-custom2"]}
+        ${30:[button text="Contact us" type="primary" size="large" class="btn-custom2" link="#"]}
         [/column]
         [/row]
         [/segment]
@@ -11143,11 +11343,11 @@
   scope: html
   mTime: 1521197292352
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="about-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:Who we are}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:Who we are}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -11295,11 +11495,11 @@
   scope: html
   mTime: 1478401368626
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x370" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x370" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="about-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:About Us}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:About Us}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -11422,7 +11622,7 @@
         <div>
         <h2 class="font-38">${11:Our Service}</h2>
         <p class="margin-bottom-40">${12:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur.}</p>
-        [button text="Learn more" type="primary" size="large" class="btn-custom2"]
+        [button text="Learn more" type="primary" size="large" class="btn-custom2" link="#"]
             
         </div>
         [/column]
@@ -11430,7 +11630,7 @@
         <div>
         <h2 class="font-38">${13:Our Products}</h2>
         <p class="margin-bottom-40">${14:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras elementum pretium est. Nullam ac justo efficitur.}</p>
-        [button text="See more" type="primary" size="large" class="btn-custom2"]
+        [button text="See more" type="primary" size="large" class="btn-custom2" link="#"]
             
         </div>
         [/column]
@@ -11442,11 +11642,11 @@
   scope: html
   mTime: 1478402177547
   text: |
-        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="about-masthead"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="about-masthead"]
+        [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:About Us}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:About Us}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -11485,7 +11685,7 @@
         <div id="accordions-hs-group-1" class="panel-collapse in">
         <div class="panel-body">
         <p>${9:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <p><span class="btn font-underline">${10:Read More}</span>
+        <p><a href="#" class="font-underline">${10:Read More}</a>
         </p></div>
         </div>
         </div>
@@ -11505,7 +11705,7 @@
         <div id="accordions-hs-group-2" class="panel-collapse collapse">
         <div class="panel-body">
         <p>${12:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <p><span class="btn font-underline">${13:Read More}</span>
+        <p><a href="#" class="font-underline">${13:Read More}</a>
         </p></div>
         </div>
         </div>
@@ -11525,7 +11725,7 @@
         <div id="accordions-hs-group-3" class="panel-collapse collapse">
         <div class="panel-body">
         <p>${15:Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.}</p>
-        <p><span class="btn font-underline">${16:Read More}</span>
+        <p><a href="#" class="font-underline">${16:Read More}</a>
         </p></div>
         </div>
         </div>
@@ -11944,11 +12144,11 @@
   scope: html
   mTime: 1481542252185
   text: |
-        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
+        [row class="inner-masthead"]
         [column span="12"]
-        <h1 class="font-60 uppercase">${1:Our Partner}</h1>
-        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        <h1 class="font-60 margin-top-0">${1:Our Partner}</h1>
+        <h2 class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
         [/column]
         [/row]
         [/segment]
@@ -11980,11 +12180,11 @@
   description: Innerpage Partner - Design B
   mTime: 1481542309533
   text: |
-        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
+        [row class="inner-masthead"]
         [column span="12"]
-        <h1 class="font-60 uppercase">${1:Our Partner}</h1>
-        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        <h1 class="font-60 margin-top-0">${1:Our Partner}</h1>
+        <h2 class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
         [/column]
         [/row]
         [/segment]
@@ -12002,11 +12202,11 @@
   scope: html
   mTime: 1481542446033
   text: |
-        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
+        [row class="inner-masthead"]
         [column span="12"]
-        <h1 class="font-60 uppercase">${1:Our Partner}</h1>
-        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        <h1 class="font-60 margin-top-0">${1:Our Partner}</h1>
+        <h2 class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
         [/column]
         [/row]
         [/segment]
@@ -12037,11 +12237,11 @@
   scope: html
   mTime: 1481542501346
   text: |
-        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
+        [row class="inner-masthead"]
         [column span="12"]
-        <h1 class="font-60 uppercase">${1:Our Partner}</h1>
-        <h2 class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        <h1 class="font-60 margin-top-0">${1:Our Partner}</h1>
+        <h2 class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
         [/column]
         [/row]
         [/segment]
@@ -12075,11 +12275,11 @@
   scope: html
   mTime: 1481542773004
   text: |
-        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
+        [row class="inner-masthead"]
         [column span="12"]
-        <h1 class="font-60 uppercase">${1:Contact Us}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:Contact Us}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -12118,11 +12318,11 @@
   scope: html
   mTime: 1481542953842
   text: |
-        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner sm-text-center"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner sm-text-center"]
+        [row class="inner-masthead"]
         [column span="10" class="col-md-offset-1"]
-        <h1 class="font-60 uppercase">${1:Contact Us}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:Contact Us}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -12161,11 +12361,11 @@
   scope: html
   mTime: 1481543057308
   text: |
-        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
+        [row class="inner-masthead"]
         [column span="12"]
-        <h1 class="font-60 uppercase">${1:Contact Us}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:Contact Us}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -12215,11 +12415,11 @@
   description: Innerpage Contact - Design D
   mTime: 1481543195406
   text: |
-        [segment tag="section" style="5" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="huge" class="partner-banner text-center"]
-        [row]
+        [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
+        [row class="inner-masthead"]
         [column span="12"]
-        <h1 class="font-60 uppercase">${1:Contact Us}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <h1 class="font-60 margin-top-0">${1:Contact Us}</h1>
+        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
         [/column]
         [/row]
         [/segment]
@@ -12844,7 +13044,6 @@
         [/column]
         [/row]
         [/segment]
-        
 
 - trigger: LandingPage-F
   description: Innerpage LandingPage - F
@@ -12931,7 +13130,6 @@
         [testimonials group="client-testimonials" layout="list" style="b" image_style="circle" id="267 - Less is more"]
         [/column]
         [/row]
-        
 
 - trigger: Testimonial-Design-C
   description: Innerpage Testimonial - Design C
@@ -13380,6 +13578,4 @@
         [location location_id="3548 - PP’s Hidden Cave" show_icon="1" show_address="1" show_city="1" show_state="1" show_zipcode="1" show_primary_phone="1" primary_phone_text="Phone: "  layout="vertical"]
         [/well]
         </div>
-        
-        
 
