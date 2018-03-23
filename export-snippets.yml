@@ -4119,9 +4119,10 @@
         /**************** Contact Form ****************/
         .contact-form .gform_wrapper .gform_body .gfield label {
             display: none;
+        }
         
-        .contact-us-design-a  .contact-form label {
         .contact-form .gform_wrapper .top_label li.gfield.gf_left_half,
+        .contact-form .gform_wrapper .top_label li.gfield.gf_right_half {
             margin-top: 9px;
         }
         
@@ -10071,7 +10072,7 @@
         
         [row class="margin-vertical-20 xs-no-margin-top xs-no-margin-bottom flex-section"]
         [column span="4" class="col-md-push-8 col-sm-push-7 col-sm-5"]
-        [img src="https://placehold.it/358x452 class="aligncenter"]
+        [img src="https://placehold.it/358x452" class="aligncenter"]
         [/column]
         [column span="6" class="col-md-pull-3 col-sm-pull-5 xs-text-center col-sm-7"]
         <h3 class="margin-bottom-0 font-38 sm-line-height">${6:Lorem Ipsum}</h3>
