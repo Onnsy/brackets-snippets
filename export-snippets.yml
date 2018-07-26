@@ -1882,7 +1882,7 @@
 - trigger: Service-inner-A
   description: Innerpage Service Detail – Design A
   scope: css
-  mTime: 1529992200838
+  mTime: 1532587038599
   text: |
         <style>
         .font-60 {
@@ -2044,7 +2044,7 @@
         }
         
         .inner-detail-a {
-            height: 350px;
+            min-height: 350px;
             
         }
         
@@ -7689,14 +7689,14 @@
 - trigger: Innerpage-Masthead
   description: Innerpage Masthead
   scope: css
-  mTime: 1522830038874
+  mTime: 1532586971186
   text: |
         <style>
         .inner-masthead {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
-          height: 350px;
+          min-height: 350px;
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
           -ms-flex-direction: column;
@@ -7719,7 +7719,7 @@
         
         @media (max-width: 767px) {
           .inner-masthead {
-          height: 250px;
+          min-height: 250px;
           }
           .title-masthead {
             font-size: 32px;
@@ -8971,12 +8971,12 @@
         }
         
         .content #toc > .well-blog .additional li.previous a:before {
-            content:  "\\\f177";
+            content:  "\\\\f177";
             left: 0;
         }
         
         .content #toc > .well-blog .additional li.next a:after {
-            content: "\\\f178";
+            content: "\\\\f178";
             right: 0;
         }
         
