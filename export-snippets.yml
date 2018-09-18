@@ -262,7 +262,7 @@
 - scope: css
   description: Innerpage Our Team Design D
   trigger: Our-Team-inner-D
-  mTime: 1478443224195
+  mTime: 1537253261604
   text: |
         <style>
         
@@ -423,7 +423,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -500,7 +500,7 @@
 - trigger: Our-Team-inner-C
   description: Innerpage Our Team Design C
   scope: css
-  mTime: 1478443062427
+  mTime: 1537253244795
   text: |
         <style>
         
@@ -599,7 +599,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -631,7 +631,7 @@
 - scope: css
   trigger: Our-Team-inner-B
   description: Innerpage Our Team Design B
-  mTime: 1478442988863
+  mTime: 1537253197139
   text: |
         <style>
         
@@ -872,7 +872,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -931,7 +931,7 @@
 - scope: css
   trigger: Our-Team-inner-A
   description: Innerpage Our Team Design A
-  mTime: 1478442763290
+  mTime: 1537253166682
   text: |
         <style>
         
@@ -1053,7 +1053,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -1097,7 +1097,7 @@
 - scope: css
   trigger: Service-inner-D
   description: Innerpage Service Detail – Design D
-  mTime: 1478439912431
+  mTime: 1537253860938
   text: |
         <style>
         .body-background {
@@ -1283,7 +1283,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -1375,7 +1375,7 @@
 - description: Innerpage Service Detail – Design C
   scope: css
   trigger: Service-inner-C
-  mTime: 1478439850938
+  mTime: 1537253825900
   text: |
         <style>
         .font-60 {
@@ -1553,7 +1553,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -1645,7 +1645,7 @@
 - description: Innerpage Service Detail – Design B
   scope: css
   trigger: Service-inner-B
-  mTime: 1478439704812
+  mTime: 1537253783226
   text: |
         <style>
         .font-60 {
@@ -1803,7 +1803,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -1882,7 +1882,7 @@
 - trigger: Service-inner-A
   description: Innerpage Service Detail – Design A
   scope: css
-  mTime: 1532587038599
+  mTime: 1537253751286
   text: |
         <style>
         .font-60 {
@@ -2057,7 +2057,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -2120,7 +2120,7 @@
 - scope: css
   trigger: Service-index-D
   description: Innerpage Service Index – Design D
-  mTime: 1478405495409
+  mTime: 1537253520704
   text: |
         <style>
         .font-60 {
@@ -2339,7 +2339,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -2361,7 +2361,7 @@
             font-size: 25px;
         }
         .font-60 {
-            font-size: 25px;
+            font-size: 36px;
         }
         .testimonial-b .testimonial-reference {
             display: block;
@@ -2374,7 +2374,7 @@
 - description: Innerpage Service Index – Design C
   scope: css
   trigger: Service-index-C
-  mTime: 1478405431298
+  mTime: 1537253655248
   text: |
         <style>
         .font-60 {
@@ -2454,7 +2454,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -2487,7 +2487,7 @@
 - trigger: Service-index-B
   scope: css
   description: Innerpage Service Index – Design B
-  mTime: 1478405282979
+  mTime: 1537253468066
   text: |
         <style>
         .font-60 {
@@ -2635,7 +2635,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -2674,7 +2674,7 @@
 - trigger: Service-index-A
   scope: css
   description: Innerpage Service Index – Design A
-  mTime: 1478405198319
+  mTime: 1537253426943
   text: |
         <style>
         .font-60 {
@@ -2776,7 +2776,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -2813,7 +2813,7 @@
 - description: Innerpage About us/Who we are – Design D
   trigger: About-us-inner-D
   scope: css
-  mTime: 1478403029897
+  mTime: 1537252667734
   text: |
         <style>
         
@@ -2962,7 +2962,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -3002,7 +3002,7 @@
 - trigger: About-us-inner-C
   description: Innerpage About us/Who we are – Design C
   scope: css
-  mTime: 1478402890926
+  mTime: 1537244710796
   text: |
         <style>
         
@@ -3189,7 +3189,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -3267,7 +3267,7 @@
 - trigger: About-us-inner-B
   description: Innerpage About us/Who we are – Design B
   scope: css
-  mTime: 1478402529578
+  mTime: 1537244527193
   text: |
         <style>
         
@@ -3440,7 +3440,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -3500,7 +3500,7 @@
 - scope: css
   trigger: About-us-inner-A
   description: Innerpage About us/Who we are – Design A
-  mTime: 1478402504716
+  mTime: 1537244479244
   text: |
         <style>
         
@@ -3669,7 +3669,7 @@
             font-size: 45px;
         }
         .font-18 {
-            font-size: 14px;
+            font-size: 18px;
         }
         .font-38 {
             font-size: 30px;
@@ -4418,7 +4418,7 @@
 - trigger: CONTACT-INNER-C
   description: Innerpage Contact - Design C
   scope: css
-  mTime: 1481541949873
+  mTime: 1537252871894
   text: |
         <style>
         /**************** Font ******************/
@@ -4612,7 +4612,7 @@
         }
         
         .contact-bg {
-          background: url('/wp-content/uploads/2016/11/img_contact-info-c.jpg');
+          background: url('http://placehold.it/450x300');
           background-size: cover;
           background-position: center center;
           background-repeat: no-repeat;
@@ -5115,7 +5115,7 @@
 - trigger: Adwords-Landing-Page-A
   description: Adwords Landing Page A
   scope: css
-  mTime: 1521197082660
+  mTime: 1537252706409
   text: |
         <style>
         body p {
@@ -5247,7 +5247,7 @@
                 font-size: 22px;
             }
             .font-18 {
-                font-size: 16px;
+                font-size: 18px;
             }
             .well-banner .btn {
               line-height: 1.41 !important;
@@ -6769,7 +6769,7 @@
 - trigger: Support-Center-Design-A
   description: Innerpage Support Center Design A
   scope: css
-  mTime: 1528864919887
+  mTime: 1537253905878
   text: |
         <style>
         .font-60 {
@@ -6848,7 +6848,7 @@
                 font-size: 45px;
             }
             .font-18 {
-                font-size: 14px;
+                font-size: 18px;
             }
             .font-38 {
                 font-size: 30px;
@@ -6867,7 +6867,7 @@
 - trigger: Support-Center-Design-B
   description: Innerpage Support Center Design B
   scope: css
-  mTime: 1521196508601
+  mTime: 1537254112469
   text: |
         <style>
         .font-60 {
@@ -6908,7 +6908,7 @@
         }
         .icon-support {
           font-size: 16px;
-          width: 60px;
+          min-width: 60px;
         }
         
         hr {
@@ -6917,23 +6917,23 @@
           box-shadow: 0px 1px 0px 0px #dcdcdc;
         }
         
-        #gform_wrapper_1 .form-control {
+        #gform_wrapper_4 .form-control {
           background: #f7f7f9;
           min-height: 45px;
           margin-bottom: 20px;
           padding:10px;
         }
-        #gform_wrapper_1 .gfield_label {
+        #gform_wrapper_4 .gfield_label {
           display: none;
         }
-        #gform_wrapper_1 label {
+        #gform_wrapper_4 label {
           display: none;
         }
-        div.ginput_complex.ginput_container.gf_name_has_2 span {
+        div.ginput_complex.ginput_container.gf_name_has_4 span {
           width: 48.7%;
           margin-right:2px;
         }
-        div.ginput_complex.ginput_container.gf_name_has_2 span.name_last {
+        div.ginput_complex.ginput_container.gf_name_has_4 span.name_last {
           margin-right:0px;
         }
         .gform_wrapper .top_label li.gfield.gf_left_half {
@@ -6980,7 +6980,7 @@
                 font-size: 45px;
             }
             .font-18 {
-                font-size: 14px;
+                font-size: 18px;
             }
             .font-38 {
                 font-size: 30px;
@@ -6999,7 +6999,7 @@
 - trigger: Support-Center-Design-C
   description: Innerpage Support Center Design C
   scope: css
-  mTime: 1521196460116
+  mTime: 1537254120648
   text: |
         <style>
         .font-60 {
@@ -7048,22 +7048,22 @@
           border-color: rgba(247, 247, 249, 0);
           box-shadow: 0px 1px 0px 0px #dcdcdc;
         }
-        #gform_wrapper_1 .form-control {
+        #gform_wrapper_4 .form-control {
           min-height: 45px;
           margin-bottom: 20px;
           padding:10px;
         }
-        #gform_wrapper_1 .gfield_label {
+        #gform_wrapper_4 .gfield_label {
           display: none;
         }
-        #gform_wrapper_1 label {
+        #gform_wrapper_4 label {
           display: none;
         }
-        div.ginput_complex.ginput_container.gf_name_has_2 span {
+        div.ginput_complex.ginput_container.gf_name_has_4 span {
           width: 48.7%;
           margin-right:2px;
         }
-        div.ginput_complex.ginput_container.gf_name_has_2 span.name_last {
+        div.ginput_complex.ginput_container.gf_name_has_4 span.name_last {
           margin-right:0px;
         }
         .gform_wrapper .top_label li.gfield.gf_left_half {
@@ -7096,7 +7096,7 @@
                 font-size: 45px;
             }
             .font-18 {
-                font-size: 14px;
+                font-size: 18px;
             }
             .font-38 {
                 font-size: 30px;
@@ -7118,7 +7118,7 @@
 - trigger: Support-Center-Design-D
   description: Innerpage Support Center Design D
   scope: css
-  mTime: 1525950264630
+  mTime: 1537254162991
   text: |
         <style>
         .font-60 {
@@ -7231,7 +7231,7 @@
                 font-size: 45px;
             }
             .font-18 {
-                font-size: 14px;
+                font-size: 18px;
             }
             .font-38 {
                 font-size: 30px;
@@ -7254,7 +7254,7 @@
 - trigger: Support-Center-Design-E
   description: Innerpage Support Center Design E
   scope: css
-  mTime: 1521196823487
+  mTime: 1537254244820
   text: |
         <style>
         .font-60 {
@@ -7333,22 +7333,22 @@
         .well-form {
             padding: 40px 120px;
         }
-        #gform_wrapper_1 .form-control {
+        #gform_wrapper_4 .form-control {
           min-height: 45px;
           margin-bottom: 20px;
           padding:10px;
         }
-        #gform_wrapper_1 .gfield_label {
+        #gform_wrapper_4 .gfield_label {
           display: none;
         }
-        #gform_wrapper_1 label {
+        #gform_wrapper_4 label {
           display: none;
         }
-        div.ginput_complex.ginput_container.gf_name_has_2 span {
+        div.ginput_complex.ginput_container.gf_name_has_4 span {
           width: 48.7%;
           margin-right:2px;
         }
-        div.ginput_complex.ginput_container.gf_name_has_2 span.name_last {
+        div.ginput_complex.ginput_container.gf_name_has_4 span.name_last {
           margin-right:0px;
         }
         .gform_wrapper .top_label li.gfield.gf_left_half {
@@ -7366,7 +7366,7 @@
         }
         .gform_button::after {
           color: #000;
-          content: "/f178";
+          content: "\f178";
           font-family: fontAwesome;
           padding-left: 5px;
           display: inline-block;
@@ -7380,7 +7380,7 @@
                 font-size: 45px;
             }
             .font-18 {
-                font-size: 14px;
+                font-size: 18px;
             }
             .font-38 {
                 font-size: 30px;
@@ -7686,51 +7686,10 @@
         
         </style>
 
-- trigger: Innerpage-Masthead
-  description: Innerpage Masthead
-  scope: css
-  mTime: 1532586971186
-  text: |
-        <style>
-        .inner-masthead {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          min-height: 350px;
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-          flex-direction: column;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-          text-align: center;
-        }
-        
-        .title-masthead {
-            font-size: 60px;
-        }
-        
-        @media  (max-width: 991px) {
-        .title-masthead {
-            font-size: 45px;
-        }
-        }
-        
-        @media (max-width: 767px) {
-          .inner-masthead {
-          min-height: 250px;
-          }
-          .title-masthead {
-            font-size: 32px;
-           }
-        }
-        </style>
-
 - trigger: New-Sidebar-Template
   description: New Sidebar Template
   scope: css
-  mTime: 1533094192553
+  mTime: 1537253149570
   text: |
         <style>
         /* example https://ecommerce.pi.bypronto.com/services/innerpage-service-index-design-d/innerpage-service-detail-design-d/ */
@@ -7821,7 +7780,7 @@
         
         div[role="complementary"] .widget-title::after, 
         div[role="complementary"] h3::after {
-          background: #EE0000 none repeat scroll 0 0; /*edit this property for underline color */
+          background: #303030 none repeat scroll 0 0; /*edit this property for underline color */
           content: "";
           display: block;
           height: 1px;
@@ -10253,10 +10212,10 @@
         
         </style>
 
-- trigger: Innerpage-Masthead-IE
-  description: Innerpage Masthead (IE)
+- trigger: Innerpage-Masthead
+  description: Innerpage Masthead
   scope: css
-  mTime: 1533095101725
+  mTime: 1537253064079
   text: |
         <style>
         .inner-masthead {
@@ -10265,25 +10224,30 @@
             position: relative;
         }
         
-        .inner-masthead {
-            min-height: 440px;
-        }
-        
         .inner-masthead > div{
             position: static;
         }
         
         .title-masthead {
-            font-size: 54px;
-            color: #FFFFFF !important;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+           min-width: 100%;
+        }
+        
+        .title-masthead h1 {
+            font-size: 60px;
+            /* font-weight: 700; */
+            /* text-transform: uppercase; */
+        }
+        
+        .title-masthead p {
+            font-size: 18px;
         }
         
         @media  (max-width: 991px) {
-            .title-masthead {
+            .title-masthead h1 {
                 font-size: 45px;
             }
         }
@@ -10292,10 +10256,7 @@
           .inner-masthead {
             min-height: 250px;
           }
-          .inner-security.inner-masthead {
-                min-height: 250px;
-            }
-          .title-masthead {
+          .title-masthead h1 {
             font-size: 32px;
            }
         }
@@ -12107,13 +12068,15 @@
 - description: Innerpage Our Team Design D
   scope: html
   trigger: Our-Team-inner-D
-  mTime: 1522830344797
+  mTime: 1537254616316
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="team-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:Meet The Team}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Meet The Team</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -12298,13 +12261,15 @@
 - trigger: Our-Team-inner-C
   scope: html
   description: Innerpage Our Team Design C
-  mTime: 1522830339068
+  mTime: 1537254603791
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="team-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:Meet The Team}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Meet The Team</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -12484,13 +12449,15 @@
 - scope: html
   trigger: Our-Team-inner-B
   description: Innerpage Our Team Design B
-  mTime: 1522830333343
+  mTime: 1537254599002
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="team-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:Meet The Team}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Meet The Team</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -12683,13 +12650,15 @@
 - trigger: Our-Team-inner-A
   description: Innerpage Our Team Design A
   scope: html
-  mTime: 1522830327348
+  mTime: 1537254587595
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="team-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:Meet The Team}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Meet The Team</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -13075,16 +13044,15 @@
 - trigger: Service-inner-A
   scope: html
   description: Innerpage Service Detail – Design A
-  mTime: 1522830457037
+  mTime: 1537254689697
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="service-masthead"]
-        [row class="inner-detail-a"]
-        [column span="2"]
-        [img src="https://placehold.it/128x128"]
-        [/column]
-        [column span="10"]
-        <h1 class="title-masthead margin-top-0">${1:Service Detail A}</h1>
-        <p class="font-18">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
+        [row class="inner-masthead"]
+        [column span="10" class="text-center col-md-offset-1"]
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Services</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -13183,13 +13151,15 @@
 - trigger: About-us-inner-A
   description: Innerpage About us/Who we are – Design A
   scope: html
-  mTime: 1522830264538
+  mTime: 1537254388625
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x370" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="about-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:About Us}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">About Us</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -13299,13 +13269,15 @@
 - trigger: Service-index-B
   description: Innerpage Service Index – Design B
   scope: html
-  mTime: 1522830375470
+  mTime: 1537254670102
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="service-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:Services}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Services</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -13427,13 +13399,15 @@
 - trigger: Service-index-A
   description: Innerpage Service Index – Design A
   scope: html
-  mTime: 1522830370856
+  mTime: 1537254666171
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="service-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:Services}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Services</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -13520,13 +13494,15 @@
 - trigger: Service-index-C
   description: Innerpage Service Index – Design C
   scope: html
-  mTime: 1522830380006
+  mTime: 1537254674510
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x368" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="service-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:Services}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Services</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -13627,13 +13603,15 @@
 - trigger: Service-index-D
   description: Innerpage Service Index – Design D
   scope: html
-  mTime: 1528872512944
+  mTime: 1537254678514
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="service-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:Services}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Services</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -13792,13 +13770,15 @@
 - trigger: About-us-inner-B
   description: Innerpage About us/Who we are – Design B
   scope: html
-  mTime: 1522830270405
+  mTime: 1537254455542
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="about-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:Who we are}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Who we are</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -13944,13 +13924,15 @@
 - trigger: About-us-inner-C
   description: Innerpage About us/Who we are – Design C
   scope: html
-  mTime: 1522830276787
+  mTime: 1537254469658
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x370" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="about-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:About Us}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">About Us</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -14091,13 +14073,15 @@
 - trigger: About-us-inner-D
   description: Innerpage About us/Who we are – Design D
   scope: html
-  mTime: 1528872463911
+  mTime: 1537254477487
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="about-masthead"]
         [row class="inner-masthead"]
         [column span="10" class="text-center col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:About Us}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        <div class="title-masthead">
+        <h1 class="margin-top-0">About Us</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -14478,7 +14462,7 @@
 
 - trigger: TMT-block
   scope: html
-  mTime: 1468211784489
+  mTime: 1537254748128
   text: |
         [row]
         [column span="12" class="text-center"]
@@ -14593,13 +14577,15 @@
 - trigger: PARTNER-INNER-A
   description: Innerpage Partner - Design A
   scope: html
-  mTime: 1522830349755
+  mTime: 1537254637167
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
         [row class="inner-masthead"]
-        [column span="12"]
-        <h1 class="title-masthead margin-top-0">${1:Our Partner}</h1>
-        <h2 class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        [column span="10" class="text-center col-md-offset-1"]
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Our Partner</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -14629,13 +14615,15 @@
 - trigger: PARTNER-INNER-B
   scope: html
   description: Innerpage Partner - Design B
-  mTime: 1522830354527
+  mTime: 1537254642777
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
         [row class="inner-masthead"]
-        [column span="12"]
-        <h1 class="title-masthead margin-top-0">${1:Our Partner}</h1>
-        <h2 class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        [column span="10" class="text-center col-md-offset-1"]
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Our Partner</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -14651,13 +14639,15 @@
 - trigger: PARTNER-INNER-C
   description: Innerpage Partner - Design C
   scope: html
-  mTime: 1522830360470
+  mTime: 1537254648939
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
         [row class="inner-masthead"]
-        [column span="12"]
-        <h1 class="title-masthead margin-top-0">${1:Our Partner}</h1>
-        <h2 class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        [column span="10" class="text-center col-md-offset-1"]
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Our Partner</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -14686,13 +14676,15 @@
 - trigger: PARTNER-INNER-D
   description: Innerpage Partner - Design D
   scope: html
-  mTime: 1522830365725
+  mTime: 1537254653813
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
         [row class="inner-masthead"]
-        [column span="12"]
-        <h1 class="title-masthead margin-top-0">${1:Our Partner}</h1>
-        <h2 class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</h2>
+        [column span="10" class="text-center col-md-offset-1"]
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Our Partner</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -14724,13 +14716,15 @@
 - trigger: CONTACT-INNER-A
   description: Innerpage Contact - Design A
   scope: html
-  mTime: 1522830291904
+  mTime: 1537254521880
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
         [row class="inner-masthead"]
-        [column span="12"]
-        <h1 class="title-masthead margin-top-0">${1:Contact Us}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        [column span="10" class="text-center col-md-offset-1"]
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Contact Us</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -14767,13 +14761,15 @@
 - trigger: CONTACT-INNER-B
   description: Innerpage Contact - Design B
   scope: html
-  mTime: 1522830297071
+  mTime: 1537254527887
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner sm-text-center"]
         [row class="inner-masthead"]
-        [column span="10" class="col-md-offset-1"]
-        <h1 class="title-masthead margin-top-0">${1:Contact Us}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        [column span="10" class="text-center col-md-offset-1"]
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Contact Us</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -14810,13 +14806,15 @@
 - trigger: CONTACT-INNER-C
   description: Innerpage Contact - Design C
   scope: html
-  mTime: 1522830301873
+  mTime: 1537254532394
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
         [row class="inner-masthead"]
-        [column span="12"]
-        <h1 class="title-masthead margin-top-0">${1:Contact Us}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        [column span="10" class="text-center col-md-offset-1"]
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Contact Us</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
@@ -14864,13 +14862,15 @@
 - scope: html
   trigger: CONTACT-INNER-D
   description: Innerpage Contact - Design D
-  mTime: 1522830307020
+  mTime: 1537254537229
   text: |
         [segment tag="section" style="3" bgimg="https://placehold.it/1800x460" bgrepeat="no-repeat" bgposition="center center" bgattachment="scroll" bgsize="cover" spacing="mini" class="partner-banner text-center"]
         [row class="inner-masthead"]
-        [column span="12"]
-        <h1 class="title-masthead margin-top-0">${1:Contact Us}</h1>
-        <p class="font-18 margin-bottom-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.}</p>
+        [column span="10" class="text-center col-md-offset-1"]
+        <div class="title-masthead">
+        <h1 class="margin-top-0">Contact Us</h1>
+        <p class="margin-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum.</p>
+        </div>
         [/column]
         [/row]
         [/segment]
