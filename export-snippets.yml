@@ -2813,30 +2813,9 @@
 - description: Innerpage About us/Who we are – Design D
   trigger: About-us-inner-D
   scope: css
-  mTime: 1537252667734
+  mTime: 1545382268507
   text: |
         <style>
-        
-        /* font */
-        
-        .font-60 {
-          font-size: 60px;
-        }
-        .font-38 {
-          font-size: 38px;
-        }
-        .font-24 {
-          font-size: 24px;
-        }
-        .font-18 {
-          font-size: 18px;
-        }
-        .font-14 {
-          font-size: 14px;
-        }
-        .sm-line-hieght {
-            line-height: 1.25;
-        }
         
         /* accordian */
         .panel-a {
@@ -2958,15 +2937,6 @@
         
         
         @media  (max-width: 991px) {
-        .font-60 {
-            font-size: 45px;
-        }
-        .font-18 {
-            font-size: 18px;
-        }
-        .font-38 {
-            font-size: 30px;
-        }
         .about-us-partner div {
             -ms-flex-flow: row wrap;
                 flex-flow: row wrap;
@@ -2974,18 +2944,6 @@
         }
         @media (max-width: 767px) {
         
-        h1, h2, h3, h4, h5, h6 {
-            line-height: 1.2;
-        }
-        .font-60 {
-            font-size: 32px;
-        }
-        .font-38 {
-            font-size: 25px;
-        }
-        .font-24 {
-            font-size: 20px;
-        }
         .panel-a {
             margin-top: 40px;
         }
@@ -3002,28 +2960,9 @@
 - trigger: About-us-inner-C
   description: Innerpage About us/Who we are – Design C
   scope: css
-  mTime: 1537244710796
+  mTime: 1545379230923
   text: |
         <style>
-        
-        
-        /* font */
-        
-        .font-60 {
-          font-size: 60px;
-        }
-        .font-38 {
-          font-size: 38px;
-        }
-        .font-24 {
-          font-size: 24px;
-        }
-        .font-18 {
-          font-size: 18px;
-        }
-        .font-14 {
-          font-size: 14px;
-        }
         
         /* Fullwidth */
         
@@ -3230,15 +3169,6 @@
             padding-bottom: 20px;
             padding-top: 60px;
         }
-        h1, h2, h3, h4, h5, h6 {
-            line-height: 1.2;
-        }
-        .font-60 {
-            font-size: 32px;
-        }
-        .font-38 {
-            font-size: 25px;
-        }
         .full-width .col-md-6 {
             padding-bottom: 30px;
             padding-top: 30px;
@@ -3267,35 +3197,16 @@
 - trigger: About-us-inner-B
   description: Innerpage About us/Who we are – Design B
   scope: css
-  mTime: 1537433732909
+  mTime: 1545379128553
   text: |
         <style>
-        
-        /* font */
-        
-        .font-60 {
-          font-size: 60px;
-        }
-        .font-38 {
-          font-size: 38px;
-        }
-        .font-24 {
-          font-size: 24px;
-        }
-        .font-18 {
-          font-size: 18px;
-        }
-        .font-14 {
-          font-size: 14px;
-        }
-        
         
         .who-we-are-tab > ul li {
             display: table;
             font-size: 18px;
             margin: 0 25px;
-            text-transform: uppercase;
-            font-weight: 700;
+            /*text-transform: uppercase;*/
+            /*font-weight: 700;*/
         }
         
         .who-we-are-tab ul > li.active > a, .who-we-are-tab ul > li.active > a:hover, .who-we-are-tab ul > li.active > a:focus {
@@ -3436,27 +3347,12 @@
         }
         
         @media  (max-width: 991px) {
-        .font-60 {
-            font-size: 45px;
-        }
-        .font-18 {
-            font-size: 18px;
-        }
-        .font-38 {
-            font-size: 30px;
-        }
         .about-us-partner div {
             display: flex;
         }
         }
         
         @media (max-width: 767px) {
-        .font-60 {
-            font-size: 32px;
-        }
-        .font-38 {
-            font-size: 25px;
-        }
         .service-list {
             display: block;
         }
@@ -3504,27 +3400,9 @@
 - scope: css
   trigger: About-us-inner-A
   description: Innerpage About us/Who we are – Design A
-  mTime: 1537244479244
+  mTime: 1545376883478
   text: |
         <style>
-        
-        /* font */
-        
-        .font-60 {
-          font-size: 60px;
-        }
-        .font-38 {
-          font-size: 38px;
-        }
-        .font-24 {
-          font-size: 24px;
-        }
-        .font-18 {
-          font-size: 18px;
-        }
-        .font-14 {
-          font-size: 14px;
-        }
         
         /* Fullwidth */
         
@@ -3669,15 +3547,6 @@
         }
         
         @media  (max-width: 991px) {
-        .font-60 {
-            font-size: 45px;
-        }
-        .font-18 {
-            font-size: 18px;
-        }
-        .font-38 {
-            font-size: 30px;
-        }
         .full-width .col-md-6 > div {
             float: none;
             margin: 0;
@@ -3717,15 +3586,6 @@
         .hover-effect > div {
             padding-bottom: 20px;
             padding-top: 60px;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            line-height: 1.2;
-        }
-        .font-60 {
-            font-size: 32px;
-        }
-        .font-38 {
-            font-size: 25px;
         }
         .our-vision-bg {
             padding-bottom: 80px !important;
@@ -7371,7 +7231,7 @@
         }
         .gform_button::after {
           color: #000;
-          content: "\f178";
+          content: "\\f178";
           font-family: fontAwesome;
           padding-left: 5px;
           display: inline-block;
@@ -8951,12 +8811,12 @@
         }
         
         .content #toc > .well-blog .additional li.previous a:before {
-            content:  "\f177";
+            content:  "\\f177";
             left: 0;
         }
         
         .content #toc > .well-blog .additional li.next a:after {
-            content: "\f178";
+            content: "\\f178";
             right: 0;
         }
         
@@ -14637,7 +14497,6 @@
         [partners group="top-4" layout="list" image_size="col-md-3"]
         [/column]
         [/row]
-        
 
 - trigger: PARTNER-INNER-D
   description: Innerpage Partner - Design D
